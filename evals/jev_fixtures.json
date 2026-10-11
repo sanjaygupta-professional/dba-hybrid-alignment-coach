@@ -1,0 +1,329 @@
+{
+ "note": "Invented fixtures. 'yes' is the correct answer to the predicate question. Each predicate has 3 yes and 3 no cases.",
+ "fixtures": [
+  {
+   "check": "Presents proposed work as achieved results",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 7. On-slide text: Results: experts rated every item relevant (9 of 9). Spoken script: Our diagnostic reached 85% precision on held-out cases, so it works."
+  },
+  {
+   "check": "Presents proposed work as achieved results",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 10. On-slide text: Validated diagnostic for hybrid alignment. Spoken script: The field pilot proved the diagnostic adds value in all three workflows."
+  },
+  {
+   "check": "Presents proposed work as achieved results",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 6. On-slide text: Interviews completed with 14 managers. Spoken script: We have already interviewed fourteen managers and the requirements are confirmed."
+  },
+  {
+   "check": "Presents proposed work as achieved results",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 7. On-slide text: DP3 at least 80% precision and recall on held-out cases, fixed before testing. Spoken script: This is a proposed threshold. It can fail, and a failure is reported."
+  },
+  {
+   "check": "Presents proposed work as achieved results",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 10. On-slide text: A proposed diagnostic to test. No evaluation results yet. Spoken script: I have no results yet; this is what the study will test."
+  },
+  {
+   "check": "Presents proposed work as achieved results",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 6. On-slide text: Planned: 12–16 interviews after IRB clearance. Spoken script: Collection starts only after IRB clearance."
+  },
+  {
+   "check": "Claims nobody has studied the topic",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 3. On-slide text: No research exists on aligning AI agents with strategy. Spoken script: Nobody has ever studied this problem; this is the first study of its kind."
+  },
+  {
+   "check": "Claims nobody has studied the topic",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 3. On-slide text: The gap: agents are new, so all existing frameworks fail. Spoken script: Existing tools simply cannot see agents at all."
+  },
+  {
+   "check": "Claims nobody has studied the topic",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 2. On-slide text: A completely unexplored field. Spoken script: There is zero literature on this topic anywhere."
+  },
+  {
+   "check": "Claims nobody has studied the topic",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 3. On-slide text: The sources inspected do not establish a validated workflow assessment. Spoken script: Issa and colleagues propose a preliminary diagnostic; its field performance is not yet established."
+  },
+  {
+   "check": "Claims nobody has studied the topic",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 3. On-slide text: Rivals: Issa et al. 2026, Diab 2021, OKRs. Spoken script: These are serious alternatives; adaptation may be enough."
+  },
+  {
+   "check": "Claims nobody has studied the topic",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 3. On-slide text: The literature tells us how to align business and IT, but not how to assess delegated agent workflows. Spoken script: The gap is bounded to the inspected sources."
+  },
+  {
+   "check": "Treats missing evidence as proof of misalignment",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 9. On-slide text: No approval log, so the agent acted without authority. Spoken script: Because the approval record is missing, the agent is misaligned."
+  },
+  {
+   "check": "Treats missing evidence as proof of misalignment",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 5. On-slide text: Missing trace = misalignment score of 1. Spoken script: Every missing record counts as a misalignment."
+  },
+  {
+   "check": "Treats missing evidence as proof of misalignment",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 9. On-slide text: Owner disputes the finding: treat as misaligned. Spoken script: If the owner disagrees, we score it as a failure anyway."
+  },
+  {
+   "check": "Treats missing evidence as proof of misalignment",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 9. On-slide text: No approval record: state = unknown; request evidence. Spoken script: Missing evidence stays unknown."
+  },
+  {
+   "check": "Treats missing evidence as proof of misalignment",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 5. On-slide text: Disputed interpretations are preserved, not averaged. Spoken script: Unknown is never turned into a score."
+  },
+  {
+   "check": "Treats missing evidence as proof of misalignment",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 9. On-slide text: Action exceeded documented authority: warranted M3 finding. Spoken script: The log and the mandate both show the credit was above the limit."
+  },
+  {
+   "check": "Generalises controlled accuracy to the field",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 7. On-slide text: 80% recall on test cases = detects 80% of real misalignment. Spoken script: So in practice it will catch most problems in any firm."
+  },
+  {
+   "check": "Generalises controlled accuracy to the field",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 10. On-slide text: Accurate across the enterprise. Spoken script: Held-out accuracy shows it works for every workflow."
+  },
+  {
+   "check": "Generalises controlled accuracy to the field",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 7. On-slide text: Controlled precision shows field sensitivity. Spoken script: The lab result tells us the field result."
+  },
+  {
+   "check": "Generalises controlled accuracy to the field",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 7. On-slide text: Controlled precision and recall are not field sensitivity. Spoken script: Three workflows show contextual yield, not prevalence."
+  },
+  {
+   "check": "Generalises controlled accuracy to the field",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 8. On-slide text: Local success does not establish transfer. Spoken script: Another firm would need its own test."
+  },
+  {
+   "check": "Generalises controlled accuracy to the field",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 6. On-slide text: Held-out cases test frozen v2. Spoken script: That is an artificial evaluation; the field comparison is separate."
+  },
+  {
+   "check": "Presents a forecast as an observed fact",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 2. On-slide text: 40% of agent projects fail (Gartner 2025 prediction for 2027). Spoken script: Four in ten agent projects fail today."
+  },
+  {
+   "check": "Presents a forecast as an observed fact",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 2. On-slide text: Agentic AI: 40% of projects cancelled by 2027. Spoken script: Four in ten agent projects have already been cancelled."
+  },
+  {
+   "check": "Presents a forecast as an observed fact",
+   "kind": "slide",
+   "yes": true,
+   "state": "Slide 2. On-slide text: Agent projects are being cancelled at a 40% rate (source: Gartner forecast for 2027). Spoken script: That is the cancellation rate right now."
+  },
+  {
+   "check": "Presents a forecast as an observed fact",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 2. On-slide text: Gartner forecast: over 40% of agentic projects cancelled by 2027 (a prediction). Spoken script: That is a forecast, not an observed rate."
+  },
+  {
+   "check": "Presents a forecast as an observed fact",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 2. On-slide text: 71% of surveyed leaders (Capgemini vendor survey, n = 1,100). Spoken script: It is a vendor survey of large firms."
+  },
+  {
+   "check": "Presents a forecast as an observed fact",
+   "kind": "slide",
+   "yes": false,
+   "state": "Slide 2. On-slide text: 40% of respondents from large organisations report scaling agents (McKinsey 2026). Spoken script: These are respondents, not firms."
+  },
+  {
+   "check": "Answers the question directly",
+   "kind": "answer",
+   "yes": true,
+   "state": "Examiner question: Why design science rather than a survey?\nModel answer: Because the research questions require building an assessment and testing it; a survey would only measure perceptions.\nEvidence: Hevner et al. 2004.\nLimit: Action design research may fit if a host wants a participatory intervention."
+  },
+  {
+   "check": "Answers the question directly",
+   "kind": "answer",
+   "yes": true,
+   "state": "Examiner question: What is your paradigm?\nModel answer: Pragmatism with a design orientation.\nEvidence: Hevner et al. 2004.\nLimit: The paper must still develop this rationale."
+  },
+  {
+   "check": "Answers the question directly",
+   "kind": "answer",
+   "yes": true,
+   "state": "Examiner question: Why nine experts?\nModel answer: Nine gives role coverage and room for disagreement within a bounded doctoral study; it is not a power calculation.\nEvidence: Venable et al. 2016.\nLimit: The count still needs explicit justification."
+  },
+  {
+   "check": "Answers the question directly",
+   "kind": "answer",
+   "yes": false,
+   "state": "Examiner question: Why design science rather than a survey?\nModel answer: AI agents are growing very fast and McKinsey reports many firms are scaling them.\nEvidence: McKinsey 2026.\nLimit: Adoption varies."
+  },
+  {
+   "check": "Answers the question directly",
+   "kind": "answer",
+   "yes": false,
+   "state": "Examiner question: What is your paradigm?\nModel answer: My study has three research questions and two cycles.\nEvidence: Peffers et al. 2007.\nLimit: Access is not confirmed."
+  },
+  {
+   "check": "Answers the question directly",
+   "kind": "answer",
+   "yes": false,
+   "state": "Examiner question: Why nine experts?\nModel answer: Experts are very important in design science research, and I have many contacts.\nEvidence: My experience.\nLimit: None."
+  },
+  {
+   "check": "States a substantive limit",
+   "kind": "answer",
+   "yes": true,
+   "state": "Examiner question: Can it transfer?\nModel answer: Possibly, as conditional design principles.\nEvidence: Hevner et al. 2004.\nLimit: Three workflows cannot establish transfer; another organisation must test the same decision rules."
+  },
+  {
+   "check": "States a substantive limit",
+   "kind": "answer",
+   "yes": true,
+   "state": "Examiner question: Who keys the cases?\nModel answer: An independent three-person team freezes keys before seeing outputs.\nEvidence: The paper's protocol.\nLimit: Constructed cases are not complete ground truth for real workflows."
+  },
+  {
+   "check": "States a substantive limit",
+   "kind": "answer",
+   "yes": true,
+   "state": "Examiner question: Do your statistics prove misalignment?\nModel answer: No; they make the question timely.\nEvidence: McKinsey 2026 reports respondents scaling agents.\nLimit: Different populations; they do not estimate failure in my sites."
+  },
+  {
+   "check": "States a substantive limit",
+   "kind": "answer",
+   "yes": false,
+   "state": "Examiner question: Can it transfer?\nModel answer: Yes, the principles will transfer to any organisation.\nEvidence: Hevner et al. 2004.\nLimit: More research is needed."
+  },
+  {
+   "check": "States a substantive limit",
+   "kind": "answer",
+   "yes": false,
+   "state": "Examiner question: Who keys the cases?\nModel answer: My team will key them.\nEvidence: The protocol.\nLimit: None."
+  },
+  {
+   "check": "States a substantive limit",
+   "kind": "answer",
+   "yes": false,
+   "state": "Examiner question: Do your statistics prove misalignment?\nModel answer: Yes, the numbers show a clear crisis.\nEvidence: Gartner and Capgemini.\nLimit: Future work could add more data."
+  },
+  {
+   "check": "Claims achieved results",
+   "kind": "answer",
+   "yes": true,
+   "state": "Examiner question: Does it add value?\nModel answer: Yes, it found more problems than the existing review in all three workflows.\nEvidence: Our pilot.\nLimit: Small sample."
+  },
+  {
+   "check": "Claims achieved results",
+   "kind": "answer",
+   "yes": true,
+   "state": "Examiner question: Is it usable?\nModel answer: Users rated it SUS 82, well above the threshold.\nEvidence: Pilot survey.\nLimit: One site."
+  },
+  {
+   "check": "Claims achieved results",
+   "kind": "answer",
+   "yes": true,
+   "state": "Examiner question: Are the items valid?\nModel answer: All items were confirmed by nine experts.\nEvidence: Expert panel.\nLimit: Experts may share a view."
+  },
+  {
+   "check": "Claims achieved results",
+   "kind": "answer",
+   "yes": false,
+   "state": "Examiner question: Does it add value?\nModel answer: That is what DP4 will test; a strong baseline would leave DP4 unmet.\nEvidence: The paper's evaluation design.\nLimit: Three workflows show yield, not superiority."
+  },
+  {
+   "check": "Claims achieved results",
+   "kind": "answer",
+   "yes": false,
+   "state": "Examiner question: Is it usable?\nModel answer: I propose SUS of 70 or more as a local target.\nEvidence: The paper's DP5.\nLimit: The threshold needs justification."
+  },
+  {
+   "check": "Claims achieved results",
+   "kind": "answer",
+   "yes": false,
+   "state": "Examiner question: Are the items valid?\nModel answer: Nine independent experts will rate relevance and clarity after IRB clearance.\nEvidence: The paper's DP1.\nLimit: Independence is planned, not yet secured."
+  },
+  {
+   "check": "Missing evidence treated as proof",
+   "kind": "answer",
+   "yes": true,
+   "state": "Examiner question: What if the approval log is missing?\nModel answer: Then the agent acted without approval, so we flag misalignment.\nEvidence: M3.\nLimit: Logs can be incomplete."
+  },
+  {
+   "check": "Missing evidence treated as proof",
+   "kind": "answer",
+   "yes": true,
+   "state": "Examiner question: What if records are withheld?\nModel answer: Withheld records count against the workflow's alignment score.\nEvidence: The register.\nLimit: Firms may resist."
+  },
+  {
+   "check": "Missing evidence treated as proof",
+   "kind": "answer",
+   "yes": true,
+   "state": "Examiner question: What if owners disagree with a finding?\nModel answer: We keep the finding as misaligned; disagreement means a problem exists.\nEvidence: M4.\nLimit: Owners may be biased."
+  },
+  {
+   "check": "Missing evidence treated as proof",
+   "kind": "answer",
+   "yes": false,
+   "state": "Examiner question: What if the approval log is missing?\nModel answer: The state stays unknown and I request the record before any finding.\nEvidence: The M2 evidence rule.\nLimit: Some records may never be released."
+  },
+  {
+   "check": "Missing evidence treated as proof",
+   "kind": "answer",
+   "yes": false,
+   "state": "Examiner question: What if records are withheld?\nModel answer: The gap stays visible in the register as unknown, never as failure.\nEvidence: The paper's feasibility gate.\nLimit: A failed site triggers a revised scope."
+  },
+  {
+   "check": "Missing evidence treated as proof",
+   "kind": "answer",
+   "yes": false,
+   "state": "Examiner question: What if owners disagree with a finding?\nModel answer: Disputed interpretations are preserved, not averaged away.\nEvidence: The paper's evidence rules.\nLimit: Some disputes stay unresolved."
+  }
+ ]
+}

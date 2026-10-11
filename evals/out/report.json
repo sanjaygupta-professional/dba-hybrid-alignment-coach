@@ -1,0 +1,1323 @@
+{
+ "generated": "2026-10-11 22:20",
+ "evals": [
+  {
+   "id": "E1",
+   "name": "Statistics match the verified allow-list",
+   "status": "pass",
+   "detail": "0 unapproved percentages; forecast labelled=True; kinds valid=True"
+  },
+  {
+   "id": "E2",
+   "name": "Every citation resolves to a listed reference",
+   "status": "pass",
+   "detail": "90 citations checked, 0 unresolved; 0 references without DOI/URL"
+  },
+  {
+   "id": "E3",
+   "name": "Talk fits 15 minutes with Q&A",
+   "status": "pass",
+   "detail": "10 slides; budget 720s; script \u2248657s at 130 wpm; 0 slides off budget"
+  },
+  {
+   "id": "E4",
+   "name": "Every examiner criterion has a slide and a drill question",
+   "status": "pass",
+   "detail": "18 criteria, 0 uncovered; 30 questions; traceability cells complete=True"
+  },
+  {
+   "id": "E5a",
+   "name": "Jev predicates calibrated on labelled fixtures",
+   "status": "pass",
+   "detail": "52 of 54 fixtures decided correctly across 9 predicates; 0 not run; predicates below 5/6: none"
+  },
+  {
+   "id": "E5",
+   "name": "Jev typed checks on slides, answers and storyline",
+   "status": "pass",
+   "detail": "179 of 179 pass (2 after signed human review); 0 awaiting review; 0 not yet scored"
+  },
+  {
+   "id": "E6",
+   "name": "UX in a real browser (desktop + 375 px phone)",
+   "status": "pass",
+   "detail": "19 of 19 browser checks pass (2026-10-11 16:50)"
+  },
+  {
+   "id": "E7",
+   "name": "Sentences of 25 words or fewer",
+   "status": "pass",
+   "detail": "0 long sentences"
+  },
+  {
+   "id": "E8",
+   "name": "No private material, secrets or runtime third-party loads",
+   "status": "pass",
+   "detail": "forbidden patterns hit: none; runtime external loads in index.html: none; 11 external link domains"
+  }
+ ],
+ "jev": {
+  "threshold": 0.7,
+  "passed": 179,
+  "total": 179,
+  "review": 0,
+  "reviewed": 2,
+  "items": [
+   {
+    "target": "slide 1",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 1",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.14,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 1",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.11,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 1",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.09,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 1",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.07,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 2",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 2",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.05,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 2",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.08,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 2",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.12,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 2",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.11,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 2",
+    "check": "Problem stated without naming the fix",
+    "p": 0.83,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "slide 3",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 3",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.05,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 3",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.1,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 3",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.16,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 3",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.09,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 4",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 4",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.07,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 4",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.14,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 4",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.06,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 4",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.17,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 4",
+    "check": "Each row's data permit its test",
+    "p": 0.53,
+    "pass": true,
+    "want": true,
+    "reviewed": "Each row names data that can answer its RQ: interviews/records/expert ratings for RQ1, design records for RQ2, held-out cases plus matched field comparison for RQ3. Row 3 thresholds are abbreviated here and stated in full on slide 7. Predicate has no fixtures, so it is advisory."
+   },
+   {
+    "target": "slide 5",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 5",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.05,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 5",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.2,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 5",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.11,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 5",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.07,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 5",
+    "check": "Names pragmatism and its consequence for evidence",
+    "p": 0.96,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "slide 5",
+    "check": "Grounds a feature in a kernel theory",
+    "p": 0.83,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "slide 6",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.05,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 6",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.05,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 6",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.1,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 6",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.15,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 6",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.15,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 7",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 7",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.05,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 7",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.22,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 7",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.06,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 7",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.08,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 7",
+    "check": "Propositions have pre-set decision rules",
+    "p": 0.93,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "slide 8",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 8",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.07,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 8",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.1,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 8",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.06,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 8",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.12,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 9",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 9",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.07,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 9",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.08,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 9",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.15,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 9",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.1,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 9",
+    "check": "Walk-through labelled illustrative",
+    "p": 0.95,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "slide 10",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 10",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.06,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 10",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.12,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 10",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.09,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "slide 10",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.08,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q01",
+    "check": "Answers the question directly",
+    "p": 0.88,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q01",
+    "check": "States a substantive limit",
+    "p": 0.94,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q01",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q01",
+    "check": "Missing evidence treated as proof",
+    "p": 0.11,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q02",
+    "check": "Answers the question directly",
+    "p": 0.74,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q02",
+    "check": "States a substantive limit",
+    "p": 0.96,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q02",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q02",
+    "check": "Missing evidence treated as proof",
+    "p": 0.1,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q03",
+    "check": "Answers the question directly",
+    "p": 0.89,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q03",
+    "check": "States a substantive limit",
+    "p": 0.82,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q03",
+    "check": "Claims achieved results",
+    "p": 0.05,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q03",
+    "check": "Missing evidence treated as proof",
+    "p": 0.06,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q04",
+    "check": "Answers the question directly",
+    "p": 0.81,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q04",
+    "check": "States a substantive limit",
+    "p": 0.9,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q04",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q04",
+    "check": "Missing evidence treated as proof",
+    "p": 0.15,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q05",
+    "check": "Answers the question directly",
+    "p": 0.82,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q05",
+    "check": "States a substantive limit",
+    "p": 0.94,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q05",
+    "check": "Claims achieved results",
+    "p": 0.07,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q05",
+    "check": "Missing evidence treated as proof",
+    "p": 0.15,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q06",
+    "check": "Answers the question directly",
+    "p": 0.88,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q06",
+    "check": "States a substantive limit",
+    "p": 0.89,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q06",
+    "check": "Claims achieved results",
+    "p": 0.2,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q06",
+    "check": "Missing evidence treated as proof",
+    "p": 0.15,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q07",
+    "check": "Answers the question directly",
+    "p": 0.75,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q07",
+    "check": "States a substantive limit",
+    "p": 0.92,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q07",
+    "check": "Claims achieved results",
+    "p": 0.39,
+    "pass": true,
+    "want": false,
+    "reviewed": "The evidence sentence reports other authors' published work (Diab 2021, Issa et al. 2026), not results of this study. No study result is claimed."
+   },
+   {
+    "target": "q07",
+    "check": "Missing evidence treated as proof",
+    "p": 0.1,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q08",
+    "check": "Answers the question directly",
+    "p": 0.86,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q08",
+    "check": "States a substantive limit",
+    "p": 0.95,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q08",
+    "check": "Claims achieved results",
+    "p": 0.06,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q08",
+    "check": "Missing evidence treated as proof",
+    "p": 0.12,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q09",
+    "check": "Answers the question directly",
+    "p": 0.9,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q09",
+    "check": "States a substantive limit",
+    "p": 0.95,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q09",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q09",
+    "check": "Missing evidence treated as proof",
+    "p": 0.11,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q10",
+    "check": "Answers the question directly",
+    "p": 0.92,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q10",
+    "check": "States a substantive limit",
+    "p": 0.95,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q10",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q10",
+    "check": "Missing evidence treated as proof",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q11",
+    "check": "Answers the question directly",
+    "p": 0.85,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q11",
+    "check": "States a substantive limit",
+    "p": 0.95,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q11",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q11",
+    "check": "Missing evidence treated as proof",
+    "p": 0.09,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q12",
+    "check": "Answers the question directly",
+    "p": 0.9,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q12",
+    "check": "States a substantive limit",
+    "p": 0.94,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q12",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q12",
+    "check": "Missing evidence treated as proof",
+    "p": 0.15,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q13",
+    "check": "Answers the question directly",
+    "p": 0.85,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q13",
+    "check": "States a substantive limit",
+    "p": 0.93,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q13",
+    "check": "Claims achieved results",
+    "p": 0.09,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q13",
+    "check": "Missing evidence treated as proof",
+    "p": 0.15,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q14",
+    "check": "Answers the question directly",
+    "p": 0.9,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q14",
+    "check": "States a substantive limit",
+    "p": 0.97,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q14",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q14",
+    "check": "Missing evidence treated as proof",
+    "p": 0.19,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q15",
+    "check": "Answers the question directly",
+    "p": 0.89,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q15",
+    "check": "States a substantive limit",
+    "p": 0.9,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q15",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q15",
+    "check": "Missing evidence treated as proof",
+    "p": 0.14,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q16",
+    "check": "Answers the question directly",
+    "p": 0.72,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q16",
+    "check": "States a substantive limit",
+    "p": 0.96,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q16",
+    "check": "Claims achieved results",
+    "p": 0.05,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q16",
+    "check": "Missing evidence treated as proof",
+    "p": 0.19,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q17",
+    "check": "Answers the question directly",
+    "p": 0.87,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q17",
+    "check": "States a substantive limit",
+    "p": 0.89,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q17",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q17",
+    "check": "Missing evidence treated as proof",
+    "p": 0.22,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q18",
+    "check": "Answers the question directly",
+    "p": 0.82,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q18",
+    "check": "States a substantive limit",
+    "p": 0.96,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q18",
+    "check": "Claims achieved results",
+    "p": 0.06,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q18",
+    "check": "Missing evidence treated as proof",
+    "p": 0.13,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q19",
+    "check": "Answers the question directly",
+    "p": 0.81,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q19",
+    "check": "States a substantive limit",
+    "p": 0.95,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q19",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q19",
+    "check": "Missing evidence treated as proof",
+    "p": 0.17,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q20",
+    "check": "Answers the question directly",
+    "p": 0.94,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q20",
+    "check": "States a substantive limit",
+    "p": 0.96,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q20",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q20",
+    "check": "Missing evidence treated as proof",
+    "p": 0.11,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q21",
+    "check": "Answers the question directly",
+    "p": 0.78,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q21",
+    "check": "States a substantive limit",
+    "p": 0.96,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q21",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q21",
+    "check": "Missing evidence treated as proof",
+    "p": 0.13,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q22",
+    "check": "Answers the question directly",
+    "p": 0.92,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q22",
+    "check": "States a substantive limit",
+    "p": 0.93,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q22",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q22",
+    "check": "Missing evidence treated as proof",
+    "p": 0.11,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q23",
+    "check": "Answers the question directly",
+    "p": 0.88,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q23",
+    "check": "States a substantive limit",
+    "p": 0.93,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q23",
+    "check": "Claims achieved results",
+    "p": 0.06,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q23",
+    "check": "Missing evidence treated as proof",
+    "p": 0.21,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q24",
+    "check": "Answers the question directly",
+    "p": 0.83,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q24",
+    "check": "States a substantive limit",
+    "p": 0.94,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q24",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q24",
+    "check": "Missing evidence treated as proof",
+    "p": 0.26,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q25",
+    "check": "Answers the question directly",
+    "p": 0.84,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q25",
+    "check": "States a substantive limit",
+    "p": 0.95,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q25",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q25",
+    "check": "Missing evidence treated as proof",
+    "p": 0.09,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q26",
+    "check": "Answers the question directly",
+    "p": 0.89,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q26",
+    "check": "States a substantive limit",
+    "p": 0.95,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q26",
+    "check": "Claims achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q26",
+    "check": "Missing evidence treated as proof",
+    "p": 0.23,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q27",
+    "check": "Answers the question directly",
+    "p": 0.83,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q27",
+    "check": "States a substantive limit",
+    "p": 0.94,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q27",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q27",
+    "check": "Missing evidence treated as proof",
+    "p": 0.17,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q28",
+    "check": "Answers the question directly",
+    "p": 0.87,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q28",
+    "check": "States a substantive limit",
+    "p": 0.96,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q28",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q28",
+    "check": "Missing evidence treated as proof",
+    "p": 0.06,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q29",
+    "check": "Answers the question directly",
+    "p": 0.88,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q29",
+    "check": "States a substantive limit",
+    "p": 0.96,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q29",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q29",
+    "check": "Missing evidence treated as proof",
+    "p": 0.11,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q30",
+    "check": "Answers the question directly",
+    "p": 0.92,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q30",
+    "check": "States a substantive limit",
+    "p": 0.98,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "q30",
+    "check": "Claims achieved results",
+    "p": 0.04,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "q30",
+    "check": "Missing evidence treated as proof",
+    "p": 0.09,
+    "pass": true,
+    "want": false
+   },
+   {
+    "target": "deck",
+    "check": "Problem before solution",
+    "p": 0.83,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "deck",
+    "check": "Problem \u2192 gap \u2192 questions \u2192 framework \u2192 method \u2192 contribution",
+    "p": 0.92,
+    "pass": true,
+    "want": true
+   },
+   {
+    "target": "deck",
+    "check": "Claims validation already done",
+    "p": 0.03,
+    "pass": true,
+    "want": false
+   }
+  ]
+ }
+}

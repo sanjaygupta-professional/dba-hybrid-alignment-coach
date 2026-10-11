@@ -1,0 +1,670 @@
+[
+  {
+    "n": 1,
+    "id": "open",
+    "short": "Opening",
+    "act": "Problem",
+    "seconds": 35,
+    "kind": "title",
+    "title": "Designing a Hybrid Alignment Diagnostic",
+    "eyebrow": "Doctoral topic proposal",
+    "subtitle": "A design science proposal for bounded delegated agent workflows in India-based B2B service organisations.",
+    "message": "Managers need evidence to judge whether delegated agent actions fit strategy and human mandates.",
+    "script": [
+      "I am Sanjay Gupta. My proposed setting is India-based B2B service organisations using tool-using agents. Managers need to judge whether delegated actions fit strategy and human mandates. Available evidence may not support that judgement.",
+      "I propose to design, demonstrate and evaluate a Hybrid Alignment Diagnostic for three bounded workflows. I will test its limits against existing practice. This is a proposal, with no evaluation results yet."
+    ],
+    "transition": "I will start with the assessment context.",
+    "anchors": [
+      "Managers need warranted evidence",
+      "Design, demonstrate, evaluate",
+      "Proposal, not evaluated success"
+    ],
+    "lens": [
+      "Identify the setting, technology and business uncertainty (Researcher's Journey, DSR step 1).",
+      "State the problem before proposing the artefact (Researcher's Journey, DSR step 2).",
+      "Name the design, population and setting in the purpose (Researcher's Journey, DSR step 4)."
+    ],
+    "pitfalls": [
+      "Do not claim unconfirmed professional experience or field success.",
+      "Coach practice: pause after the business problem before stating the purpose."
+    ],
+    "likely_q": [
+      "q01",
+      "q02",
+      "q30"
+    ],
+    "crit": [
+      "C01",
+      "C05",
+      "C16"
+    ]
+  },
+  {
+    "n": 2,
+    "id": "context",
+    "short": "Why now",
+    "act": "Problem",
+    "seconds": 40,
+    "kind": "content",
+    "title": "Existing alignment tools give delegated workflows a starting point",
+    "eyebrow": "Background",
+    "bullets": [
+      "**Problem:** Managers delegate agent actions; they should verify strategic warrant, but whether records support judgement remains unknown.",
+      "Strategy maps, OKRs, alignment maturity and NIST provide existing assessment resources.",
+      "McKinsey 2026 survey: **40%** of respondents from >US$1bn organisations scale agents; previously **27%**.",
+      "Smaller-organisation respondents: **22%**, unchanged; adoption is context, not local misalignment evidence."
+    ],
+    "note": "McKinsey & Company, 2026: survey, 1,719 respondents, May–June 2026; Tabassi, 2023.",
+    "message": "Agent adoption makes assessment timely, but does not establish local misalignment or failure of existing tools.",
+    "script": [
+      "Managers delegate agent actions and should judge their strategic warrant. The uncertainty is whether available records support that judgement. I have not confirmed this problem locally. Existing alignment and governance tools provide starting points.",
+      "McKinsey and Company, 2026, reports 40% of respondents from organisations above one billion US dollars in annual revenue scaling agents, previously 27%. Smaller-organisation respondents remain at 22%. I use adoption as context, not evidence that local reviews fail."
+    ],
+    "transition": "I will now identify the bounded evidence gap.",
+    "anchors": [
+      "Existing tools are serious alternatives",
+      "Respondents, not all firms",
+      "Adoption does not prove failure"
+    ],
+    "lens": [
+      "Use dated evidence with its population and limitations (Researcher's Journey, DSR step 1).",
+      "Keep context directly connected to the business problem (Researcher's Journey, DSR step 2)."
+    ],
+    "pitfalls": [
+      "Do not turn survey respondents into a census of firms or misalignment cases.",
+      "Do not use adoption or trust concern as proof that existing reviews fail."
+    ],
+    "likely_q": [
+      "q03",
+      "q04",
+      "q07"
+    ],
+    "crit": [
+      "C01",
+      "C02",
+      "C04"
+    ]
+  },
+  {
+    "n": 3,
+    "id": "gap",
+    "short": "Literature and gap",
+    "act": "Gap",
+    "seconds": 85,
+    "kind": "content",
+    "title": "The gap is warranted assessment against serious existing alternatives",
+    "eyebrow": "Preliminary literature and dual gap",
+    "columns": [
+      {
+        "head": "RQ1 · Requirements",
+        "items": [
+          "Delegation supports evidence rules (Baird & Maruping, 2021).",
+          "Governance already includes alignment (Mäntymäki et al., 2022).",
+          "Research gap: warranted rules and local comparative performance remain unresolved."
+        ]
+      },
+      {
+        "head": "RQ2 · Representation",
+        "items": [
+          "Strategic fit informs relationships (Henderson & Venkatraman, 1993/1999).",
+          "Existing diagnostics are rivals (Diab, 2021; Issa et al., 2026).",
+          "Practitioner gap: actionable judgements from available records remain unconfirmed."
+        ]
+      },
+      {
+        "head": "RQ3 · Evaluation",
+        "items": [
+          "FEDS separates evaluation purposes/settings (Venable et al., 2016).",
+          "Behaviour matters beyond ratings (Buçinca et al., 2021).",
+          "Hybrid performance is task-dependent (Vaccaro et al., 2024)."
+        ]
+      }
+    ],
+    "note": "Tabassi, 2023; Murray et al., 2021; Alfaify & Almarzooq, 2025. Close full-text review remains open.",
+    "message": "The inspected literature leaves evidence rules and comparative performance in this setting unresolved.",
+    "script": [
+      "I organise the literature around three questions: requirements, representation and evaluation. Baird and Maruping, 2021, grounds delegated rights and actions. NIST already links AI goals with mission. Governance alignment is therefore not a new obligation.",
+      "For representation, strategic fit and conjoined agency offer useful starting points. Diab assesses maturity from management ratings. Issa and colleagues, 2026, already offer an Accountability Tracing Log and a preliminary delegation diagnostic. Its proxy measures, equal weights and hypothetical demonstrations leave field performance open. I must read the closest full texts before fixing novelty.",
+      "For evaluation, FEDS separates purpose from setting. Evidence on inappropriate reliance warns me that favourable ratings are insufficient. Experimental human–AI findings are task-dependent; I cannot assume hybrid superiority.",
+      "The literature tells us how alignment and governance are framed, but not whether these combined resources warrant assessment in the proposed workflows. The research gap concerns evidence rules and comparative performance. The practitioner gap concerns reaching inspectable, actionable judgements with available records. Neither is an established local failure."
+    ],
+    "transition": "I connect those uncertainties to three research questions.",
+    "anchors": [
+      "Requirements, representation, evaluation",
+      "Issa is direct prior art",
+      "Bounded gap, local need unconfirmed"
+    ],
+    "lens": [
+      "Organise literature by question, comparing support, challenge and context (Researcher's Journey, DSR step 11).",
+      "Link a research gap and a practitioner gap (Researcher's Journey, DSR step 12).",
+      "Bound novelty to inspected evidence and the proposed setting (Researcher's Journey, DSR step 12)."
+    ],
+    "pitfalls": [
+      "Do not claim that nobody has studied agent alignment.",
+      "Do not present an abstract's missing detail as proof of a weak full study.",
+      "Coach practice: explain one rival before describing the proposed contribution."
+    ],
+    "likely_q": [
+      "q04",
+      "q05",
+      "q06",
+      "q07"
+    ],
+    "crit": [
+      "C03",
+      "C04",
+      "C18"
+    ]
+  },
+  {
+    "n": 4,
+    "id": "trace",
+    "short": "Research chain",
+    "act": "Design",
+    "seconds": 110,
+    "kind": "content",
+    "title": "Three sub-problems, three questions, one complete research chain",
+    "eyebrow": "SP → RO → RQ → DP → data → test",
+    "table": [
+      [
+        "Sub-problem",
+        "Objective",
+        "RQ / type",
+        "Proposition",
+        "Data",
+        "Test"
+      ],
+      [
+        "SP1: evidence rules",
+        "RO1: matrix +2m; expert check +5m",
+        "RQ1: requirements? Exploratory",
+        "DP1: relevance; clarity",
+        "12–16 interviews; records; 9 experts",
+        "Matrix; ≥8/9 per item, each dimension"
+      ],
+      [
+        "SP2: representation",
+        "RO2: v1/v2 +5m",
+        "RQ2: L1–L4/interfaces? Design",
+        "DP2: coverage; fidelity",
+        "Versions; links; change log",
+        "Feature/test per requirement; ≥90% faithful"
+      ],
+      [
+        "SP3: performance",
+        "RO3: evaluate +8m",
+        "RQ3: versus practice? Comparative",
+        "DP3–6: performance; value; use",
+        "12+12 cases; 3 workflows; 12–16 users",
+        "Precision/recall; yield; SUS; utility"
+      ]
+    ],
+    "widths": [
+      1.55,
+      1.8,
+      2.05,
+      1.8,
+      2.2,
+      2.5
+    ],
+    "note": "Proposed; t0 = IRB clearance; +m = months after t0. Thresholds: slide 7. Peffers et al., 2007.",
+    "message": "Every sub-problem links to an objective, typed question, proposition, data and a test that can fail.",
+    "script": [
+      "I start with three uncertainties, rather than three chapters. SP1 concerns unresolved evidence rules. SP2 concerns representation. SP3 concerns performance. Each has one objective and one open research question. I count deadlines from t0, the date IRB clears the instruments.",
+      "For SP1, I will produce a requirements-to-evidence matrix by month two, with expert confirmation by month five. RQ1 asks what requirements and evidence rules the assessment should meet. It is exploratory. Interviews and authorised records establish requirements; nine independent experts rate item relevance and clarity separately. DP1 requires at least eight of nine favourable ratings for each dimension.",
+      "For SP2, I will freeze v1 and produce traceable v2 by month five. RQ2 asks how to represent L1–L4 and both interfaces. It is a design question. Versions, source mappings and change logs support DP2: every requirement needs a feature and test, with at least 90% faithful audited mappings.",
+      "For SP3, I will complete evaluation by month eight. RQ3 asks how v2 performs against current practice. It is comparative. Held-out controlled cases test precision and recall. Three workflows test added value. User tasks, usability and prioritisation responses test separate properties. These criteria can fail; none establishes enterprise-wide effectiveness."
+    ],
+    "transition": "I will trace one proposed feature back to theory.",
+    "anchors": [
+      "Three uncertainties, three typed questions",
+      "t0: IRB clearance",
+      "Data and test in every row"
+    ],
+    "lens": [
+      "Map each sub-problem to one objective and question (Researcher's Journey, DSR step 3).",
+      "Give objectives measurable outputs and t0-relative deadlines (Researcher's Journey, DSR step 5).",
+      "Name data and tests without empty cells (Researcher's Journey, DSR step 23)."
+    ],
+    "pitfalls": [
+      "Do not show an RQ→DP shortcut without the objective, data and test.",
+      "Do not move expert confirmation to month two.",
+      "Coach practice: read one complete row before summarising the other two."
+    ],
+    "likely_q": [
+      "q13",
+      "q14",
+      "q19"
+    ],
+    "crit": [
+      "C06",
+      "C07",
+      "C08"
+    ]
+  },
+  {
+    "n": 5,
+    "id": "logic",
+    "short": "Research logic",
+    "act": "Design",
+    "seconds": 65,
+    "kind": "content",
+    "title": "Conceptual framework: theory → requirement → feature → evaluation",
+    "eyebrow": "Research logic",
+    "note": "Hevner et al., 2004; Henderson & Venkatraman, 1993/1999; Murray et al., 2021; Tabassi, 2023.",
+    "message": "Pragmatism guides a theory-grounded design whose evidence rules and features must survive evaluation.",
+    "script": [
+      "I propose pragmatism with a design orientation. I judge the artefact through warranted use, inspectable evidence and comparison with alternatives. Usefulness alone cannot establish accuracy.",
+      "Here is the M3 chain. Baird and Maruping, 2021, informs delegated rights. REQ3 requires comparing those rights with actions. DPr3 is my design principle: separate intended, authorised and observed states. The feature links mandate, permission and action records. DP2 tests faithful mapping; DP3 tests controlled performance. Evaluation feeds revision.",
+      "Strategic fit informs goal relationships. Conjoined agency informs interfaces. Responsibility analysis informs capacity to intervene. NIST is a governance framework, not a causal theory. L1–L4 is a provisional representation, including horizontal interfaces. M1 means goal/specification mismatch. The conceptual framework explains why each feature belongs."
+    ],
+    "transition": "I will show how the study tests this design.",
+    "anchors": [
+      "Pragmatism: warranted use and evidence",
+      "M3: rights against actions",
+      "DPr principle; DP evaluation proposition"
+    ],
+    "lens": [
+      "Name the paradigm and its evidence consequences (Researcher's Journey, DSR step 14).",
+      "Trace kernel, requirement, principle, feature and evaluation (Researcher's Journey, DSR step 8).",
+      "Keep the artefact representation distinct from research logic (Researcher's Journey, DSR step 8)."
+    ],
+    "pitfalls": [
+      "Do not label the L1–L4 cascade alone as the conceptual framework.",
+      "Do not equate a design rationale with validation.",
+      "Do not rename M1 as goal drift; mismatch need not involve change over time."
+    ],
+    "likely_q": [
+      "q08",
+      "q09",
+      "q10",
+      "q11"
+    ],
+    "crit": [
+      "C09",
+      "C10",
+      "C18"
+    ],
+    "columns": [
+      {
+        "head": "Kernel → requirement",
+        "items": [
+          "Pragmatism: warranted use, inspectable evidence.",
+          "Delegation: rights/actions (Baird & Maruping, 2021).",
+          "REQ3: compare delegated rights with actual actions."
+        ]
+      },
+      {
+        "head": "Principle → feature",
+        "items": [
+          "DPr3: separate intended, authorised and observed states.",
+          "Feature: mandate ↔ permission ↔ action evidence.",
+          "L1–L4: provisional representation; include horizontal interfaces."
+        ]
+      },
+      {
+        "head": "Evaluation → revision",
+        "items": [
+          "DP2: faithful mappings; DP3: controlled performance.",
+          "Failed rules → revision → retest.",
+          "M1: goal/specification mismatch; M1–M6 remain provisional."
+        ]
+      }
+    ]
+  },
+  {
+    "n": 6,
+    "id": "method",
+    "short": "Design and methods",
+    "act": "Method",
+    "seconds": 75,
+    "kind": "content",
+    "title": "DSRM supplies six outputs; FEDS plans two build–evaluate cycles",
+    "eyebrow": "Design science research · DSRM + FEDS",
+    "columns": [
+      {
+        "head": "Define",
+        "items": [
+          "1 Identify problem → problem statement.",
+          "2 Define objectives → requirements matrix, t0+2 months.",
+          "New interviews; existing strategy and authority records."
+        ]
+      },
+      {
+        "head": "Construct and demonstrate",
+        "items": [
+          "3 Design/develop → v1, revision log, v2, t0+5 months.",
+          "4 Demonstrate → completed workflow assessments.",
+          "Cycle 1: artificial/formative; expert ratings and controlled tasks."
+        ]
+      },
+      {
+        "head": "Evaluate and communicate",
+        "items": [
+          "5 Evaluate → DP decisions, t0+8 months.",
+          "6 Communicate → dissertation and principles, t0+9 months.",
+          "Frozen-v2 held-out confirmation; Cycle 2: naturalistic/summative matched comparison."
+        ]
+      }
+    ],
+    "note": "Peffers et al., 2007; Venable et al., 2016. New interviews/ratings/tasks; existing authorised records.",
+    "message": "A versioned artefact moves from requirements through formative revision to a matched naturalistic comparison.",
+    "script": [
+      "I follow DSRM, the design science research methodology of Peffers and colleagues, 2007. Each activity has an output. Interviews and records establish requirements; versioned construction records why the design changes. I use expert ratings, controlled tasks and field assessment as methods inside this design.",
+      "FEDS, the framework for evaluation in design science, plans two cycles. Artificial, formative work tests v1 and supports revision. I freeze v2 before held-out artificial confirmation, then compare it in naturalistic work. Formative and summative describe purpose; artificial and naturalistic describe setting. Demonstration shows application once; evaluation tests pre-set criteria.",
+      "A survey alone measures perceptions rather than constructing this assessment. A case study can inform contextual evaluation, but my intended contribution also requires construction. Action research suits a broader participatory intervention; that would require another protocol. PLS-SEM tests construct relationships rather than the properties of this artefact."
+    ],
+    "transition": "I will make the acceptance and failure rules explicit.",
+    "anchors": [
+      "Six activities, six outputs",
+      "Formative v1; frozen v2 comparison",
+      "Why this design, not alternatives"
+    ],
+    "lens": [
+      "Name six DSRM activities and their outputs (Researcher's Journey, DSR step 13).",
+      "Plan evaluation separately from demonstration (Researcher's Journey, DSR step 13).",
+      "Defend the approach against plausible alternatives (Researcher's Journey, DSR step 14)."
+    ],
+    "pitfalls": [
+      "Do not call a walkthrough or prototype demonstration validation.",
+      "Do not say a case study cannot evaluate an artefact.",
+      "Do not choose DSR to avoid statistics."
+    ],
+    "likely_q": [
+      "q12",
+      "q13",
+      "q17",
+      "q18"
+    ],
+    "crit": [
+      "C11",
+      "C12",
+      "C14",
+      "C18"
+    ]
+  },
+  {
+    "n": 7,
+    "id": "evaluate",
+    "short": "Evaluation rules",
+    "act": "Evaluation",
+    "seconds": 105,
+    "kind": "content",
+    "title": "Acceptance criteria are separate, proposed and allowed to fail",
+    "eyebrow": "Pre-set decisions · no results yet",
+    "columns": [
+      {
+        "head": "Content and representation",
+        "items": [
+          "DP1: if ≥8/9 rate relevance/clarity separately → content criterion met.",
+          "DP2: feature/test per requirement; ≥90% faithful mappings → criterion met.",
+          "Otherwise unmet; compromised evidence → inconclusive."
+        ]
+      },
+      {
+        "head": "Performance and field value",
+        "items": [
+          "DP3: held-out precision/recall each ≥80% → controlled criterion met.",
+          "DP4: added warranted findings in ≥2/3 workflows → criterion met.",
+          "Same evidence/time; controlled performance is not field sensitivity."
+        ]
+      },
+      {
+        "head": "Usability and utility",
+        "items": [
+          "DP5: if SUS ≥70 → usability criterion met.",
+          "DP6: if ≥80% rate prioritisation 4–5 → utility criterion met.",
+          "Satisfaction cannot rescue failed performance."
+        ]
+      }
+    ],
+    "note": "Proposed local thresholds; no results. Venable et al., 2016; Buçinca et al., 2021.",
+    "message": "Evidence for usability cannot compensate for failed fidelity, performance or warranted field value.",
+    "script": [
+      "I will register these local criteria before Cycle 1. They are proposed acceptance decisions, not universal standards. If the specified evidence reaches a criterion, then that property is met. A failed property remains unmet; a compromised test may be inconclusive.",
+      "DP1 requires eight of nine experts to rate each item relevant and clear, using separate ratings. Agreement supports content, not diagnostic accuracy. DP2 requires a feature and test for every requirement, with at least 90% faithful audited mappings.",
+      "DP3 requires at least 80% controlled precision and recall on the held-out set. Precision asks what share of asserted findings is warranted. Recall asks what share of reference issues is found. I must define counting units and report raw counts. A zero denominator is undefined. These results cannot become field sensitivity.",
+      "DP4 requires additional warranted findings in two of three workflows. Both methods receive the same evidence and time. Existing review includes strategy, governance and available telemetry. Duplicates and unsupported flags do not count as added value. No qualifying gain in a valid comparison means failure.",
+      "DP5 sets a System Usability Scale score of at least seventy. DP6 requires at least 80% to rate prioritisation four or five. I report both separately from accuracy, with uncertainty."
+    ],
+    "transition": "These tests depend on a bounded, permissioned study.",
+    "anchors": [
+      "Six separate proposed properties",
+      "Known cases versus field yield",
+      "A strong baseline can defeat DP4"
+    ],
+    "lens": [
+      "Fix metrics and failure decisions before testing (Researcher's Journey, DSR step 7).",
+      "Map each proposition to an evaluation episode (Researcher's Journey, DSR step 13).",
+      "Keep small-sample results descriptive with uncertainty (Researcher's Journey, DSR step 18)."
+    ],
+    "pitfalls": [
+      "Do not present local thresholds as universal validity standards.",
+      "Do not equate more flags, favourable ratings or controlled recall with field accuracy.",
+      "Coach practice: slow down when distinguishing precision, recall and field added value."
+    ],
+    "likely_q": [
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24"
+    ],
+    "crit": [
+      "C07",
+      "C12",
+      "C16",
+      "C18"
+    ]
+  },
+  {
+    "n": 8,
+    "id": "scope",
+    "short": "Scope and permissions",
+    "act": "Scope",
+    "seconds": 55,
+    "kind": "content",
+    "title": "The workflow is bounded; access and permission remain gates",
+    "eyebrow": "Proposed scope · ethics · feasibility",
+    "columns": [
+      {
+        "head": "Chosen scope",
+        "items": [
+          "3 workflows; 1–2 India-based B2B service sites.",
+          "Workflow participants: business owners, leads, operators and governance specialists.",
+          "No prevalence, model internals or legal certification."
+        ]
+      },
+      {
+        "head": "People and permissions",
+        "items": [
+          "12–16 interviews/users; 9 experts; separate 3-person reference team.",
+          "Independent evaluators; relevant expertise; commitments unconfirmed.",
+          "IRB first; organisation, participant and record-use permissions separate."
+        ]
+      },
+      {
+        "head": "Limits → mitigations",
+        "items": [
+          "Small groups → descriptive, contextual conclusions.",
+          "Withheld records → unknown; failed access → reviewed scope change.",
+          "Unread rivals → obtain full texts before fixing novelty."
+        ]
+      }
+    ],
+    "note": "Proposed groups; access pending; no data yet. Tabassi, 2023; Hevner et al., 2004.",
+    "message": "Three workflows support contextual evaluation only after access, independence and permissions are secured.",
+    "script": [
+      "I choose three tool-using workflows in one or two India-based B2B service organisations. I vary discretion, consequences, vendor dependence and hand-offs. At least one workflow stays outside v1 construction.",
+      "I recruit people with direct workflow responsibility, independent experts and a separate reference team. Their roles and counts are proposed; commitments and budget remain open. All participant contact and collection follow IRB clearance and organisational permission. Individual consent and record-use permission are separate.",
+      "My scope excludes prevalence, legal certification and private model reasoning. Small groups limit transfer; I report contextual evidence. Withheld records remain unknown. Failed access requires reviewed scope change, not a synthetic field substitute."
+    ],
+    "transition": "I will illustrate one permissioned assessment decision.",
+    "anchors": [
+      "Bounded workflow, not whole enterprise",
+      "Independent groups; IRB before collection",
+      "Unknown records; reviewed scope change"
+    ],
+    "lens": [
+      "Give participant roles, counts, inclusion and independence (Researcher's Journey, DSR step 15).",
+      "Clear instruments and permissions before collection (Researcher's Journey, DSR step 16).",
+      "Separate chosen boundaries from constraints and mitigations (Researcher's Journey, DSR step 9)."
+    ],
+    "pitfalls": [
+      "Do not call organisational access participant consent.",
+      "Do not treat withheld evidence as misalignment.",
+      "Do not replace a failed field-access gate with an undeclared synthetic pilot."
+    ],
+    "likely_q": [
+      "q02",
+      "q15",
+      "q16",
+      "q25",
+      "q26",
+      "q29"
+    ],
+    "crit": [
+      "C13",
+      "C15",
+      "C18"
+    ]
+  },
+  {
+    "n": 9,
+    "id": "use",
+    "short": "Leader walk-through",
+    "act": "Use",
+    "seconds": 100,
+    "kind": "content",
+    "title": "A leader inspects evidence, preserves unknowns and chooses an action",
+    "eyebrow": "Illustrative — no study results",
+    "columns": [
+      {
+        "head": "Same illustrative evidence",
+        "items": [
+          "Enterprise: reliable service; unit: timely resolution under approved rules.",
+          "Mandate: approve exceptions; agent objective: resolve requests.",
+          "Both methods: identical mandate, permission, action and approval records."
+        ]
+      },
+      {
+        "head": "Evidence → decision",
+        "items": [
+          "Documented authorised trade-off → no mismatch on this criterion.",
+          "Approval evidence missing → unknown; request evidence.",
+          "Sufficient evidence of action outside authority → warranted M3 finding."
+        ]
+      },
+      {
+        "head": "Decision → action",
+        "items": [
+          "M3: record evidence and escalate; preserve disputed interpretations.",
+          "M4: identify who can monitor and remedy.",
+          "Existing review may agree; no incremental benefit established."
+        ]
+      }
+    ],
+    "note": "Illustrative — no study results. Baird & Maruping, 2021; Santoni de Sio & Mecacci, 2021.",
+    "message": "The evidence rule distinguishes an authorised trade-off, an unknown approval and a warranted authority mismatch.",
+    "script": [
+      "I will use an invented service workflow, not study data. The enterprise wants reliable service under approved commercial rules. The unit wants timely resolution. The human mandate requires approval for exceptions. The agent is instructed to resolve service requests.",
+      "I give the existing review and the diagnostic the same mandate, instruction, permission, action and approval records. I do not hide evidence from the baseline or assume it misses a problem. The leader starts by comparing the action with the documented authority.",
+      "If records show an authorised trade-off, there is no mismatch on that criterion. If approval evidence is missing, the state is unknown. The leader requests that evidence rather than scoring a failure. If sufficient records establish action outside authority, the leader records a warranted M3 finding and escalates it.",
+      "The rule is a threshold of evidence, not an aggregate alignment score. I preserve contradictory interpretations and record the source version. I also apply M4: who can monitor and remedy the outcome? A named owner without that capacity is insufficient. The existing review may reach exactly the same decision. Only later comparison can establish added value, and it may establish none."
+    ],
+    "transition": "I will close with the proposed contributions and panel questions.",
+    "anchors": [
+      "Illustrative, not study results",
+      "Same evidence for both methods",
+      "Authorised, unknown, warranted conflict"
+    ],
+    "lens": [
+      "Demonstrate a feature's requirement and evidence rule (Researcher's Journey, DSR step 8).",
+      "Keep illustration distinct from evaluation against criteria (Researcher's Journey, DSR step 13).",
+      "Bound the practical claim to the available evidence (Researcher's Journey, DSR step 10)."
+    ],
+    "pitfalls": [
+      "Do not invent a baseline miss or an improvement figure.",
+      "Do not treat absent approval evidence as proved unauthorised action.",
+      "Coach practice: pause at each evidence branch before naming the action."
+    ],
+    "likely_q": [
+      "q10",
+      "q22",
+      "q28"
+    ],
+    "crit": [
+      "C10",
+      "C12",
+      "C17",
+      "C18"
+    ]
+  },
+  {
+    "n": 10,
+    "id": "close",
+    "short": "Contribution and panel",
+    "act": "Contribution",
+    "seconds": 50,
+    "kind": "content",
+    "title": "A proposed instrument and conditional design knowledge",
+    "eyebrow": "Proposed contribution · feedback sought",
+    "columns": [
+      {
+        "head": "Practice",
+        "items": [
+          "Hybrid Alignment Diagnostic: instrument, evidence register, interpretation guide.",
+          "Managers inspect warranted findings and choose responsible next steps."
+        ]
+      },
+      {
+        "head": "Knowledge",
+        "items": [
+          "Conditional design principles; successful and failed tests.",
+          "No evaluation results yet; transfer requires another bounded test."
+        ]
+      },
+      {
+        "head": "Questions for the panel",
+        "items": [
+          "Is this bounded comparative DSR scope appropriate?",
+          "What evidence and error costs justify the proposed thresholds?"
+        ]
+      }
+    ],
+    "note": "Proposed outputs, not achieved benefits. Hevner et al., 2004; Peffers et al., 2007; Venable et al., 2016.",
+    "message": "The study proposes an assessment instrument and conditional knowledge about which design choices work, fail or need further evaluation.",
+    "script": [
+      "I propose two contributions. Practice receives an assessment instrument, evidence register and interpretation guide for bounded workflows. Scholarship receives conditional design knowledge about preserving intent, evidence uncertainty and effective responsibility. Failed criteria and a sufficient existing baseline are reportable findings.",
+      "I have no evaluation results yet. Access, independence, closest prior art and threshold justification remain open. Another setting would require its own requirements and comparison. I welcome feedback on two decisions. Is this bounded comparative DSR scope appropriate? Which evidence and error-cost justification would make the proposed thresholds defensible?"
+    ],
+    "transition": "",
+    "anchors": [
+      "Practical instrument; conditional design knowledge",
+      "No evaluation results yet",
+      "Scope and threshold justification"
+    ],
+    "lens": [
+      "Distinguish practical artefact from scholarly design knowledge (Researcher's Journey, DSR step 10).",
+      "State contributions within the eventual evidence limits (Researcher's Journey, DSR step 9).",
+      "Defend why the proposed method is needed (Researcher's Journey, DSR step 14)."
+    ],
+    "pitfalls": [
+      "Do not promise a trusted instrument or proven transfer before evaluation.",
+      "Do not reopen multiple competing topics in the closing slide.",
+      "Coach practice: stop after the two panel questions and record the feedback."
+    ],
+    "likely_q": [
+      "q24",
+      "q27",
+      "q29",
+      "q30"
+    ],
+    "crit": [
+      "C16",
+      "C18"
+    ]
+  }
+]

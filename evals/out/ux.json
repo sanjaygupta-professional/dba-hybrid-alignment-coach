@@ -1,0 +1,100 @@
+{
+ "when": "2026-10-11 16:50",
+ "checks": [
+  {
+   "name": "desktop: no JS errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "desktop: no horizontal scroll",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "desktop: every view renders content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "desktop: no third-party requests at runtime",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "desktop: Geist font loads",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "stage: opens with P, arrows move, Esc closes",
+   "ok": true,
+   "detail": "3 / 10 → 10 / 10"
+  },
+  {
+   "name": "stage: no slide text overflows its slide",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "theme: dark background applies",
+   "ok": true,
+   "detail": "rgb(13, 16, 14)"
+  },
+  {
+   "name": "theme: paper background applies",
+   "ok": true,
+   "detail": "rgb(244, 243, 236)"
+  },
+  {
+   "name": "rehearse: a run is timed and saved",
+   "ok": true,
+   "detail": "runs=1"
+  },
+  {
+   "name": "viva: drill scores a typed answer",
+   "ok": true,
+   "detail": "rows=5"
+  },
+  {
+   "name": "a11y: all buttons have names",
+   "ok": true,
+   "detail": "unnamed=0"
+  },
+  {
+   "name": "phone: no JS errors",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "phone: no horizontal scroll",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "phone: every view renders content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "phone: no third-party requests at runtime",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "phone: Geist font loads",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "phone: menu opens and navigates",
+   "ok": true,
+   "detail": "#/viva"
+  },
+  {
+   "name": "axe: no serious or critical violations",
+   "ok": true,
+   "detail": ""
+  }
+ ]
+}

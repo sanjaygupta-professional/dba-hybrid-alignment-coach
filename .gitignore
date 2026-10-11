@@ -1,0 +1,10 @@
+plan/
+__pycache__/
+*.pyc
+.env
+runs/
+evals/out/private/
+node_modules/
+evals/out/shots/
+evals/out/jev-run.log
+evals/package-lock.json

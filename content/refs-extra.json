@@ -1,0 +1,10 @@
+{
+ "aliases": {
+  "Tabassi 2023": ["NIST 2023"],
+  "Capgemini 2025": ["Institute 2025", "Research 2025"],
+  "Sio 2021": ["Mecacci 2021"]
+ },
+ "refs": [
+  {"apa": "Moffatt v. Air Canada, 2024 BCCRT 149. Reported in AI Incident Database, Incident 639.", "url": "https://incidentdatabase.ai/cite/639/", "aliases": ["Canada 2024", "Moffatt 2024"]}
+ ]
+}

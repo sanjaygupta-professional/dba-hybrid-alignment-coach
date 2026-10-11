@@ -1,0 +1,995 @@
+{
+ "meta": {
+  "title": "Designing a Hybrid Alignment Diagnostic",
+  "eyebrow": "Immersion 1 · Topic presentation · Design science research",
+  "footer": "Sanjay Gupta · GGU DBA in Emerging Technologies (Generative AI) · Cohort 8",
+  "presenter": "Sanjay Gupta",
+  "programme": "GGU DBA in Emerging Technologies (Generative AI), Cohort 8",
+  "event": "Immersion 1, Singapore",
+  "date_iso": "2026-10-14T09:00:00+08:00",
+  "date_label": "Wednesday 14 October 2026, Singapore",
+  "talk_seconds": 720,
+  "qa_seconds": 180,
+  "wpm": [
+   125,
+   140
+  ],
+  "thesis": "Managers already have strategy maps, OKRs and AI governance. The open question is whether evidence they can inspect shows that a delegated agent's actions are **warranted by strategy and human mandates**. I propose to design that check and **test it fairly against current practice**.",
+  "purpose": "This study will **design, demonstrate and evaluate** a Hybrid Alignment Diagnostic for managers who assess delegated AI-agent workflows against strategy and human mandates.",
+  "deck_pdf": "downloads/stagecraft-deck.pdf",
+  "copy_files": [],
+  "deck_pptx": "downloads/hybrid-alignment-deck.pptx"
+ },
+ "acts": [
+  "Problem",
+  "Gap",
+  "Design",
+  "Method",
+  "Evaluation",
+  "Use",
+  "Close"
+ ],
+ "qcats": [
+  "Problem",
+  "Gap",
+  "Theory",
+  "Method",
+  "Evaluation",
+  "Ethics",
+  "Contribution"
+ ],
+ "status_help": {
+  "content": "The deck and answers passed the quality gate on the build date.",
+  "timing": "A full run inside 11:30–12:30 is the evidence. A plan is not.",
+  "defence": "Questions you answered aloud and rated 4 or 5.",
+  "submission": "Items only you can close. The website cannot verify them."
+ },
+ "plan": [
+  {
+   "date": "2026-10-11",
+   "label": "Sunday · fix the argument",
+   "tasks": [
+    {
+     "id": "p1",
+     "t": "Read the **Storyline** once, slide by slide, out loud",
+     "mins": 20,
+     "link": "#/story"
+    },
+    {
+     "id": "p2",
+     "t": "Do one **diagnostic run**. Do not stop. Note where you stalled",
+     "mins": 15,
+     "link": "#/rehearse"
+    },
+    {
+     "id": "p3",
+     "t": "Open the **Walk-through** and say slide 9 in your own words",
+     "mins": 10,
+     "link": "#/demo"
+    },
+    {
+     "id": "p4",
+     "t": "Tick what you can in **Confirm before Wednesday**",
+     "mins": 10
+    }
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "label": "Monday · own the hard slides",
+   "tasks": [
+    {
+     "id": "p5",
+     "t": "Single-slide drills: slides **4, 5, 7 and 9**",
+     "mins": 30,
+     "link": "#/rehearse"
+    },
+    {
+     "id": "p6",
+     "t": "Drill the 10 hardest questions without looking",
+     "mins": 30,
+     "link": "#/viva"
+    },
+    {
+     "id": "p7",
+     "t": "Do the **60-second trace** from feature to kernel theory",
+     "mins": 5,
+     "link": "#/method"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "label": "Tuesday · full dress",
+   "tasks": [
+    {
+     "id": "p8",
+     "t": "Two full timed runs, standing, at full volume",
+     "mins": 35,
+     "link": "#/rehearse"
+    },
+    {
+     "id": "p9",
+     "t": "Test the backup: deck PDF on a USB key and in your email",
+     "mins": 10
+    },
+    {
+     "id": "p10",
+     "t": "Drill any question you rated 1–3",
+     "mins": 20,
+     "link": "#/viva"
+    },
+    {
+     "id": "p11",
+     "t": "Print or save the **cue cards**",
+     "mins": 5,
+     "link": "#/cards"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "label": "Wednesday · stage day",
+   "tasks": [
+    {
+     "id": "p12",
+     "t": "Say the opening and the close once, aloud",
+     "mins": 5
+    },
+    {
+     "id": "p13",
+     "t": "Check the room: screen, clicker, timer, water",
+     "mins": 10
+    },
+    {
+     "id": "p14",
+     "t": "Read the **Day-of checklist**",
+     "mins": 3,
+     "link": "#/craft"
+    }
+   ]
+  }
+ ],
+ "confirm": [
+  {
+   "id": "c1",
+   "item": "Your GGU email is in the private topic paper",
+   "why": "Section 1 still has a placeholder. The public website never shows an email."
+  },
+  {
+   "id": "c2",
+   "item": "The personal-connection facts in Section 2 are true for you",
+   "why": "Your role, experience and prototype status. If a fact is not true, delete it."
+  },
+  {
+   "id": "c3",
+   "item": "The paper renders at 12 pt, tables and references included",
+   "why": "An earlier render had 9.5 pt tables and 11 pt references."
+  },
+  {
+   "id": "c4",
+   "item": "You know whether references count toward the 5-page limit",
+   "why": "The body is 5 pages and the references go to page 7. Ask the programme office."
+  },
+  {
+   "id": "c5",
+   "item": "You can state the host-site access status in one sentence",
+   "why": "Examiners ask where the data comes from. 'Access is not yet confirmed; here is the gate' is a valid answer."
+  },
+  {
+   "id": "c6",
+   "item": "You have read the full text of Alfaify and Almarzooq (2025)",
+   "why": "It is close prior art. The paper says the novelty claim waits for that full text."
+  },
+  {
+   "id": "c7",
+   "item": "You submitted or uploaded the deck version you will present",
+   "why": "Stagecraft rebuilt the deck as version 2. Check which version the programme expects."
+  }
+ ],
+ "stats": [
+  {
+   "id": "S3",
+   "value": "40%",
+   "kind": "practitioner survey",
+   "label": "of respondents from organisations with revenue above US$1 billion report scaling AI agents, up from 27% a year earlier. Smaller organisations stayed at 22%.",
+   "say": "In McKinsey's 2026 survey, 40% of respondents from organisations above a billion dollars in revenue reported scaling agents.",
+   "never": "40% of companies have scaled agents. (It is respondents, not firms.)",
+   "src": "McKinsey & Company (2026). The state of AI in 2026. Survey of 1,719 participants, fielded 4 May–8 June 2026."
+  },
+  {
+   "id": "S1",
+   "value": "55%",
+   "kind": "practitioner survey",
+   "label": "of surveyed middle managers could name even one of their company's top five priorities.",
+   "say": "Sull and colleagues found that only 55% of the middle managers they surveyed could name even one top-five priority.",
+   "never": "Half of all managers do not know the strategy.",
+   "src": "Sull, Homkes & Sull (2015), Harvard Business Review."
+  },
+  {
+   "id": "S4",
+   "value": "71%",
+   "kind": "vendor survey",
+   "label": "of surveyed leaders said their organisations cannot fully trust autonomous AI agents for enterprise use.",
+   "say": "In Capgemini's vendor survey of 1,100 leaders at large organisations, 71% said they cannot fully trust autonomous agents.",
+   "never": "Most companies distrust AI agents. (It is a vendor survey of large firms.)",
+   "src": "Capgemini Research Institute (2025). 1,100 leaders, organisations above US$1 billion revenue, 15 countries."
+  },
+  {
+   "id": "S2",
+   "value": ">40%",
+   "kind": "forecast",
+   "label": "of agentic AI projects will be cancelled by the end of 2027, according to a Gartner prediction.",
+   "say": "Gartner predicts that over 40% of agentic AI projects will be cancelled by the end of 2027. That is a forecast, not an observed rate.",
+   "never": "40% of agent projects fail.",
+   "src": "Gartner press release, 25 June 2025."
+  },
+  {
+   "id": "S6",
+   "value": "2024",
+   "kind": "case",
+   "label": "A tribunal held Air Canada responsible for its website chatbot's incorrect bereavement-fare information.",
+   "say": "In Moffatt v. Air Canada, a tribunal held the company responsible for what its chatbot told a customer. Accountability stayed with the firm.",
+   "never": "Chatbots create legal liability everywhere.",
+   "src": "Moffatt v. Air Canada, 2024 BCCRT 149; AI Incident Database, Incident 639."
+  },
+  {
+   "id": "S7",
+   "value": "4",
+   "kind": "standard",
+   "label": "functions organise AI risk management in the NIST AI RMF: Govern, Map, Measure and Manage.",
+   "say": "The NIST framework organises AI risk work into Govern, Map, Measure and Manage. It asks firms to document mission and AI goals.",
+   "never": "NIST requires alignment audits of agents.",
+   "src": "Tabassi (2023), NIST AI 100-1."
+  }
+ ],
+ "levels": [
+  {
+   "id": "L1",
+   "name": "Enterprise strategy",
+   "desc": "Priorities, strategy maps, OKRs at company level"
+  },
+  {
+   "id": "L2",
+   "name": "Unit and group priorities",
+   "desc": "What a business unit or team is asked to deliver"
+  },
+  {
+   "id": "L3",
+   "name": "Individual priorities and mandates",
+   "desc": "What a person may decide, approve or delegate"
+  },
+  {
+   "id": "L4",
+   "name": "AI-agent goals, instructions, guardrails",
+   "desc": "What the agent is told, allowed and observed to do"
+  }
+ ],
+ "mechanisms": [
+  {
+   "id": "M1",
+   "name": "Goal / specification mismatch",
+   "levels": [
+    "L1",
+    "L2",
+    "L4"
+   ],
+   "rule": "Needs a documented strategic referent **and** the agent's actual objective. A poor result alone is not enough.",
+   "requirement": "Make goal translations and trade-offs traceable from L1 to L4.",
+   "example": "The unit priority is timely resolution within approved commercial rules. The agent's instruction says 'close tickets fast'. The rule is missing from L4."
+  },
+  {
+   "id": "M2",
+   "name": "Information asymmetry",
+   "levels": [
+    "L3",
+    "L4"
+   ],
+   "rule": "Needs a **specific** missing trace or intervention point, not a generic claim that AI is opaque.",
+   "requirement": "Separate missing evidence from real misalignment. Missing stays 'unknown'.",
+   "example": "The action log exists, but the approval log for exceptions is not kept. The state is unknown, not misaligned."
+  },
+  {
+   "id": "M3",
+   "name": "Authority misfit",
+   "levels": [
+    "L3",
+    "L4"
+   ],
+   "rule": "Compares **delegated rights** with **actual permissions and actions**.",
+   "requirement": "Compare authorised with actual actions.",
+   "example": "A person may approve discounts up to a limit. The agent's permission allows any discount, and the log shows one above the limit."
+  },
+  {
+   "id": "M4",
+   "name": "Accountability ambiguity",
+   "levels": [
+    "L2",
+    "L3"
+   ],
+   "rule": "Asks who could **approve, monitor and remedy** an outcome. A named owner is not enough.",
+   "requirement": "Require an owner with the capacity to intervene.",
+   "example": "The workflow names an owner, but the owner cannot reverse the agent's actions. Compare the Air Canada tribunal case: the firm stayed accountable."
+  },
+  {
+   "id": "M5",
+   "name": "Trust miscalibration",
+   "levels": [
+    "L3",
+    "L4"
+   ],
+   "rule": "Needs evidence about **appropriate reliance**, not a trust rating.",
+   "requirement": "Judge reliance against task evidence.",
+   "example": "Reviewers approve every agent proposal without opening it. High satisfaction does not show appropriate reliance (Buçinca et al., 2021)."
+  },
+  {
+   "id": "M6",
+   "name": "Coordination conflict",
+   "levels": [
+    "L2",
+    "L4"
+   ],
+   "rule": "Concerns conflicts at **hand-offs** between humans and agents, or agent and agent.",
+   "requirement": "Map human–agent and agent–agent hand-offs.",
+   "example": "A pricing agent and a service agent apply different exception rules to the same customer."
+  }
+ ],
+ "method": {
+  "intro": "Design science builds an artefact and tests it against criteria that can fail. This page is the map an examiner asks for: every sub-problem has an objective, a question, a proposition, data and a test.",
+  "dsrm_note": "Peffers et al. (2007). Two build–evaluate cycles planned with FEDS (Venable et al., 2016). t0 = IRB clearance; the plan runs to t0 + 9 months.",
+  "interfaces": "Horizontal interfaces: human ↔ agent hand-offs and agent ↔ agent coordination. The cascade is a provisional design vocabulary, not a validated universal hierarchy.",
+  "paradigm": "**Pragmatism with a design orientation.** The study judges the artefact by warranted use, comparison with a strong existing baseline, and evidence that others can inspect. Its knowledge is prescriptive: design principles that work, fail or need another test."
+ },
+ "trace": [
+  {
+   "sp_id": "SP1",
+   "sp": "Evidence rules for warranted assessment are unresolved",
+   "ro_id": "RO1",
+   "ro": "Requirements-to-evidence matrix by t0 + 2; expert confirmation by t0 + 5",
+   "rq_id": "RQ1 · exploratory",
+   "rq": "What requirements and evidence rules should the assessment meet?",
+   "dp_id": "DP1",
+   "dp": "Each item is relevant and clear",
+   "data_id": "New + existing",
+   "data": "12–16 interviews in four roles; authorised strategy, authority and instruction records; nine independent expert ratings",
+   "test_id": "Decision rule",
+   "test": "Deductive M1–M6 plus inductive coding; relevance and clarity rated separately; at least 8 of 9 experts per item"
+  },
+  {
+   "sp_id": "SP2",
+   "sp": "A representation of L1–L4 and both interfaces is unresolved",
+   "ro_id": "RO2",
+   "ro": "Frozen v1 and traceable v2 by t0 + 5",
+   "rq_id": "RQ2 · design",
+   "rq": "How should the diagnostic represent L1–L4 and both interfaces?",
+   "dp_id": "DP2",
+   "dp": "The representation is complete and faithful",
+   "data_id": "Design records",
+   "data": "Prototype versions; requirement–feature–test links; source mappings; change log",
+   "test_id": "Decision rule",
+   "test": "Every requirement has a feature and a test; at least 90% of audited mappings faithful"
+  },
+  {
+   "sp_id": "SP3",
+   "sp": "Performance against current practice is untested",
+   "ro_id": "RO3",
+   "ro": "Evaluation complete by t0 + 8",
+   "rq_id": "RQ3 · comparative",
+   "rq": "How well does v2 perform against current practice?",
+   "dp_id": "DP3–DP6",
+   "dp": "Controlled accuracy, field added value, usability, prioritisation utility",
+   "data_id": "New",
+   "data": "12 formative + 12 held-out cases keyed by an independent team; 3 workflows; 12–16 users; same evidence and time for both methods",
+   "test_id": "Decision rules",
+   "test": "≥ 80% precision and recall (held-out); added warranted findings in ≥ 2 of 3 workflows; SUS ≥ 70; ≥ 80% rate prioritisation 4–5"
+  }
+ ],
+ "dsrm": [
+  {
+   "n": 1,
+   "name": "Identify problem",
+   "output": "Problem statement with sources; requirements interviews plan"
+  },
+  {
+   "n": 2,
+   "name": "Define objectives",
+   "output": "Requirements-to-evidence matrix (RO1); DP1–DP6 fixed before Cycle 1"
+  },
+  {
+   "n": 3,
+   "name": "Design and develop",
+   "output": "v1, then v2: framework, evidence register, instrument, guide; change log"
+  },
+  {
+   "n": 4,
+   "name": "Demonstrate",
+   "output": "Completed assessments on controlled cases and one workflow"
+  },
+  {
+   "n": 5,
+   "name": "Evaluate",
+   "output": "Met / unmet / inconclusive decision per proposition"
+  },
+  {
+   "n": 6,
+   "name": "Communicate",
+   "output": "Dissertation and conditional design principles, including failed ones"
+  }
+ ],
+ "feds": [
+  {
+   "tag": "Cycle 1 · artificial · formative",
+   "name": "Expert and controlled-case work on v1",
+   "items": [
+    "Nine independent experts rate each item's relevance and clarity (DP1)",
+    "Mapping audit: every requirement has a feature and a test (DP2)",
+    "12 formative cases keyed by an independent three-person team",
+    "Revise to v2 and log every change with its reason"
+   ]
+  },
+  {
+   "tag": "Cycle 2 · artificial + naturalistic · summative",
+   "name": "Held-out confirmation and field comparison of frozen v2",
+   "items": [
+    "12 held-out cases for frozen v2: precision and recall (DP3)",
+    "Three real workflows, 12–16 users, current review plus telemetry as the baseline (DP4)",
+    "Same evidence and time budget for both methods",
+    "SUS (DP5) and prioritisation value (DP6); each DP decided separately"
+   ]
+  }
+ ],
+ "kernels": [
+  {
+   "theory": "Strategic fit",
+   "ref": "Henderson & Venkatraman, 1993/1999",
+   "informs": "The relational idea of alignment across levels (L1–L4)"
+  },
+  {
+   "theory": "Delegation to and from agentic IS artefacts",
+   "ref": "Baird & Maruping, 2021",
+   "informs": "The mandate–permission–action comparison (M3), the worked chain"
+  },
+  {
+   "theory": "Conjoined agency",
+   "ref": "Murray et al., 2021",
+   "informs": "Horizontal human–agent and agent–agent interfaces (M6)"
+  },
+  {
+   "theory": "Responsibility gaps",
+   "ref": "Santoni de Sio & Mecacci, 2021",
+   "informs": "Owners need the capacity to respond, not only a name (M4)"
+  },
+  {
+   "theory": "AI RMF (governance framework, not a kernel theory)",
+   "ref": "Tabassi, 2023",
+   "informs": "Documentation the evidence register can reuse"
+  }
+ ],
+ "alternatives": [
+  {
+   "alt": "Survey:",
+   "why": "estimates perceived misalignment, but builds and tests nothing."
+  },
+  {
+   "alt": "Explanatory model (PLS-SEM):",
+   "why": "tests relationships between constructs, but produces no artefact. It stays available as Topic C."
+  },
+  {
+   "alt": "Case study:",
+   "why": "can support evaluation, but alone it does not construct the assessment."
+  },
+  {
+   "alt": "Action design research:",
+   "why": "fits if a host firm wants a broader participatory intervention. That would need a revised protocol."
+  }
+ ],
+ "selftests": [
+  {
+   "id": "t1",
+   "name": "Delete test",
+   "how": "Read the problem slide without its last sentence. A listener must still say what needs to be built.",
+   "src": "Researcher's Journey, DSR step 2"
+  },
+  {
+   "id": "t2",
+   "name": "One-breath test",
+   "how": "Say the purpose in one breath, with design, demonstrate and evaluate.",
+   "src": "Researcher's Journey, DSR step 4"
+  },
+  {
+   "id": "t3",
+   "name": "Failure question",
+   "how": "For each DP, say which result would make you call the diagnostic a failure.",
+   "src": "Researcher's Journey, DSR step 7"
+  },
+  {
+   "id": "t4",
+   "name": "60-second trace",
+   "how": "Trace the mandate–permission–action feature back to its requirement, principle and kernel theory.",
+   "src": "Researcher's Journey, DSR step 8"
+  },
+  {
+   "id": "t5",
+   "name": "Why not just survey people?",
+   "how": "Answer it in one sentence, then in 60 seconds.",
+   "src": "Researcher's Journey, DSR step 14"
+  },
+  {
+   "id": "t6",
+   "name": "Empty-cell audit",
+   "how": "Check the traceability table above. No cell may be empty.",
+   "src": "Researcher's Journey, DSR step 23"
+  }
+ ],
+ "demo": {
+  "title": "A leader uses the diagnostic on one workflow",
+  "intro": "This is slide 9 in slow motion. It shows **how** a leader would use the diagnostic. The organisation, records and outcomes are invented. Nothing here is a study result, and the existing review may reach the same decision.",
+  "workflow": "An invented B2B service firm uses a **service-request agent**. It resolves customer requests and can offer goodwill credits.",
+  "chain": [
+   {
+    "level": "L1",
+    "text": "Reliable service under approved commercial rules"
+   },
+   {
+    "level": "L2",
+    "text": "Service unit: timely resolution of customer requests"
+   },
+   {
+    "level": "L3",
+    "text": "Team lead's mandate: credits above the limit need approval"
+   },
+   {
+    "level": "L4",
+    "text": "Agent instruction: resolve requests; may issue credits"
+   }
+  ],
+  "use": "If an examiner asks 'how would a manager actually use this?', walk through these six steps in 90 seconds. Say 'illustrative' twice. End on the action, not on a score.",
+  "steps": [
+   {
+    "phase": "Frame",
+    "title": "Start from the decision, not the dashboard",
+    "text": "The leader asks one question: are this agent's credit decisions warranted by strategy and by the team lead's mandate? The unit of analysis is one bounded workflow, not the enterprise.",
+    "callout": "Name the workflow, the agent and the human mandate before looking at any log."
+   },
+   {
+    "phase": "Gather",
+    "title": "Build the evidence register",
+    "text": "The leader lists the records that each level needs. Missing records stay visible. They are never filled in by assumption.",
+    "table": [
+     [
+      "Record",
+      "Level",
+      "Status"
+     ],
+     [
+      "Strategy extract: approved commercial rules",
+      "L1",
+      "Aligned"
+     ],
+     [
+      "Unit OKR: resolution time",
+      "L2",
+      "Aligned"
+     ],
+     [
+      "Authority matrix: credit approval limit",
+      "L3",
+      "Aligned"
+     ],
+     [
+      "Agent instructions, version 3",
+      "L4",
+      "Aligned"
+     ],
+     [
+      "Agent permission configuration",
+      "L4",
+      "Aligned"
+     ],
+     [
+      "Approval log for credits above the limit",
+      "L3",
+      "Unknown"
+     ]
+    ],
+    "callout": "Ask the system owner for the approval log. Do not guess."
+   },
+   {
+    "phase": "Apply rules",
+    "title": "Apply the six evidence rules",
+    "text": "Each mechanism has its own rule. The output is an evidence state, not a single score.",
+    "table": [
+     [
+      "Mechanism",
+      "Evidence",
+      "State"
+     ],
+     [
+      "M1 Goal / specification",
+      "Instruction omits the commercial rule that L1 requires",
+      "Misaligned"
+     ],
+     [
+      "M2 Information",
+      "No approval log for large credits",
+      "Unknown"
+     ],
+     [
+      "M3 Authority",
+      "Permission allows any credit; mandate sets a limit",
+      "Open"
+     ],
+     [
+      "M4 Accountability",
+      "Owner named, but cannot reverse a credit",
+      "Disputed"
+     ],
+     [
+      "M5 Reliance",
+      "No reviewer evidence collected",
+      "Unknown"
+     ],
+     [
+      "M6 Coordination",
+      "No second agent in this workflow",
+      "Aligned"
+     ]
+    ],
+    "callout": "Keep 'unknown' and 'disputed' separate from 'misaligned'."
+   },
+   {
+    "phase": "Decide",
+    "title": "One credit above the limit: three possible branches",
+    "text": "The log shows one credit above the team lead's limit. The leader's decision depends on the evidence, not on the flag.",
+    "table": [
+     [
+      "If the evidence shows",
+      "Then the state is",
+      "And the leader"
+     ],
+     [
+      "A documented approval for this trade-off",
+      "Aligned",
+      "Records it and closes the item"
+     ],
+     [
+      "No approval record either way",
+      "Unknown",
+      "Requests the evidence before any finding"
+     ],
+     [
+      "The action exceeded the delegated authority",
+      "Misaligned",
+      "Escalates an M3 finding to an owner who can remedy it"
+     ]
+    ],
+    "callout": "Missing approval evidence means unknown. It does not prove an unauthorised action."
+   },
+   {
+    "phase": "Compare",
+    "title": "The same evidence, given to the current review",
+    "text": "The study gives the existing strategy review and AI governance the same records and the same time. The current review may reach the same decision. That would be a valid finding: DP4 would stay unmet in that workflow.",
+    "table": [
+     [
+      "Question",
+      "Current review",
+      "Diagnostic"
+     ],
+     [
+      "Is the credit limit in the agent's permissions?",
+      "Possibly",
+      "Checked by rule M3"
+     ],
+     [
+      "Is the missing approval log visible?",
+      "Possibly",
+      "Shown as unknown (M2)"
+     ],
+     [
+      "Can the owner remedy the action?",
+      "Possibly",
+      "Checked by rule M4"
+     ]
+    ],
+    "callout": "Do not claim the diagnostic wins. The evaluation decides that."
+   },
+   {
+    "phase": "Act",
+    "title": "The leader leaves with three actions",
+    "text": "1) Add the commercial rule to the agent's instructions. 2) Align the agent's permission with the mandate limit. 3) Give the owner a way to reverse credits. In the study, the researcher records whether these findings were warranted and whether the baseline also found them.",
+    "callout": "End on the action list. That is what 'useful to a manager' means here."
+   }
+  ]
+ },
+ "craft": {
+  "intro": "These are coach practices for delivery, not Dr Sumitra's rules. Her method decides **what** you say. This page helps with **how** you say it in 12 minutes.",
+  "sections": [
+   {
+    "tag": "Opening",
+    "title": "The first 30 seconds",
+    "lead": "Examiners decide early whether you know your problem.",
+    "items": [
+     "Start with the problem sentence, not with 'Good morning, my name is'. Your title slide shows your name.",
+     "Say the purpose in one breath: design, demonstrate and evaluate.",
+     "Look at the chair for the first sentence and the room for the second."
+    ]
+   },
+   {
+    "tag": "Signposting",
+    "title": "Tell them where they are",
+    "items": [
+     "Use the same three words throughout: **requirements**, **design**, **fair test**.",
+     "Begin each slide with its message, then the detail.",
+     "Before slide 4 say: 'Here is the whole study on one table.'"
+    ]
+   },
+   {
+    "tag": "Voice",
+    "title": "Pace and pauses",
+    "items": [
+     "Aim for 125–140 words per minute. Nerves push most speakers above 160.",
+     "Pause for two seconds after each slide's message.",
+     "Slow down on numbers. Say the population with every statistic."
+    ]
+   },
+   {
+    "tag": "Slides",
+    "title": "Use the slides, do not read them",
+    "items": [
+     "Point to the table row you are speaking about.",
+     "Never read a bullet word for word.",
+     "If a slide is dense, say: 'The one thing to see here is…'"
+    ]
+   },
+   {
+    "tag": "Questions",
+    "title": "Answer → Evidence → Limit",
+    "lead": "The shape of every answer in the Viva Gym.",
+    "items": [
+     "Pause for two seconds before you answer. It shows thought, not doubt.",
+     "Answer in one sentence first. Then give the evidence. Then state the limit yourself.",
+     "If you do not know: 'I have not established that yet. Here is how the study would find out.'",
+     "Never defend with experience alone. Defend with evidence and design."
+    ]
+   },
+   {
+    "tag": "Hard moments",
+    "title": "When a question feels hostile",
+    "items": [
+     "Thank the examiner and restate the question in one line.",
+     "Agree with the true part first: 'Yes, the existing review may be enough.'",
+     "Show that your design already allows that outcome: 'That is why DP4 can fail.'"
+    ]
+   },
+   {
+    "tag": "Recovery",
+    "title": "If something goes wrong",
+    "items": [
+     "**Running long:** at 9:30, go straight to slide 9's three branches, then slide 10.",
+     "**Blank mind:** look at your anchor card. Say the slide's message sentence.",
+     "**Projector fails:** present from the PDF on your laptop or a printout.",
+     "**Mis-spoke a number:** correct it at once. 'Correction: respondents, not firms.'"
+    ]
+   },
+   {
+    "tag": "Feedback",
+    "title": "Capture the feedback well",
+    "items": [
+     "Write each comment in three parts: what works, what to strengthen, one concrete fix.",
+     "Ask one clarifying question if a comment is unclear.",
+     "Fold the fixes into the topic paper the same evening."
+    ]
+   }
+  ],
+  "dayof": [
+   {
+    "when": "Night before",
+    "items": [
+     "Deck PDF on laptop, USB key and email",
+     "Cue cards printed or on your phone",
+     "One full run, then stop. Sleep."
+    ]
+   },
+   {
+    "when": "Morning",
+    "items": [
+     "Say the opening and the close aloud once",
+     "Charge the laptop and clicker",
+     "Water bottle in your bag"
+    ]
+   },
+   {
+    "when": "Ten minutes before",
+    "items": [
+     "Open the deck at slide 1 in presenter view",
+     "Start the presenter timer at your first word",
+     "Breathe out slowly, twice. Then begin with the problem."
+    ]
+   }
+  ]
+ },
+ "coach_tips": [
+  {
+   "text": "State the limit before the examiner does. It turns a weakness into evidence of rigour.",
+   "src": "Coach practice"
+  },
+  {
+   "text": "Say 'respondents', not 'companies', with every survey number.",
+   "src": "Coach practice · Evidence locker"
+  },
+  {
+   "text": "A demonstration is not an evaluation. Say which one you mean.",
+   "src": "Researcher's Journey, DSR step 13"
+  },
+  {
+   "text": "Missing evidence stays 'unknown'. It never becomes a misalignment score.",
+   "src": "Topic paper, Section 3.3"
+  },
+  {
+   "text": "The problem never names the fix. Your artefact is the answer, so it cannot be in the question.",
+   "src": "Researcher's Journey, DSR step 2"
+  },
+  {
+   "text": "A strong existing baseline is a reportable result, not a threat to your dissertation.",
+   "src": "Topic paper, Section 3.6"
+  },
+  {
+   "text": "Every design proposition must be able to fail. Know which result would fail each one.",
+   "src": "Researcher's Journey, DSR step 7"
+  }
+ ],
+ "answer_checks": [
+  {
+   "id": "direct",
+   "label": "Answers the question directly",
+   "jev": "Does the candidate's answer directly answer the examiner's question in its first one or two sentences?",
+   "invert": false,
+   "repair": "Start again with one sentence that answers the exact question. Put the reason after it."
+  },
+  {
+   "id": "evidence",
+   "label": "Gives evidence (a source, a study design fact or data)",
+   "jev": "Does the candidate's answer support its main point with specific evidence, such as a named source, a named framework, or a concrete fact about the planned study design or data?",
+   "invert": false,
+   "repair": "Add one named source or one concrete design fact, for example 'nine independent experts rate each item'."
+  },
+  {
+   "id": "limit",
+   "label": "States a real limit",
+   "jev": "Does the candidate's answer state a substantive limitation or condition on its own main claim? A generic 'more research is needed' does not count.",
+   "invert": false,
+   "repair": "Add one sentence that starts 'The limit is…' and names a specific condition, not 'more research is needed'."
+  },
+  {
+   "id": "noclaim",
+   "label": "Claims no results the study does not have",
+   "jev": "Does the candidate's answer present planned study activities, proposed thresholds or the diagnostic's performance as results that have already been achieved or proven?",
+   "invert": true,
+   "repair": "Change any 'shows' or 'proves' to 'will test'. There are no results yet."
+  },
+  {
+   "id": "unknown",
+   "label": "Keeps missing evidence as 'unknown'",
+   "jev": "Does the candidate's answer treat missing or disputed evidence as proof that the agent is misaligned?",
+   "invert": true,
+   "repair": "Say that missing evidence stays 'unknown' and that you would request the record before any finding."
+  }
+ ],
+ "jev_checks": {
+  "slide": [
+   {
+    "label": "Presents proposed work as achieved results",
+    "q": "Does the text say that study data were collected, that experts rated items, that the diagnostic was validated, or that results were obtained?",
+    "want": false
+   },
+   {
+    "label": "Claims nobody has studied the topic",
+    "q": "Does the text claim that the topic is unstudied, that no prior research or tool exists, or that existing frameworks completely fail?",
+    "want": false
+   },
+   {
+    "label": "Treats missing evidence as proof of misalignment",
+    "q": "Does the slide text or script treat missing or disputed evidence as proof of misalignment?",
+    "want": false
+   },
+   {
+    "label": "Generalises controlled accuracy to the field",
+    "q": "Does the slide text or script generalise controlled-case precision or recall to field sensitivity or enterprise-wide accuracy?",
+    "want": false
+   },
+   {
+    "label": "Presents a forecast as an observed fact",
+    "q": "Does the text state a forecast or prediction about the future as if it were an observed, current fact?",
+    "want": false
+   },
+   {
+    "label": "Names pragmatism and its consequence for evidence",
+    "q": "Does the slide text or script name pragmatism as the proposed paradigm and explain what it means for the evidence the study accepts?",
+    "want": true,
+    "only": [
+     5
+    ]
+   },
+   {
+    "label": "Grounds a feature in a kernel theory",
+    "q": "Does the slide show how a named kernel theory grounds a requirement, a design principle and a feature?",
+    "want": true,
+    "only": [
+     5
+    ]
+   },
+   {
+    "label": "Each row's data permit its test",
+    "q": "For each row of the traceability table, do the named data permit the named test to answer that row's research question?",
+    "want": true,
+    "only": [
+     4
+    ]
+   },
+   {
+    "label": "Propositions have pre-set decision rules",
+    "q": "Does the slide test stated artefact properties against decision rules that are fixed before evaluation?",
+    "want": true,
+    "only": [
+     7
+    ]
+   },
+   {
+    "label": "Walk-through labelled illustrative",
+    "q": "Does the slide clearly label the leader walk-through as illustrative and not a result of the proposed study?",
+    "want": true,
+    "only": [
+     9
+    ]
+   },
+   {
+    "label": "Problem stated without naming the fix",
+    "q": "Does the slide state the business problem without naming the proposed diagnostic as the solution?",
+    "want": true,
+    "only": [
+     2
+    ]
+   }
+  ],
+  "answer": [
+   {
+    "label": "Answers the question directly",
+    "q": "Does the model answer directly answer the examiner's question?",
+    "want": true
+   },
+   {
+    "label": "States a substantive limit",
+    "q": "Does the model answer admit at least one specific weakness, boundary or condition of its own claim, more specific than 'more research is needed'?",
+    "want": true
+   },
+   {
+    "label": "Claims achieved results",
+    "q": "Does the model answer state that any study data, expert ratings, validation, pilot outcome or performance result already exists?",
+    "want": false
+   },
+   {
+    "label": "Missing evidence treated as proof",
+    "q": "Does the model answer treat missing or disputed evidence as proof of misalignment?",
+    "want": false
+   }
+  ],
+  "deck": [
+   {
+    "label": "Problem before solution",
+    "q": "Does the storyline establish the problem and the gap before it presents the proposed diagnostic?",
+    "want": true
+   },
+   {
+    "label": "Problem → gap → questions → framework → method → contribution",
+    "q": "Does the storyline move from problem to gap, research questions, conceptual framework, method and contribution in that order?",
+    "want": true
+   },
+   {
+    "label": "Claims validation already done",
+    "q": "Does the storyline claim that the diagnostic has already been validated or proven effective?",
+    "want": false
+   }
+  ]
+ },
+ "jev_context": "Context: a doctoral research PROPOSAL presented before any data collection. No study data, ratings or results exist yet. Thresholds are proposed, not achieved.\n"
+}

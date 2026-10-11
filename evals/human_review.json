@@ -1,0 +1,6 @@
+{"reviews": [
+ {"target": "q07", "check": "Claims achieved results", "disposition": "pass", "reviewer": "Claude (orchestrator)", "date": "2026-10-11",
+  "reason": "The evidence sentence reports other authors' published work (Diab 2021, Issa et al. 2026), not results of this study. No study result is claimed."},
+ {"target": "slide 4", "check": "Each row's data permit its test", "disposition": "pass", "reviewer": "Claude (orchestrator)", "date": "2026-10-11",
+  "reason": "Each row names data that can answer its RQ: interviews/records/expert ratings for RQ1, design records for RQ2, held-out cases plus matched field comparison for RQ3. Row 3 thresholds are abbreviated here and stated in full on slide 7. Predicate has no fixtures, so it is advisory."}
+]}

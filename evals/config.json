@@ -1,0 +1,85 @@
+{
+ "wpm": 130,
+ "talk_seconds_range": [
+  690,
+  750
+ ],
+ "slide_fit": [
+  0.8,
+  1.15
+ ],
+ "min_questions": 30,
+ "max_sentence_words": 25,
+ "jev_threshold": 0.7,
+ "jev_min_pass_rate": 0.95,
+ "allowed_percents": [
+  "55",
+  "40",
+  "27",
+  "22",
+  "71",
+  "14",
+  "23",
+  "46",
+  "80",
+  "90",
+  "75",
+  "100"
+ ],
+ "allowed_percents_why": {
+  "55": "S1 Sull et al. 2015",
+  "40": "S2 Gartner forecast >40% and S3 McKinsey 2026 40%",
+  "27": "S3 previous year",
+  "22": "S3 smaller organisations",
+  "71": "S4 Capgemini",
+  "14": "S4 Capgemini scale",
+  "23": "S4 Capgemini pilots",
+  "46": "S4 Capgemini governance",
+  "80": "DP3/DP6 thresholds",
+  "90": "DP2 threshold",
+  "75": "dossier: 30 of 40 sources 2021-2026",
+  "100": "coverage statements"
+ },
+ "required_stats": [
+  "S1",
+  "S2",
+  "S3",
+  "S4"
+ ],
+ "citation_false_positives": [
+  "slide",
+  "since",
+  "until",
+  "from",
+  "in",
+  "by",
+  "october",
+  "september",
+  "march",
+  "june",
+  "august",
+  "immersion",
+  "cohort",
+  "t0",
+  "rmf",
+  "edition",
+  "survey",
+  "year",
+  "fy",
+  "dp",
+  "sus"
+ ],
+ "forbidden_patterns": {
+  "api key": "apikey_[A-Za-z0-9]",
+  "transcript timestamp": "\\bS\\d\\d@\\d",
+  "private session ref": "\\bS(0[1-9]|1[0-3]) ?@",
+  "placeholder": "USER TO CONFIRM",
+  "email address": "[A-Za-z0-9._%+-]+@(gmail|ggu|ggu\\.edu|outlook|yahoo)\\.",
+  "private feedback file": "FEEDBACK\\.md|knowledge\\.md|class-2026",
+  "private notes heading": "Private notes"
+ },
+ "jev_thresholds": {
+  "Presents proposed work as achieved results": 0.5
+ },
+ "jev_thresholds_why": "A per-predicate cut-off is used only when fixtures separate the classes cleanly at that cut-off (achieved: yes 0.62-0.74, no 0.02-0.04)."
+}

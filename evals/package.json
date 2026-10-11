@@ -1,0 +1,1 @@
+{"name":"stagecraft-evals","private":true,"type":"module","dependencies":{"axe-core":"^4.14.0","playwright":"^1.64.0"}}

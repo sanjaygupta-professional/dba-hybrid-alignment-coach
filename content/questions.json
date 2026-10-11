@@ -1,0 +1,650 @@
+[
+  {
+    "id": "q01",
+    "cat": "Problem",
+    "q": "What is the actual business problem, without naming your solution?",
+    "a": "Managers need to judge whether delegated agent actions are warranted by enterprise priorities and human mandates. The uncertainty is whether available evidence supports that judgement.",
+    "e": "Tabassi (2023) already connects AI goals with mission and business value. Baird and Maruping (2021) provide the delegation perspective; the proposal examines mandates, permissions and actions.",
+    "l": "I have not established that this problem occurs in a participating organisation. Access and authorised workflow records must confirm the local need before the design is committed.",
+    "trap": "The diagnostic is the business problem.",
+    "hard": 3,
+    "slide": 1,
+    "crit": [
+      "C01",
+      "C18"
+    ],
+    "keys": [
+      "business problem",
+      "warranted judgement",
+      "local need"
+    ]
+  },
+  {
+    "id": "q02",
+    "cat": "Problem",
+    "q": "Where does this happen, whom does it affect, and how much does it cost?",
+    "a": "The proposed setting is India-based B2B service firms; affected users are business, operations and governance managers; local costs are unknown, not estimated. I plan three workflows across one or two access-pending firms.",
+    "e": "The paper proposes interviews and strategy, authority, instruction and action records to establish their assessment needs. Santoni de Sio and Mecacci (2021) explain why responsibility requires capacity to respond.",
+    "l": "Site access, affected workflows and local losses are unconfirmed. I cannot provide a defensible cost estimate or claim enterprise-wide financial harm from the current evidence.",
+    "trap": "Agent adoption proves losses in the proposed organisations.",
+    "hard": 3,
+    "slide": 8,
+    "crit": [
+      "C01",
+      "C13",
+      "C15"
+    ],
+    "keys": [
+      "bounded workflows",
+      "b2b services",
+      "access",
+      "local cost"
+    ]
+  },
+  {
+    "id": "q03",
+    "cat": "Problem",
+    "q": "Why now? Do your adoption statistics prove misalignment?",
+    "a": "Adoption makes the assessment question timely; it does not prove misalignment.",
+    "e": "McKinsey & Company (2026) reports: 40% of respondents from organisations above US$1 billion scaled agents, versus 27% previously; smaller organisations remained at 22%. Capgemini Research Institute (2025) reports a vendor-survey trust concern. Gartner (2025) provides a forecast.",
+    "l": "These are different populations and evidence types. They do not estimate failure in my proposed sites, establish causation, or show that existing reviews are inadequate.",
+    "trap": "Adoption percentages measure agent misalignment across all firms.",
+    "hard": 2,
+    "slide": 2,
+    "crit": [
+      "C02",
+      "C04"
+    ],
+    "keys": [
+      "respondents",
+      "mckinsey 2026",
+      "vendor survey",
+      "forecast"
+    ]
+  },
+  {
+    "id": "q04",
+    "cat": "Gap",
+    "q": "Did you actually try OKRs, strategy maps, alignment maturity and NIST before proposing another tool?",
+    "a": "I have examined these approaches in the literature, but have not tested their adequacy in a participating workflow. Adaptation may be sufficient.",
+    "e": "Henderson and Venkatraman (1993/1999), Luftman (2000), Kaplan and Norton (2004), Rompho (2024) and Tabassi (2023) provide substantial alignment and governance resources. The proposed field comparator combines existing review with available telemetry.",
+    "l": "The literature does not justify claiming that these approaches exclude agents. Their actual coverage and effort must be established against the same workflow evidence.",
+    "trap": "OKRs and governance frameworks cannot assess agents.",
+    "hard": 3,
+    "slide": 3,
+    "crit": [
+      "C04",
+      "C18"
+    ],
+    "keys": [
+      "existing tools",
+      "adaptation",
+      "matched baseline",
+      "telemetry"
+    ]
+  },
+  {
+    "id": "q05",
+    "cat": "Gap",
+    "q": "What is novel compared with Issa's agentic-loafing diagnostic and Accountability Tracing Log?",
+    "a": "Novelty is provisional: the candidate contribution concerns warranted cross-level workflow assessment and comparative evaluation, rather than merely recording delegated accountability.",
+    "e": "Issa et al. (2026) already provide direct agent-specific prior art, including an Accountability Tracing Log. The paper identifies proxy measures, equal weights and hypothetical demonstrations as limits of the inspected work.",
+    "l": "Those limits do not establish that my design is superior. Close full texts and the proposed setting must be examined before novelty is frozen; an adaptation may be the better outcome.",
+    "trap": "No agent-specific diagnostic exists.",
+    "hard": 3,
+    "slide": 3,
+    "crit": [
+      "C03",
+      "C04",
+      "C10"
+    ],
+    "keys": [
+      "issa",
+      "accountability tracing log",
+      "proxy measures",
+      "provisional novelty"
+    ]
+  },
+  {
+    "id": "q06",
+    "cat": "Gap",
+    "q": "What if the ADIPEC strategic-orchestration paper already solves your problem?",
+    "a": "I would revise the novelty claim and test whether adaptation or a narrower evaluation contribution remains justified.",
+    "e": "Alfaify and Almarzooq (2025) report a four-agent strategic technology orchestration system with pilot claims. The paper acknowledges that the accessible abstract lacks the sample and comparator detail needed to judge those claims.",
+    "l": "Missing detail in an abstract is not evidence of a weak full study. I must obtain the full paper before treating its limitations as a foundation for novelty.",
+    "trap": "Missing detail in an abstract proves that the prior study is weak.",
+    "hard": 3,
+    "slide": 3,
+    "crit": [
+      "C04",
+      "C18"
+    ],
+    "keys": [
+      "adipec",
+      "full text",
+      "comparator",
+      "novelty"
+    ]
+  },
+  {
+    "id": "q07",
+    "cat": "Gap",
+    "q": "Why have organisations not already implemented this, and what is the research gap in one sentence?",
+    "a": "A possible explanation is sufficient existing reviews; the research gap is warranted evidence rules and comparative field performance, while actual adoption barriers remain unknown.",
+    "e": "Diab (2021) assesses maturity from ratings; Issa et al. (2026) demonstrate a preliminary delegation diagnostic hypothetically. Mäntymäki et al. (2022) already include strategic alignment within AI governance.",
+    "l": "I do not know why particular organisations have not adopted an assessment. That requires interviews and records, not speculation about managerial neglect or a claim that no suitable approach exists.",
+    "trap": "Organisations have no assessment because managers ignored alignment.",
+    "hard": 3,
+    "slide": 3,
+    "crit": [
+      "C03",
+      "C04"
+    ],
+    "keys": [
+      "bounded gap",
+      "evidence rules",
+      "comparative performance"
+    ]
+  },
+  {
+    "id": "q08",
+    "cat": "Theory",
+    "q": "What is your paradigm, and what does it change about the evidence you accept?",
+    "a": "I propose pragmatism with a design orientation: judge the artefact through warranted use and inspectable evaluation, while retaining failure and disagreement.",
+    "e": "Hevner et al. (2004) and Peffers et al. (2007) support theory-grounded construction and evaluation. The paper's design accepts interviews, records, expert ratings and comparative tasks as evidence for different properties.",
+    "l": "The current paper does not explicitly develop this philosophical rationale. I should add and defend it with the chair; usefulness alone cannot establish diagnostic truth or justify every evidence source.",
+    "trap": "Pragmatism means any useful tool is accurate.",
+    "hard": 3,
+    "slide": 5,
+    "crit": [
+      "C09",
+      "C18"
+    ],
+    "keys": [
+      "pragmatism",
+      "design orientation",
+      "warranted use",
+      "inspectable evidence"
+    ]
+  },
+  {
+    "id": "q09",
+    "cat": "Theory",
+    "q": "How can an L1–L4 hierarchy represent reciprocal delegation and conflicting principals?",
+    "a": "I would use L1–L4 with bidirectional and horizontal links, recording each principal's mandate, authorised trade-offs and unresolved conflicts. It remains a provisional representation.",
+    "e": "The paper includes horizontal human–agent and agent–agent interfaces. Baird and Maruping (2021) theorise delegation to and from artefacts; Murray et al. (2021) describe conjoined agency. Fechner et al. (2025) show triadic, reciprocal delegation in one healthcare case.",
+    "l": "That case does not establish the same structure in B2B services. Interviews and records may require revising the representation and preserving incompatible interpretations.",
+    "trap": "L1–L4 is a universally validated one-way hierarchy.",
+    "hard": 3,
+    "slide": 5,
+    "crit": [
+      "C10",
+      "C15"
+    ],
+    "keys": [
+      "provisional representation",
+      "reciprocal delegation",
+      "interfaces",
+      "conjoined agency"
+    ]
+  },
+  {
+    "id": "q10",
+    "cat": "Theory",
+    "q": "Define misalignment. Why is an unsuccessful action not enough?",
+    "a": "A mismatch requires a warranted comparison between a documented referent and the agent objective, permission or action. Poor performance alone does not establish misalignment.",
+    "e": "The paper's M1 rule requires strategy and actual objective; M3 compares delegated rights with actions. Henderson and Venkatraman (1993/1999) provide relational alignment concepts, while Baird and Maruping (2021) ground delegation.",
+    "l": "Appropriate trade-offs can resemble contradiction. Missing referents or disputed interpretation must remain unknown; the assessment cannot infer private model intent or certify the whole enterprise as aligned.",
+    "trap": "Any unsuccessful agent action is misalignment.",
+    "hard": 3,
+    "slide": 5,
+    "crit": [
+      "C01",
+      "C10",
+      "C17"
+    ],
+    "keys": [
+      "misalignment",
+      "documented referent",
+      "authority",
+      "unknown"
+    ]
+  },
+  {
+    "id": "q11",
+    "cat": "Theory",
+    "q": "Trace one feature back to theory. Is your cascade really a conceptual framework?",
+    "a": "The conceptual framework should explain theory-to-feature reasoning; the cascade alone is the artefact's provisional representation.",
+    "e": "Baird and Maruping (2021) ground a requirement to compare delegated rights with actual actions. The design principle separates intended, authorised and observed states; the feature links mandate, permission and action evidence. Hevner et al. (2004) supports theory-grounded artefact construction.",
+    "l": "This trace is a design rationale, not validation. Expert requirements work, mapping audits and controlled cases must test whether the feature preserves meaning and detects warranted mismatches.",
+    "trap": "The cascade drawing itself establishes the conceptual framework and validates its features.",
+    "hard": 3,
+    "slide": 5,
+    "crit": [
+      "C10",
+      "C18"
+    ],
+    "keys": [
+      "kernel theory",
+      "requirement",
+      "design principle",
+      "feature",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "q12",
+    "cat": "Method",
+    "q": "Why DSR rather than a survey, case study, action research or PLS-SEM?",
+    "a": "The questions require me to design, demonstrate and evaluate an assessment. A survey or structural model alone would answer a different question.",
+    "e": "Hevner et al. (2004) and Peffers et al. (2007) connect the problem, artefact, demonstration and evaluation. The paper uses interviews and contextual comparison within that DSR design.",
+    "l": "A case study can support evaluation; it is not inherently incapable of it. Action design research may be appropriate if a host requires a broader participatory intervention, which would need a revised protocol.",
+    "trap": "DSR is appropriate because it avoids statistics and case studies cannot evaluate tools.",
+    "hard": 3,
+    "slide": 6,
+    "crit": [
+      "C05",
+      "C14",
+      "C18"
+    ],
+    "keys": [
+      "dsr",
+      "artefact",
+      "construction",
+      "alternatives"
+    ]
+  },
+  {
+    "id": "q13",
+    "cat": "Method",
+    "q": "Where are your primary data, and how does each question get answered?",
+    "a": "RQ1 uses new requirements interviews and expert ratings with existing records. RQ2 uses versioned design decisions and mapping audits. RQ3 uses controlled tasks and a field comparison.",
+    "e": "The paper specifies 12–16 interviews, nine independent experts, 24 controlled cases and three workflows with 12–16 users. Peffers et al. (2007) supplies the design sequence linking these outputs.",
+    "l": "These are planned data, not collected evidence. Organisational records are existing data; expert opinions cannot substitute for the proposed naturalistic comparison or establish diagnostic accuracy alone.",
+    "trap": "Expert opinion alone satisfies every research question.",
+    "hard": 3,
+    "slide": 4,
+    "crit": [
+      "C06",
+      "C08",
+      "C11",
+      "C13"
+    ],
+    "keys": [
+      "primary data",
+      "records",
+      "research questions",
+      "traceability"
+    ]
+  },
+  {
+    "id": "q14",
+    "cat": "Method",
+    "q": "If you answer all three RQs, have you solved the main problem?",
+    "a": "The three answers would establish requirements, a traceable representation and bounded performance evidence. They would not eliminate misalignment.",
+    "e": "The paper maps SP1–SP3 to RO1–RO3 and RQ1–RQ3. DP1 checks item relevance/clarity, DP2 checks completeness/fidelity, and DP3–DP6 examine performance, added value, usability and prioritisation. Hevner et al. (2004) supports this artefact-and-knowledge contribution.",
+    "l": "Requirements can remain disputed and criteria can fail. Even successful local tests would answer only the specified workflow assessment problem, not establish general enterprise effectiveness or incident reduction.",
+    "trap": "Passing the propositions eliminates enterprise misalignment.",
+    "hard": 3,
+    "slide": 4,
+    "crit": [
+      "C06",
+      "C07",
+      "C08",
+      "C16"
+    ],
+    "keys": [
+      "sub-problems",
+      "objectives",
+      "propositions",
+      "bounded contribution"
+    ]
+  },
+  {
+    "id": "q15",
+    "cat": "Method",
+    "q": "Why these sample sizes? Are you copying an illustrative example?",
+    "a": "The proposed counts balance role coverage, independent review and a bounded doctoral evaluation; they are not population-power claims.",
+    "e": "The paper proposes 12–16 interviewees across four roles, nine independent experts, a separate three-person reference team and 12–16 pilot users. Venable et al. (2016) supports selecting evaluation episodes for the artefact properties being tested.",
+    "l": "The paper needs stronger explicit recruitment and size justification. These cited methods do not establish that the chosen counts are sufficient; coverage, disagreement, independence and access must be checked before commitment.",
+    "trap": "These sample sizes are sufficient because an illustrative example used similar counts.",
+    "hard": 3,
+    "slide": 8,
+    "crit": [
+      "C13",
+      "C15",
+      "C18"
+    ],
+    "keys": [
+      "sample justification",
+      "role coverage",
+      "independence",
+      "access"
+    ]
+  },
+  {
+    "id": "q16",
+    "cat": "Method",
+    "q": "Why would your experts and adjudicators tell you that you are wrong?",
+    "a": "They must be independent of design decisions and able to reject items or findings. The proposal separates expert raters, reference adjudicators and pilot users.",
+    "e": "Nine experts assess relevance and clarity. A separate three-person team freezes controlled cases before seeing outputs. The paper's feasibility section explicitly treats independence and recruitment resources as gates; FEDS provides the evaluation planning basis (Venable et al., 2016).",
+    "l": "Independence is currently planned, not secured. Eligibility, conflicts, reporting relationships and recruitment funding must be documented; a friendly panel cannot establish accuracy through agreement.",
+    "trap": "A panel of supportive colleagues guarantees valid results.",
+    "hard": 3,
+    "slide": 8,
+    "crit": [
+      "C13",
+      "C18"
+    ],
+    "keys": [
+      "independent experts",
+      "reference team",
+      "frozen cases",
+      "recruitment"
+    ]
+  },
+  {
+    "id": "q17",
+    "cat": "Evaluation",
+    "q": "Is this evaluation, or just a convincing demonstration?",
+    "a": "Demonstration shows application; evaluation decides pre-set properties against evidence and a comparator. Both are required.",
+    "e": "Peffers et al. (2007) distinguishes DSRM activities, and Venable et al. (2016) separates evaluation purposes and settings. The paper proposes formative expert/controlled work, held-out confirmation of a frozen version, and naturalistic comparison against current practice with telemetry.",
+    "l": "An illustrative walk-through or a working prototype is not evaluation evidence. Artificial performance cannot establish field sensitivity, and naturalistic usability cannot rescue a diagnostic that generates unwarranted findings.",
+    "trap": "A persuasive prototype demonstration proves the diagnostic works.",
+    "hard": 3,
+    "slide": 6,
+    "crit": [
+      "C11",
+      "C12",
+      "C16"
+    ],
+    "keys": [
+      "dsrm",
+      "feds",
+      "demonstration",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "q18",
+    "cat": "Evaluation",
+    "q": "Who creates ground truth, and how do you prevent tuning to the test?",
+    "a": "An independent reference team freezes case keys before inspecting outputs. Twelve cases support formative work; twelve are held out for the frozen version.",
+    "e": "The paper explicitly specifies that separation and reserves at least one field workflow from v1 construction. Kapoor et al. (2024), a preprint, warns that benchmark accuracy can conceal overfitting and cost.",
+    "l": "Constructed reference cases are not complete ground truth for operational workflows. The protocol still needs explicit acceptable alternatives, disputed-case handling and adjudication rules; revision after held-out testing would require a new confirmation set.",
+    "trap": "Cases used to revise the artefact can also confirm that revised version.",
+    "hard": 3,
+    "slide": 7,
+    "crit": [
+      "C07",
+      "C12",
+      "C13"
+    ],
+    "keys": [
+      "reference key",
+      "held-out cases",
+      "frozen version",
+      "overfitting"
+    ]
+  },
+  {
+    "id": "q19",
+    "cat": "Evaluation",
+    "q": "Why 8/9 experts, 90% mapping fidelity, 80% precision/recall and SUS 70?",
+    "a": "These are proposed local acceptance criteria for separate properties, not universal standards. They require justification before testing begins.",
+    "e": "The paper assigns each threshold to a DP and states that criteria can fail. Venable et al. (2016) supports planned evaluation; Buçinca et al. (2021) warns against equating favourable ratings with appropriate reliance.",
+    "l": "The paper's cited sources do not establish these exact cut-offs. Error costs, denominator rules and sponsor/chair judgement must justify them; I cannot claim that crossing them validates the entire diagnostic.",
+    "trap": "The numerical cut-offs are universal validity standards.",
+    "hard": 3,
+    "slide": 7,
+    "crit": [
+      "C07",
+      "C18"
+    ],
+    "keys": [
+      "local thresholds",
+      "error costs",
+      "denominators",
+      "justification"
+    ]
+  },
+  {
+    "id": "q20",
+    "cat": "Evaluation",
+    "q": "What exactly are precision and recall, and what if a denominator is zero?",
+    "a": "Precision divides warranted flags by all flags; recall divides detected reference issues by all reference issues; zero denominators make the affected measure undefined.",
+    "e": "The paper proposes separate thresholds against frozen held-out cases. Its M1–M6 evidence rules distinguish actual warranted findings from poor outcomes or absent records; Kapoor et al. (2024) cautions against narrow benchmark claims.",
+    "l": "Zero denominators are undefined, not perfect performance. Small controlled sets need raw counts and uncertainty. These measures do not establish field sensitivity, population prevalence or completeness over unknown operational failures.",
+    "trap": "An undefined denominator means perfect performance.",
+    "hard": 3,
+    "slide": 7,
+    "crit": [
+      "C07",
+      "C15"
+    ],
+    "keys": [
+      "precision",
+      "recall",
+      "zero denominator",
+      "field sensitivity"
+    ]
+  },
+  {
+    "id": "q21",
+    "cat": "Evaluation",
+    "q": "What makes the field baseline fair, and how do you avoid learning effects?",
+    "a": "Both approaches receive the same evidence and task budget. The baseline includes current strategy review, governance and available telemetry, not an artificially weak checklist.",
+    "e": "The paper requires this matched comparison and keeps a workflow outside initial construction. Existing resources include Henderson and Venkatraman (1993/1999), Tabassi (2023) and Rompho (2024).",
+    "l": "The current paper needs a more explicit reviewer/order assignment to expose carryover. If evidence access differs or reviewers learn from the first method, I must disclose that limitation or revise the comparison.",
+    "trap": "A fair comparison may give the diagnostic better records or more time.",
+    "hard": 3,
+    "slide": 7,
+    "crit": [
+      "C04",
+      "C12",
+      "C18"
+    ],
+    "keys": [
+      "matched evidence",
+      "task budget",
+      "baseline",
+      "carryover"
+    ]
+  },
+  {
+    "id": "q22",
+    "cat": "Evaluation",
+    "q": "Suppose the diagnostic finds more flags. When does that count as added value?",
+    "a": "Only distinct, warranted findings beyond a valid baseline count. More unsupported flags are not added value.",
+    "e": "DP4 in the paper requires added warranted findings in at least two of three workflows. The proposal separates unknown evidence from mismatch and accepts a strong baseline as a reportable outcome. Venable et al. (2016) supports evaluation of the intended property.",
+    "l": "Three workflows provide contextual yield and effort, not a general superiority estimate. The protocol must define deduplication and adjudication; a compromised comparison is inconclusive rather than a diagnostic win.",
+    "trap": "More flags automatically mean more value.",
+    "hard": 3,
+    "slide": 7,
+    "crit": [
+      "C07",
+      "C12",
+      "C17"
+    ],
+    "keys": [
+      "warranted findings",
+      "duplicates",
+      "unsupported flags",
+      "added value"
+    ]
+  },
+  {
+    "id": "q23",
+    "cat": "Evaluation",
+    "q": "If users love it but it performs poorly, is the research successful?",
+    "a": "Positive usability or utility cannot rescue failed performance. Each proposition receives its own met, unmet or inconclusive decision.",
+    "e": "Buçinca et al. (2021) found that interventions reducing inappropriate reliance could receive less favourable ratings. Vaccaro et al. (2024) found task-dependent human–AI performance, with average combinations below the better standalone component. The paper separates DP3–DP6.",
+    "l": "Those studies do not estimate failure rates for this diagnostic. They justify separating subjective experience from warranted performance; they do not predict whether my particular instrument will pass or fail.",
+    "trap": "High usability can compensate for failed diagnostic performance.",
+    "hard": 3,
+    "slide": 7,
+    "crit": [
+      "C07",
+      "C16"
+    ],
+    "keys": [
+      "usability",
+      "utility",
+      "accuracy",
+      "appropriate reliance"
+    ]
+  },
+  {
+    "id": "q24",
+    "cat": "Evaluation",
+    "q": "What would make you abandon or materially revise the diagnostic?",
+    "a": "A valid comparison without qualifying added value leaves DP4 unmet. Failed precision, recall or fidelity requires revising the faulty design rather than relabelling success.",
+    "e": "The paper explicitly permits negative findings and a sufficient existing baseline. Peffers et al. (2007) and Venable et al. (2016) support construction with planned evaluation and iteration.",
+    "l": "Access failure is different from an evaluated failure: it prevents the dependent conclusion. Material scope or protocol changes require review; I cannot quietly replace a field comparison with expert-only or synthetic evidence.",
+    "trap": "Unfavourable criteria should be reworded until the diagnostic passes.",
+    "hard": 3,
+    "slide": 7,
+    "crit": [
+      "C07",
+      "C12",
+      "C15",
+      "C16"
+    ],
+    "keys": [
+      "negative findings",
+      "strong baseline",
+      "revision",
+      "access failure"
+    ]
+  },
+  {
+    "id": "q25",
+    "cat": "Ethics",
+    "q": "What happens if records are withheld or the researcher controls the host team?",
+    "a": "Withheld evidence remains visible as unknown. The study cannot treat a missing trace as an agent failure or rely on designer-controlled evaluation.",
+    "e": "The paper requires access to strategy, mandates and traces before site commitment and separates evaluators. Santoni de Sio and Mecacci (2021) supports examining capacity to respond rather than merely naming an owner.",
+    "l": "Host access and researcher relationships remain unconfirmed. Failed access requires revised scope; power relationships could affect candour and consent. An expert-only fallback cannot be presented as the planned field pilot.",
+    "trap": "A missing record proves the agent failed.",
+    "hard": 3,
+    "slide": 8,
+    "crit": [
+      "C13",
+      "C15"
+    ],
+    "keys": [
+      "withheld evidence",
+      "unknown",
+      "power relationships",
+      "scope change"
+    ]
+  },
+  {
+    "id": "q26",
+    "cat": "Ethics",
+    "q": "What is the IRB route, who owns the data, and can you send records to an AI service?",
+    "a": "IRB clearance precedes collection; ownership remains unresolved, and confidential records cannot reach an AI service without explicit organisational, participant and record-use authorisation.",
+    "e": "The paper explicitly makes these permissions prerequisites and excludes legal certification and private model reasoning. Tabassi (2023) and Mäntymäki et al. (2022) provide governance context, not permission to export confidential data.",
+    "l": "Ownership, storage, retention and external-service permissions are not settled in the paper. I cannot infer consent from access or send confidential records to an external model without explicit authorised terms.",
+    "trap": "Access to records permits external AI processing without separate approval.",
+    "hard": 3,
+    "slide": 8,
+    "crit": [
+      "C13",
+      "C15",
+      "C18"
+    ],
+    "keys": [
+      "irb",
+      "consent",
+      "record-use permission",
+      "data ownership"
+    ]
+  },
+  {
+    "id": "q27",
+    "cat": "Method",
+    "q": "Do you need an LLM for the diagnostic, and who pays if model costs rise?",
+    "a": "The research does not require an LLM-based diagnostic. Inspectable rules, records and comparisons may be sufficient; existing telemetry avoids new monitoring infrastructure.",
+    "e": "The paper defines an evidence register, instrument and interpretation guide, not a mandatory inference service. Kapoor et al. (2024) warns that agent accuracy can obscure cost; Tabassi (2023) connects AI use with business value.",
+    "l": "Hosting, model choice and operating costs are unconfirmed. Any automated component needs separate justification and permissions; the presentation coach's AI checks are not evidence that the research instrument requires AI.",
+    "trap": "An LLM is necessary because agents are the research topic.",
+    "hard": 3,
+    "slide": 10,
+    "crit": [
+      "C14",
+      "C18"
+    ],
+    "keys": [
+      "simple rules",
+      "telemetry",
+      "model cost",
+      "permissions"
+    ]
+  },
+  {
+    "id": "q28",
+    "cat": "Contribution",
+    "q": "Walk me through a leader using it, without assuming it beats the existing review.",
+    "a": "In an illustrative service workflow, the leader compares strategic priority, human mandate, agent objective, permissions and an action trace. They then decide what evidence or intervention is needed.",
+    "e": "The paper's M3 compares rights with actions; M4 asks who can approve, monitor and remedy. Baird and Maruping (2021) grounds delegation and Santoni de Sio and Mecacci (2021) grounds effective responsibility.",
+    "l": "Missing approval evidence means unknown, not proved unauthorised action. The existing review may reach the same decision. This invented example illustrates use, not evaluated added value.",
+    "trap": "The invented walkthrough proves the diagnostic finds issues that existing reviews miss.",
+    "hard": 3,
+    "slide": 9,
+    "crit": [
+      "C10",
+      "C12",
+      "C17"
+    ],
+    "keys": [
+      "illustrative use",
+      "authority",
+      "unknown approval",
+      "responsible action"
+    ]
+  },
+  {
+    "id": "q29",
+    "cat": "Contribution",
+    "q": "What is the contribution beyond another checklist, and can it transfer?",
+    "a": "The intended contribution combines an assessment instrument with conditional knowledge about representations and evidence rules that work or fail in bounded workflows.",
+    "e": "Hevner et al. (2004) supports artefact and research contributions. The paper specifies a framework, evidence register, instrument and interpretation guide, evaluated through separate criteria. Theoretical inputs include strategic fit, delegation and conjoined agency.",
+    "l": "There are no tested design principles yet. Three workflows cannot establish transfer across sectors; another organisation would need to test requirements, baseline fit and the same decision rules before claiming reuse succeeds.",
+    "trap": "A successful local checklist transfers to every sector.",
+    "hard": 3,
+    "slide": 10,
+    "crit": [
+      "C15",
+      "C16"
+    ],
+    "keys": [
+      "artefact",
+      "conditional principles",
+      "transfer",
+      "bounded evaluation"
+    ]
+  },
+  {
+    "id": "q30",
+    "cat": "Contribution",
+    "q": "Why should we trust your work, and what is your biggest unresolved weakness?",
+    "a": "Trust should rest on inspectable evidence, explicit limits, independent judgement and a design that can fail, rather than my experience or a polished prototype.",
+    "e": "The paper preserves unknown and disputed evidence, freezes reference cases, separates evaluators and compares against current practice. Hevner et al. (2004) and Venable et al. (2016) supply the construction and evaluation basis.",
+    "l": "Access, independence, close-prior-art review and exact threshold justification remain unresolved. Until those gates are secured and evaluation occurs, this is a defensible proposal, not a validated diagnostic.",
+    "trap": "Experience and a polished prototype are enough to trust the research.",
+    "hard": 3,
+    "slide": 10,
+    "crit": [
+      "C07",
+      "C13",
+      "C16",
+      "C18"
+    ],
+    "keys": [
+      "inspectable evidence",
+      "independence",
+      "limits",
+      "trust"
+    ]
+  }
+]

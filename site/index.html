@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stagecraft · Hybrid Alignment</title>
+<meta name="description" content="Presenter coach for a DBA topic presentation: Designing a Hybrid Alignment Diagnostic (design science research).">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/app.css">
+<script>
+/* theme before paint */
+try{var s=localStorage.getItem("sc.scheme");if(s)document.documentElement.setAttribute("data-scheme",s);}catch(e){}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#/today" aria-label="Stagecraft home">
+    <svg class="logo" viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="1" width="22" height="22" rx="6" fill="var(--accent)"/><path d="M6 16.5h12M6 12h8M6 7.5h4" stroke="var(--on-accent)" stroke-width="2" stroke-linecap="round"/><circle cx="17" cy="7.5" r="2" fill="var(--on-accent)"/></svg>
+    <span>Stagecraft</span><small>hybrid alignment · DBA</small>
+  </a>
+  <button class="btn ghost icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+    <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+  <nav class="nav" id="nav" aria-label="Sections">
+    <a href="#/today">Prepare</a>
+    <a href="#/story">Storyline</a>
+    <a href="#/rehearse">Rehearse</a>
+    <a href="#/viva">Defend</a>
+    <a href="#/method">Method</a>
+    <a href="#/demo">Walk-through</a>
+    <span class="nav-sep" aria-hidden="true"></span>
+    <a href="#/evidence" class="minor">Evidence</a>
+    <a href="#/craft" class="minor">Craft</a>
+    <a href="#/quality" class="minor">Quality</a>
+  </nav>
+  <span class="spacer"></span>
+  <span class="countdown-chip" id="chip" aria-live="off"></span>
+  <div class="seg theme" role="group" aria-label="Background">
+    <button data-scheme="light" aria-pressed="false">Light</button>
+    <button data-scheme="offwhite" aria-pressed="false">Paper</button>
+    <button data-scheme="dark" aria-pressed="false">Dark</button>
+  </div>
+  <button class="btn primary sm" id="presentBtn" title="Present the deck (P)">
+    <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 1.5v9l8-4.5z" fill="currentColor"/></svg>Present
+  </button>
+</header>
+
+<main id="main" tabindex="-1">
+  <section class="view" id="v-today" aria-labelledby="h-today"></section>
+  <section class="view" id="v-story" aria-labelledby="h-story"></section>
+  <section class="view" id="v-rehearse" aria-labelledby="h-rehearse"></section>
+  <section class="view" id="v-viva" aria-labelledby="h-viva"></section>
+  <section class="view" id="v-method" aria-labelledby="h-method"></section>
+  <section class="view" id="v-demo" aria-labelledby="h-demo"></section>
+  <section class="view" id="v-evidence" aria-labelledby="h-evidence"></section>
+  <section class="view" id="v-craft" aria-labelledby="h-craft"></section>
+  <section class="view" id="v-quality" aria-labelledby="h-quality"></section>
+  <section class="view" id="v-presenter" aria-labelledby="h-presenter"></section>
+  <section class="view" id="v-cards" aria-labelledby="h-cards"></section>
+  <section class="view" id="v-deck" aria-labelledby="h-deck"></section>
+</main>
+
+<div class="stage" id="stage" role="dialog" aria-modal="true" aria-label="Presentation">
+  <div class="canvas" id="stageCanvas"></div>
+  <div class="bar">
+    <button class="btn ghost sm" id="stPrev" aria-label="Previous slide">←</button>
+    <span id="stNum">1 / 10</span>
+    <button class="btn ghost sm" id="stNext" aria-label="Next slide">→</button>
+    <div class="prog"><i id="stProg"></i></div>
+    <span id="stClock">00:00</span>
+    <button class="btn ghost sm" id="stPresenter" title="Open presenter view in a second window (V)">Presenter view</button>
+    <button class="btn ghost sm" id="stFull" title="Full screen (F)">Full screen</button>
+    <button class="btn ghost sm" id="stClose" title="Exit (Esc)">Exit</button>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<footer class="foot no-print">
+  <div class="row between">
+    <span>Stagecraft is a personal presenter coach for Sanjay Gupta's GGU DBA topic presentation. It applies the method in Dr Sumitra Padmanabhan's published <a href="https://sumitrapiyer.github.io/Researchers-journey/" target="_blank" rel="noopener">Researcher's Journey</a>. It does not speak for her and has no endorsement from her.</span>
+    <span class="mono tiny" id="buildStamp"></span>
+  </div>
+</footer>
+
+<script src="data/bundle.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

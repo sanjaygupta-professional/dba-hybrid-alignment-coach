@@ -1,0 +1,20 @@
+[
+ {"id":"C01","group":"Problem","text":"State the business problem before the solution: what happens, what should happen, who is affected, what is unknown. The problem never names the fix.","src":"Researcher's Journey, DSR step 2"},
+ {"id":"C02","group":"Problem","text":"Every statistic carries its source, population and evidence type. Forecasts and vendor surveys are labelled.","src":"Researcher's Journey, DSR step 1"},
+ {"id":"C03","group":"Gap","text":"State the gap as 'the literature tells us X, but not Y', with one research-gap and one practitioner-gap sentence.","src":"Researcher's Journey, DSR step 12"},
+ {"id":"C04","group":"Gap","text":"Never claim that nobody has studied the topic, and never use 'agents are new' as the gap. Treat close prior art as a rival.","src":"Researcher's Journey, DSR steps 11–12"},
+ {"id":"C05","group":"Purpose","text":"Say the purpose in one breath with design, demonstrate and evaluate. Never 'explore'.","src":"Researcher's Journey, DSR step 4"},
+ {"id":"C06","group":"Traceability","text":"Each sub-problem maps to one objective (verb, number, deadline from t0) and one open, typed research question.","src":"Researcher's Journey, DSR steps 3, 5, 6"},
+ {"id":"C07","group":"Traceability","text":"Each design proposition has a metric and a decision rule fixed before Cycle 1, and can fail.","src":"Researcher's Journey, DSR step 7"},
+ {"id":"C08","group":"Traceability","text":"Show SP → RO → RQ → DP → data → test with no empty cells.","src":"Researcher's Journey, DSR step 23"},
+ {"id":"C09","group":"Theory","text":"Name the paradigm (pragmatism) and what it means for the evidence you accept.","src":"Researcher's Journey, DSR step 14"},
+ {"id":"C10","group":"Theory","text":"Conceptual framework = kernel theory → requirement → design principle → feature, with the build–evaluate loop. The artefact has its own name.","src":"Researcher's Journey, DSR step 8"},
+ {"id":"C11","group":"Method","text":"Name DSRM and show its six activities, each with an output. Design is not method: name the data-collection methods inside it.","src":"Researcher's Journey, DSR step 13"},
+ {"id":"C12","group":"Method","text":"Plan evaluation with FEDS: artificial then naturalistic. A demonstration is not an evaluation.","src":"Researcher's Journey, DSR step 13"},
+ {"id":"C13","group":"Method","text":"For each participant group give role, count, inclusion and independence. Nothing is collected before IRB clearance.","src":"Researcher's Journey, DSR steps 15–16"},
+ {"id":"C14","group":"Method","text":"Reject the alternatives (survey, case study, action research, PLS-SEM) in one sentence each.","src":"Researcher's Journey, DSR step 14"},
+ {"id":"C15","group":"Scope","text":"Separate scope (your choices) from limitations (constraints); give each limitation a mitigation.","src":"Researcher's Journey, DSR step 9"},
+ {"id":"C16","group":"Contribution","text":"State two contributions: reusable design knowledge and the practical artefact. Do not claim results you do not have.","src":"Researcher's Journey, DSR step 10"},
+ {"id":"C17","group":"Delivery","text":"Show a leader using the framework on clearly labelled illustrative data: evidence, decision rule, action.","src":"Course guidance (paraphrased)"},
+ {"id":"C18","group":"Delivery","text":"Be ready to defend every line, especially 'why this method, and do you really need it?'.","src":"Course guidance (paraphrased); Researcher's Journey, DSR step 14"}
+]
