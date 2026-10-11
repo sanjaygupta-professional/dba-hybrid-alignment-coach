@@ -57,8 +57,10 @@ function nextAction(){
   if(!store.get("tasks",{}).p1) return {t:"Read the storyline aloud once, slide by slide.", href:"#/story", b:"Open storyline"};
   if(!fulls.length) return {t:"Do one full timed run. Do not stop when you stumble.", href:"#/rehearse", b:"Start a timed run"};
   const last=fulls[fulls.length-1];
-  if(Math.abs(last.total-TALK)>30){ const worst=last.splits.reduce((a,x)=>x.dt-SLIDES[x.i].seconds>a.v?{v:x.dt-SLIDES[x.i].seconds,i:x.i}:a,{v:-1e9,i:0});
-    return {t:`Your last run was ${fmt(last.total)}. Repair slide ${worst.i+1} (${SLIDES[worst.i].short}), which ran ${Math.round(worst.v)} s over.`, href:"#/rehearse", b:"Drill that slide"}; }
+  if(Math.abs(last.total-TALK)>30){
+    const long=last.total>TALK, sign=long?1:-1;
+    const worst=last.splits.reduce((a,x)=>sign*(x.dt-SLIDES[x.i].seconds)>a.v?{v:sign*(x.dt-SLIDES[x.i].seconds),i:x.i}:a,{v:-1e9,i:0});
+    return {t:`Your last run was ${fmt(last.total)}, ${long?"long":"short"} by ${fmt(Math.abs(last.total-TALK))}. Work on slide ${worst.i+1} (${SLIDES[worst.i].short}): ${Math.round(worst.v)} s ${long?"over":"under"} its budget.`, href:"#/rehearse", b:"Rehearse"}; }
   const weak=D.questions.filter(q=>(conf[q.id]||0)<4);
   if(weak.length>10) return {t:`Drill 5 questions. ${weak.length} are not yet rated 4 or 5.`, href:"#/viva", b:"Start drill"};
   const open=D.confirm.filter(c=>!checks[c.id]);
@@ -126,6 +128,7 @@ V.today = (el, q) => {
   const todayISO=new Date().toLocaleDateString("en-CA",{timeZone:"Asia/Singapore"});
   const nextRule = D.coach_tips[Math.floor(Date.now()/864e5)%D.coach_tips.length];
   el.innerHTML = `
+  <div class="next phone-first" style="margin:0 0 14px"><div style="flex:1"><span class="eyebrow">Your next action</span><p>${esc(na.t)}</p></div><a class="btn primary" href="${na.href}">${esc(na.b)} →</a></div>
   <div class="hero">
     <div class="card main">
       <span class="eyebrow">Wednesday 14 October · Immersion 1 · Singapore</span>
@@ -154,7 +157,7 @@ V.today = (el, q) => {
   </div>
 
   <div class="status" style="margin-top:14px">${st.map(x=>`<a class="st ${x.cls}" href="${x.href}" style="text-decoration:none;color:inherit"><span class="lab"><span class="dot"></span>${esc(x.k)}</span><div class="val">${esc(x.val)}</div><div class="tiny muted">${esc(x.sub)}</div></a>`).join("")}</div>
-  <div class="next"><div style="flex:1"><span class="eyebrow">Your next action</span><p>${esc(na.t)}</p></div><a class="btn primary" href="${na.href}">${esc(na.b)} →</a></div>
+  <div class="next desk-only"><div style="flex:1"><span class="eyebrow">Your next action</span><p>${esc(na.t)}</p></div><a class="btn primary" href="${na.href}">${esc(na.b)} →</a></div>
 
   <div class="section">
     <h2>Your plan to Wednesday <span class="badge">coach practice</span></h2>
@@ -207,7 +210,7 @@ V.story = (el, q) => {
     <p>Each slide has one message, a script you can say in its time budget, and the examiner lens it must pass. Bar height shows the time each slide gets.</p></div>
     <div class="row"><a class="btn" href="#/cards">Cue cards</a><button class="btn primary" data-go="present">▶ Present</button></div></div>
   <div class="arc" role="list">${SLIDES.map(s=>`<button role="listitem" style="--w:${s.seconds};--h:${Math.round(35+65*s.seconds/maxS)}%" data-jump="${s.n}" title="${esc(s.short)} · ${s.seconds}s" aria-label="Go to slide ${s.n}, ${esc(s.short)}"><span>${s.n}</span></button>`).join("")}</div>
-  <div class="arc-legend">${D.acts.map(a=>`<span>${esc(a)}</span>`).join("")}</div>
+  <div class="arc-legend">${actGroups().map(g=>`<span style="flex:${g.sec}">${esc(g.act)}</span>`).join("")}</div>
   ${SLIDES.map(s=>`
   <article class="slide-row" id="slide-${s.n}">
     <div>
@@ -230,6 +233,8 @@ V.story = (el, q) => {
   $$("[data-present]",el).forEach(b=>b.onclick=()=>Stage.open(+b.dataset.present-1));
   if(q.s) setTimeout(()=>$("#slide-"+q.s)?.scrollIntoView(),60);
 };
+
+function actGroups(){ const g=[]; SLIDES.forEach(s=>{ const l=g[g.length-1]; if(l&&l.act===s.act) l.sec+=s.seconds; else g.push({act:s.act,sec:s.seconds}); }); return g; }
 
 /* ── Cue cards (print) ── */
 V.cards = el => {
@@ -254,14 +259,14 @@ V.rehearse = el => {
   const runs=store.get("runs",[]);
   el.innerHTML = `
   <div class="head"><div><span class="eyebrow">Rehearse · coach practice</span><h1 id="h-rehearse">Timed run-through</h1>
-    <p>Speak the talk out loud. Press <kbd>Space</kbd> or <kbd>→</kbd> to move to the next slide. Stagecraft records your time per slide. In Chrome, it can also listen and count your pace and filler words. The audio stays in your browser.</p></div>
+    <p>Speak the talk out loud. Press <kbd>Space</kbd> or <kbd>→</kbd> to move to the next slide. Stagecraft records your time per slide. If you switch on <b>Listen for pace</b>, Chrome also counts your pace and filler words. Listening is off by default.</p></div>
     <div class="row"><div class="seg" role="group" aria-label="Run mode"><button data-mode="full" aria-pressed="${R.mode==="full"}">Full talk</button><button data-mode="one" aria-pressed="${R.mode==="one"}">One slide</button></div>
       <select id="oneSlide" aria-label="Slide to rehearse" style="width:auto;${R.mode==="one"?"":"display:none"}">${SLIDES.map(s=>`<option value="${s.n-1}">${s.n}. ${esc(s.short)}</option>`).join("")}</select></div></div>
   <div class="grid g-side">
     <div class="card" style="padding:0;overflow:hidden">
       <div class="row between" style="padding:10px 14px;border-bottom:1px solid var(--rule)">
         <span class="small"><b id="rhSlide">Slide 1</b> <span class="muted" id="rhShort"></span></span>
-        <span class="row"><label class="check small"><input type="checkbox" id="rhListen" ${store.get("listen",true)?"checked":""}> Listen for pace</label>
+        <span class="row"><label class="check small"><input type="checkbox" id="rhListen" ${store.get("listen",false)?"checked":""}> Listen for pace</label>
         <label class="check small"><input type="checkbox" id="rhScript" ${store.get("showScript",true)?"checked":""}> Show script</label></span>
       </div>
       <div class="prompter" id="prompter" aria-live="off" tabindex="0" aria-label="Script for the current slide"></div>
@@ -286,10 +291,10 @@ V.rehearse = el => {
     ${runs.slice().reverse().slice(0,12).map(r=>{const d=r.total-(r.full?TALK:r.plan); const worst=r.splits.reduce((a,x,i)=>x.dt-(SLIDES[x.i].seconds)>a.v?{v:x.dt-SLIDES[x.i].seconds,i:x.i}:a,{v:-1e9,i:0});
       return `<tr><td>${new Date(r.at).toLocaleString("en-GB",{weekday:"short",hour:"2-digit",minute:"2-digit"})}</td><td>${r.full?"Full":"Slide "+(r.splits[0]?.i+1)}</td><td class="num">${fmt(r.total)}</td><td class="num" style="color:${Math.abs(d)<=60?"var(--accent-ink)":"var(--red)"}">${d>=0?"+":"−"}${fmt(Math.abs(d))}</td><td class="num">${r.wpm||"–"}</td><td class="num">${r.fillers??"–"}</td><td>${worst.v>0?`${worst.i+1}. ${esc(SLIDES[worst.i].short)} (+${Math.round(worst.v)}s)`:"none over"}</td></tr>`;}).join("")}
     </tbody></table></div><div class="row" style="margin-top:8px"><button class="btn ghost sm" id="clearRuns">Clear history</button></div>`
-    :`<div class="card flat small muted">No runs yet. Your first full run sets the baseline. Most first runs are 2–3 minutes long; that is normal.</div>`}
+    :`<div class="card flat small muted">No runs yet. Your first full run sets your baseline. Do not stop when you stumble.</div>`}
   </div>`;
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-  $("#rhSpeechNote").innerHTML = SR ? "Pace listening uses the browser's speech recognition. In Chrome, the audio goes to Google's speech service for transcription; nothing is stored by Stagecraft. Turn it off if the venue Wi-Fi is weak."
+  $("#rhSpeechNote").innerHTML = SR ? "<b>Listen for pace</b> uses the browser's speech recognition. In Chrome, your audio goes to Google's speech service for transcription. Stagecraft stores only the counts. Leave it off if you prefer, or if the venue Wi-Fi is weak; the timer works without it."
     : "This browser has no speech recognition, so pace and fillers are off. The timer still works. Use Chrome or Edge for pace.";
   if(!SR) $("#rhListen").disabled=true;
   $$("[data-mode]",el).forEach(b=>b.onclick=()=>{ if(R.on) return; R.mode=b.dataset.mode; render(); });
@@ -314,7 +319,7 @@ function rhStart(){
   $("#rhHint").innerHTML='<span class="live-dot"></span> Running · <kbd>Space</kbd> next · <kbd>Esc</kbd> stop';
   R.timer=setInterval(rhTick,200);
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if(SR && store.get("listen",true)){
+  if(SR && store.get("listen",false)){
     try{
       const rec=new SR(); rec.continuous=true; rec.interimResults=true; rec.lang="en-IN";
       rec.onresult=e=>{ let fin="",inter=""; for(let k=e.resultIndex;k<e.results.length;k++){ const t=e.results[k][0].transcript; if(e.results[k].isFinal) fin+=t+" "; else inter+=t; }
@@ -396,7 +401,7 @@ V.viva = async (el, q) => {
   $("#drillBtn").onclick=()=>startDrill();
   if(q.q) setTimeout(()=>$("#q-"+q.q)?.scrollIntoView({block:"center"}),60);
   if(G.drill) drawDrill();
-  probeJev();
+  probeJev().then(j=>{ if(j && G.drill && G.drill.phase==="ask") drawDrill(); });
 };
 function pickDrill(){
   const conf=store.get("conf",{}), seen=store.get("seen",{});
@@ -411,7 +416,12 @@ function drawDrill(){
     <div class="card" style="padding:20px">
       <div class="row between"><span class="eyebrow">Question ${d.count} · ${esc(x.cat)}</span><span class="timer" id="dTimer" style="font-size:26px">01:30</span></div>
       <p class="qbig">${esc(x.q)}</p>
-      ${d.phase==="ask"?`
+      ${d.phase==="self"?`
+        <p class="small muted">Self-check. Read your answer below, then tick only what it really does. Be strict.</p>
+        <div class="card flat small" style="white-space:pre-wrap;margin-bottom:10px">${esc(d.answer)}</div>
+        <div class="stack small">${D.answer_checks.map(c=>`<label class="check"><input type="checkbox" data-self="${c.id}" data-label="${esc(c.label)}"><span>${esc(c.self)}</span></label>`).join("")}</div>
+        <div class="row" style="margin-top:12px"><button class="btn primary" id="dSelfDone">Show model answer</button></div>`
+      :d.phase==="ask"?`
         <p class="small muted">Say your answer out loud first, in 60–90 seconds. Then type its key points to check them.</p>
         <textarea id="dAns" placeholder="Answer → Evidence → Limit">${esc(d.answer)}</textarea>
         <div class="row" style="margin-top:10px"><button class="btn primary" id="dCheck">Check my answer</button><button class="btn" id="dReveal">Show model answer</button><button class="btn ghost" id="dSkip">Next question</button><button class="btn ghost" id="dStop">End drill</button></div>`
@@ -423,14 +433,14 @@ function drawDrill(){
         <div class="row between" style="margin-top:14px"><span class="row small">Rate yourself <span class="conf">${[1,2,3,4,5].map(v=>`<button data-drate="${v}" aria-label="${v} of 5">${v}</button>`).join("")}</span></span>
         <span class="row"><button class="btn primary" id="dNext">Next question</button><button class="btn ghost" id="dStop">End drill</button></span></div>`}
     </div>
-    <div class="card"><span class="kicker">Answer check</span><div id="dResult">${d.result?resultHTML(d.result):`${JEV?`<label class="check small" style="margin-bottom:8px"><input type="checkbox" id="liveJev" ${store.get("liveJev",false)?"checked":""}> Send my typed answer to Jev through the local coach server</label>`:`<p class="small muted">Live Jev checks need the coach server on your laptop: <code>python3 tools/coach_server.py</code>, then open <a href="http://127.0.0.1:8823/#/viva">127.0.0.1:8823</a>. The offline checklist works without it.</p>${ON_COACH?"":`<button class="btn sm" id="connectJev">Connect to a running coach server</button>`}`}
-      <ul class="small">${D.answer_checks.map(c=>`<li>${esc(c.label)}</li>`).join("")}</ul>`}</div></div>
+    <div class="card"><span class="kicker">Answer check</span><div id="dResult">${d.result?resultHTML(d.result):`${JEV?`<label class="check small" style="margin-bottom:8px"><input type="checkbox" id="liveJev" ${store.get("liveJev",false)?"checked":""}> Send my typed answer to Jev (TypeSafe's API) through the coach server on this laptop</label>`:`<p class="small muted">Live Jev checks need the coach server on your laptop: <code>python3 tools/coach_server.py</code>, then open <a href="http://127.0.0.1:8823/#/viva">127.0.0.1:8823</a>. The self-check works without it.</p>${ON_COACH?"":`<button class="btn sm" id="connectJev">Connect to a running coach server</button>`}`}
+      <p class="small" style="margin-top:8px">Without Jev, <b>Check my answer</b> opens a self-check of these five points:</p><ul class="small">${D.answer_checks.map(c=>`<li>${esc(c.label)}</li>`).join("")}</ul>`}</div></div>
   </div>`;
   let left=90; const tEl=$("#dTimer");
   if(d.phase==="ask"){ G.timer=setInterval(()=>{ left--; if(!tEl.isConnected){clearInterval(G.timer);return;} tEl.textContent=fmt(Math.abs(left)); tEl.className="timer"+(left<0?" over":left<20?" warn":""); },1000); }
   $("#dAns")?.addEventListener("input",e=>d.answer=e.target.value);
   $("#liveJev")?.addEventListener("change",e=>store.set("liveJev",e.target.checked));
-  $("#connectJev")?.addEventListener("click",async()=>{ const j=await probeJev(true); toast(j?"Connected to the local coach":"No coach server found on 127.0.0.1:8823"); if(j){ store.set("liveJev",true); drawDrill(); } });
+  $("#connectJev")?.addEventListener("click",async()=>{ const j=await probeJev(true); toast(j?"Coach server found. Tick the box to send answers to Jev.":"No coach server found on 127.0.0.1:8823"); if(j){ drawDrill(); } });
   $("#dReveal")?.addEventListener("click",()=>{ d.phase="reveal"; markSeen(x.id); drawDrill(); });
   $("#dSkip")?.addEventListener("click",()=>{ markSeen(x.id); startDrill(); });
   $$("#dStop").forEach(b=>b.addEventListener("click",()=>{ G.drill=null; clearInterval(G.timer); box.innerHTML=""; }));
@@ -438,37 +448,33 @@ function drawDrill(){
   $$("[data-drate]",box).forEach(b=>b.onclick=()=>{ const c=store.get("conf",{}); c[x.id]=+b.dataset.drate; store.set("conf",c); $$("[data-drate]",box).forEach(y=>y.setAttribute("aria-pressed",String(y===b))); toast("Saved"); });
   $("#dCheck")?.addEventListener("click",async()=>{
     const ans=d.answer.trim(); if(words(ans)<8){ toast("Type at least one full sentence"); return; }
-    $("#dResult").innerHTML='<p class="small muted">Checking…</p>';
-    d.result = await scoreAnswer(x, ans); d.phase="reveal"; markSeen(x.id); drawDrill();
+    const j=await probeJev();
+    if(j && store.get("liveJev",false)){
+      $("#dResult").innerHTML='<p class="small muted">Checking with Jev…</p>';
+      d.result = await scoreAnswer(x, ans);
+      if(d.result){ d.phase="reveal"; markSeen(x.id); drawDrill(); return; }
+      toast("Jev did not answer; use the self-check");
+    }
+    d.phase="self"; drawDrill();
+  });
+  $("#dSelfDone")?.addEventListener("click",()=>{
+    const ticks=$$("[data-self]",box).map(i=>({id:i.dataset.self,label:i.dataset.label,p:i.checked?1:0}));
+    d.result={by:"self",items:ticks}; d.phase="reveal"; markSeen(x.id); drawDrill();
   });
 }
 function markSeen(id){ const s=store.get("seen",{}); s[id]=(s[id]||0)+1; store.set("seen",s); }
 async function scoreAnswer(x, ans){
-  const j=await probeJev();
-  if(j && store.get("liveJev",false)){
-    try{ const r=await fetch(j.base+"/api/score",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({qid:x.id,answer:ans})});
-      if(r.ok){ const o=await r.json(); return {by:"Jev",items:o.items,ms:o.ms}; } }catch(e){}
-  }
-  // offline heuristic, clearly labelled
-  const lw=ans.toLowerCase(), n=words(ans);
-  const items=D.answer_checks.map(c=>{
-    let p=0;
-    if(c.id==="direct") p = n>=8 ? .6 : .2;
-    if(c.id==="evidence") p = /\(\w|et al|\b(19|20)\d\d\b|hevner|peffers|venable|nist|issa|baird|mckinsey|gartner|capgemini|sull|diab|kapoor|vaccaro|buçinca|bucinca|santoni|murray|henderson/.test(lw)?.85:.15;
-    if(c.id==="limit") p = /\b(limit|cannot|can't|not yet|unknown|only|however|but|risk|small|bounded|does not)\b/.test(lw)?.8:.15;
-    if(c.id==="noclaim") p = /\b(prove[sd]?|guarantee|always|never fails|will show|first ever|nobody has)\b/.test(lw)?.15:.8;
-    if(c.id==="length") p = n<=170 ? .9 : .3;
-    if(c.id==="ontopic") p = (x.keys||[]).some(k=>lw.includes(k)) ? .8 : .35;
-    return {id:c.id,label:c.label,p};
-  });
-  return {by:"offline",items};
+  const j=await probeJev(); if(!j) return null;
+  try{ const r=await fetch(j.base+"/api/score",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({qid:x.id,answer:ans})});
+    if(r.ok){ const o=await r.json(); return {by:"Jev",items:o.items,ms:o.ms}; } }catch(e){}
+  return null;
 }
 function verdict(p){ return p>=.7?{c:"y",t:"yes"}:p<=.3?{c:"n",t:"not yet"}:{c:"u",t:"unclear"}; }
 function resultHTML(r){
   const miss=r.items.filter(i=>i.p<.7);
   const fix=miss.length?D.answer_checks.find(c=>c.id===miss[0].id):null;
-  return `<p class="tiny muted">${r.by==="Jev"?`Checked by Jev, typed yes/no judgements (${r.ms||"?"} ms). A practice signal, not a grade.`:"Offline keyword estimate. Start the local coach server for Jev checks."}</p>
-  ${r.items.map(i=>{const v=verdict(i.p);return `<div class="score-row"><span>${esc(i.label)}</span><span class="verdict ${v.c}">${v.t}</span></div>`;}).join("")}
+  return `<p class="tiny muted">${r.by==="Jev"?`Checked by Jev, typed yes/no judgements (${r.ms||"?"} ms). A practice signal, not a grade.`:"Your self-check. Compare it with the model answer on the left."}</p>
+  ${r.items.map(i=>{const v=r.by==="self"?(i.p?{c:"y",t:"you ticked"}:{c:"u",t:"not ticked"}):verdict(i.p);return `<div class="score-row"><span>${esc(i.label)}</span><span class="verdict ${v.c}">${v.t}</span></div>`;}).join("")}
   ${fix?`<div class="repair"><b>One repair:</b> ${md(fix.repair)}</div>`:`<div class="repair" style="border-color:var(--accent);background:var(--accent-soft)"><b>Solid.</b> Now say it aloud in under 90 seconds.</div>`}`;
 }
 
@@ -541,8 +547,9 @@ V.demo = el => {
   $$("[data-w]",el).forEach(b=>b.onclick=()=>{ W.step=+b.dataset.w; render(); });
 };
 function statusify(c){
-  const m={"Aligned":"ok","Misaligned":"bad","Unknown":"warn","Disputed":"slate","Met":"ok","Unmet":"bad","Open":"warn"};
-  return m[c] ? `<span class="badge ${m[c]}">${esc(c)}</span>` : md(c);
+  const m=[["Aligned","ok"],["Misaligned","bad"],["Unknown","warn"],["Disputed","slate"],["Open","warn"],["Available","ok"],["Missing","warn"],["To be assessed","slate"]];
+  const hit=m.find(([k])=>c===k||c.startsWith(k+" "));
+  return hit ? `<span class="badge ${hit[1]}" style="white-space:normal;text-transform:none;letter-spacing:0">${esc(c)}</span>` : md(c);
 }
 
 /* ── Evidence ── */
@@ -579,9 +586,9 @@ V.quality = el => {
     <span class="badge ${pass===Q.evals.length?"ok":"warn"}">${pass} of ${Q.evals.length} gates pass</span></div>
   <div class="card" style="padding:4px 4px">${Q.evals.map(e=>`<div class="gate"><span class="id">${esc(e.id)}</span><span class="nm"><b>${esc(e.name)}</b><br><span class="small muted">${md(e.detail)}</span></span><span class="badge ${e.status==="pass"?"ok":e.status==="warn"?"warn":"bad"}">${esc(e.status)}</span></div>`).join("")}</div>
   ${Q.jev?`<div class="section"><h2>Jev typed checks <span class="badge slate">${Q.jev.passed} of ${Q.jev.total} pass</span></h2>
-    <p class="small muted">Jev (TypeSafe System One) answers each yes/no question with a probability. Before any check could gate content, each question was calibrated on invented fixtures with known answers (gate E5a). Items that pass only after a signed human review are listed first, with the reason.</p>
+    <p class="small muted">Jev (TypeSafe System One) answers each yes/no question with a probability. <b>${Q.jev.calibrated} of ${Q.jev.predicates} questions</b> were calibrated on ${Q.jev.fixtures} invented fixtures with known answers (gate E5a); only those can pass content automatically. The other questions are <b>advisory</b>: their results count only after a signed human review, which is tied to the exact content it reviewed. Reviewed items are listed first, with the reason.</p>
     <div class="tbl-wrap" style="margin-top:8px"><table><thead><tr><th>Target</th><th>Check</th><th class="num">p(yes)</th><th>Result</th></tr></thead><tbody>
-    ${Q.jev.items.slice().sort((x,y)=>(y.reviewed?1:0)-(x.reviewed?1:0)).slice(0,showAllJev?999:14).map(i=>`<tr><td class="mono tiny">${esc(i.target)}</td><td class="small">${esc(i.check)}${i.reviewed?`<br><span class="tiny muted">Human review: ${esc(i.reviewed)}</span>`:""}</td><td class="num">${i.p.toFixed(2)}</td><td><span class="badge ${i.reviewed?"slate":i.pass?"ok":"bad"}">${i.reviewed?"reviewed":i.pass?"pass":"fail"}</span></td></tr>`).join("")}</tbody></table></div>
+    ${Q.jev.items.slice().sort((x,y)=>(y.reviewed?1:0)-(x.reviewed?1:0)).slice(0,showAllJev?999:14).map(i=>`<tr><td class="mono tiny">${esc(i.target)}</td><td class="small">${esc(i.check)}${i.reviewed?`<br><span class="tiny muted">Human review: ${esc(i.reviewed)}</span>`:""}</td><td class="num">${i.p.toFixed(2)}</td><td><span class="badge ${i.reviewed?"slate":i.pass?"ok":"bad"}">${i.reviewed?(i.mode==="advisory"?"advisory · reviewed":"reviewed"):i.pass?"pass":"fail"}</span></td></tr>`).join("")}</tbody></table></div>
     ${showAllJev?"":`<button class="btn sm" id="allJev" style="margin-top:8px">Show all ${Q.jev.items.length} checks</button>`}</div>`:""}
   <div class="section card flat small"><b>Privacy.</b> Stagecraft has no analytics and no account. Your runs, ratings and ticks stay in this browser's local storage. The optional live Jev scoring runs through a server on your own laptop; the API key never reaches this website.</div>`;
   $("#allJev")?.addEventListener("click",()=>{ showAllJev=true; render(); });
@@ -610,7 +617,7 @@ const Stage = {
     $("#stageCanvas").onclick=e=>{ if(e.target.closest("a,button")) return; this.go(this.i+1); };
     setInterval(()=>this.tick(),500);
   },
-  open(i=0){ this.i=Math.max(0,Math.min(N-1,i)); if(!this.t0) this.t0=Date.now(); this.slideT0=Date.now(); $("#stage").classList.add("on","clean"); document.body.style.overflow="hidden"; this.paint(); this.send(); },
+  open(i=0){ this.i=Math.max(0,Math.min(N-1,i)); if(!this.t0 || i===0) this.t0=Date.now(); this.slideT0=Date.now(); $("#stage").classList.add("on","clean"); document.body.style.overflow="hidden"; this.paint(); this.send(); },
   close(){ $("#stage").classList.remove("on"); document.body.style.overflow=""; if(document.fullscreenElement) document.exitFullscreen?.(); },
   full(){ const s=$("#stage"); if(!document.fullscreenElement) s.requestFullscreen?.().catch(()=>{}); else document.exitFullscreen?.(); },
   go(i){ if(i<0||i>=N) return; this.i=i; this.slideT0=Date.now(); this.paint(); this.send(); },
@@ -630,9 +637,9 @@ const Stage = {
       const b=$("#pvBudget"); b.className="budget"+(st>s.seconds*1.15?" over":st>s.seconds*.9?" warn":""); b.firstElementChild.style.width=Math.min(100,100*st/s.seconds)+"%";
     }
   },
-  send(){ this.ch?.postMessage({t:"goto",i:this.i,t0:this.t0}); },
+  send(){ this.ch?.postMessage({t:"goto",i:this.i,t0:this.t0,s0:this.slideT0}); },
   onMsg(m){
-    if(m.t==="goto"){ this.i=m.i; if(m.t0) this.t0=m.t0; this.slideT0=Date.now(); this.paint(); }
+    if(m.t==="goto"){ this.i=m.i; if(m.t0) this.t0=m.t0; this.slideT0=m.s0||Date.now(); this.paint(); }
     if(m.t==="hello" && !this.isPresenter) this.send();
     if(m.t==="reset"){ this.t0=Date.now(); this.slideT0=Date.now(); }
   },

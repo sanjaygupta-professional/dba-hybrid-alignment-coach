@@ -79,7 +79,7 @@ for (const vp of [{ name: "desktop", width: 1440, height: 900 }, { name: "phone"
 
     // theme switch
     for (const s of ["dark", "offwhite", "light"]) {
-      await page.click(`.seg.theme button[data-scheme="${s}"]`);
+      await page.click(`.top > .seg.theme button[data-scheme="${s}"]`);
       const bg = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
       if (s === "dark") add("theme: dark background applies", bg === "rgb(13, 16, 14)", bg);
       if (s === "offwhite") add("theme: paper background applies", bg === "rgb(244, 243, 236)", bg);
@@ -94,8 +94,22 @@ for (const vp of [{ name: "desktop", width: 1440, height: 900 }, { name: "phone"
     await page.goto(base + "#/viva"); await page.waitForTimeout(200);
     await page.click("#drillBtn"); await page.fill("#dAns", "Design science fits because the goal is to build and evaluate an artefact (Hevner et al., 2004). The limit is a small sample in one or two sites.");
     await page.click("#dCheck"); await page.waitForTimeout(1800);
+    const selfBoxes = await page.$$eval("[data-self]", r => r.length);
+    add("viva: without Jev, check opens an honest self-check (no automatic verdicts)", selfBoxes === 5, `self-check boxes=${selfBoxes}`);
+    await page.click("[data-self=direct]"); await page.click("#dSelfDone"); await page.waitForTimeout(200);
     const rows = await page.$$eval("#dResult .score-row", r => r.length);
-    add("viva: drill scores a typed answer", rows >= 4, `rows=${rows}`);
+    const repair = await page.$eval("#dResult .repair", e => e.innerText);
+    add("viva: self-check repair targets an unticked point", rows === 5 && !/answers the exact question/.test(repair) && /source|evidence/i.test(repair), repair.slice(0, 60));
+    // listening and live upload are opt-in on a fresh browser
+    const fresh = await browser.newContext(); const fp = await fresh.newPage();
+    await fp.goto(base + "#/rehearse"); await fp.waitForTimeout(200);
+    const listen = await fp.$eval("#rhListen", e => e.checked);
+    await fp.route("http://127.0.0.1:8823/**", r => r.fulfill({ status: 200, contentType: "application/json", headers: { "Access-Control-Allow-Origin": "*" }, body: JSON.stringify({ ok: true, jev: true }) }));
+    await fp.goto(base + "#/viva"); await fp.waitForTimeout(200); await fp.click("#drillBtn"); await fp.click("#connectJev"); await fp.waitForTimeout(400);
+    const live = await fp.evaluate(() => localStorage.getItem("sc.liveJev"));
+    const boxChecked = await fp.$eval("#liveJev", e => e.checked).catch(() => null);
+    add("privacy: listening off and Jev upload off until the user opts in", listen === false && live === null && boxChecked === false, `listen=${listen} liveJev=${live} box=${boxChecked}`);
+    await fresh.close();
     // a11y basics: every button has an accessible name; images/slides labelled; one h1 per view
     const a11y = await page.evaluate(() => {
       const unnamed = [...document.querySelectorAll("button")].filter(b => !(b.innerText.trim() || b.getAttribute("aria-label") || b.title)).length;

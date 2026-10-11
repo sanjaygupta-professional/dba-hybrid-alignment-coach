@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11 22:20",
+ "generated": "2026-10-11 22:37",
  "evals": [
   {
    "id": "E1",
@@ -33,15 +33,15 @@
   },
   {
    "id": "E5",
-   "name": "Jev typed checks on slides, answers and storyline",
+   "name": "Jev typed checks on slides, answers, walk-through and storyline",
    "status": "pass",
-   "detail": "179 of 179 pass (2 after signed human review); 0 awaiting review; 0 not yet scored"
+   "detail": "209 of 209 pass (10 after signed human review); 0 awaiting review; 0 not yet scored"
   },
   {
    "id": "E6",
    "name": "UX in a real browser (desktop + 375 px phone)",
    "status": "pass",
-   "detail": "19 of 19 browser checks pass (2026-10-11 16:50)"
+   "detail": "21 of 21 browser checks pass (2026-10-11 17:06)"
   },
   {
    "id": "E7",
@@ -58,157 +58,200 @@
  ],
  "jev": {
   "threshold": 0.7,
-  "passed": 179,
-  "total": 179,
+  "passed": 209,
+  "total": 209,
   "review": 0,
-  "reviewed": 2,
+  "reviewed": 10,
   "items": [
    {
     "target": "slide 1",
     "check": "Presents proposed work as achieved results",
     "p": 0.03,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "8bf9ce1b425a"
    },
    {
     "target": "slide 1",
     "check": "Claims nobody has studied the topic",
     "p": 0.14,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "8bf9ce1b425a"
    },
    {
     "target": "slide 1",
     "check": "Treats missing evidence as proof of misalignment",
     "p": 0.11,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "8bf9ce1b425a"
    },
    {
     "target": "slide 1",
     "check": "Generalises controlled accuracy to the field",
     "p": 0.09,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "8bf9ce1b425a"
    },
    {
     "target": "slide 1",
     "check": "Presents a forecast as an observed fact",
     "p": 0.07,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "8bf9ce1b425a"
    },
    {
     "target": "slide 2",
     "check": "Presents proposed work as achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f0aa71b76c60"
    },
    {
     "target": "slide 2",
     "check": "Claims nobody has studied the topic",
     "p": 0.05,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f0aa71b76c60"
    },
    {
     "target": "slide 2",
     "check": "Treats missing evidence as proof of misalignment",
     "p": 0.08,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f0aa71b76c60"
    },
    {
     "target": "slide 2",
     "check": "Generalises controlled accuracy to the field",
     "p": 0.12,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f0aa71b76c60"
    },
    {
     "target": "slide 2",
     "check": "Presents a forecast as an observed fact",
     "p": 0.11,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f0aa71b76c60"
    },
    {
     "target": "slide 2",
     "check": "Problem stated without naming the fix",
     "p": 0.83,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "advisory",
+    "hash": "f0aa71b76c60",
+    "reviewed": "On-slide Problem bullet states what happens, what should happen and what is unknown, and does not name the diagnostic. Codex final review concurs."
    },
    {
     "target": "slide 3",
     "check": "Presents proposed work as achieved results",
     "p": 0.03,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0fb3250d4815"
    },
    {
     "target": "slide 3",
     "check": "Claims nobody has studied the topic",
     "p": 0.05,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0fb3250d4815"
    },
    {
     "target": "slide 3",
     "check": "Treats missing evidence as proof of misalignment",
     "p": 0.1,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0fb3250d4815"
    },
    {
     "target": "slide 3",
     "check": "Generalises controlled accuracy to the field",
     "p": 0.16,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0fb3250d4815"
    },
    {
     "target": "slide 3",
     "check": "Presents a forecast as an observed fact",
     "p": 0.09,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0fb3250d4815"
    },
    {
     "target": "slide 4",
     "check": "Presents proposed work as achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "4285ba3f7c0b"
    },
    {
     "target": "slide 4",
     "check": "Claims nobody has studied the topic",
     "p": 0.07,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "4285ba3f7c0b"
    },
    {
     "target": "slide 4",
     "check": "Treats missing evidence as proof of misalignment",
     "p": 0.14,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "4285ba3f7c0b"
    },
    {
     "target": "slide 4",
     "check": "Generalises controlled accuracy to the field",
     "p": 0.06,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "4285ba3f7c0b"
    },
    {
     "target": "slide 4",
     "check": "Presents a forecast as an observed fact",
     "p": 0.17,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "4285ba3f7c0b"
    },
    {
     "target": "slide 4",
@@ -216,427 +259,553 @@
     "p": 0.53,
     "pass": true,
     "want": true,
-    "reviewed": "Each row names data that can answer its RQ: interviews/records/expert ratings for RQ1, design records for RQ2, held-out cases plus matched field comparison for RQ3. Row 3 thresholds are abbreviated here and stated in full on slide 7. Predicate has no fixtures, so it is advisory."
+    "mode": "advisory",
+    "hash": "4285ba3f7c0b",
+    "reviewed": "Each row names data that can answer its RQ: interviews, records and expert ratings (RQ1); design records (RQ2); held-out cases plus matched field comparison (RQ3). Full thresholds on slide 7. Codex final review concurs."
    },
    {
     "target": "slide 5",
     "check": "Presents proposed work as achieved results",
     "p": 0.03,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2fffde92917e"
    },
    {
     "target": "slide 5",
     "check": "Claims nobody has studied the topic",
     "p": 0.05,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2fffde92917e"
    },
    {
     "target": "slide 5",
     "check": "Treats missing evidence as proof of misalignment",
     "p": 0.2,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2fffde92917e"
    },
    {
     "target": "slide 5",
     "check": "Generalises controlled accuracy to the field",
     "p": 0.11,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2fffde92917e"
    },
    {
     "target": "slide 5",
     "check": "Presents a forecast as an observed fact",
     "p": 0.07,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2fffde92917e"
    },
    {
     "target": "slide 5",
     "check": "Names pragmatism and its consequence for evidence",
     "p": 0.96,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "advisory",
+    "hash": "2fffde92917e",
+    "reviewed": "First column: 'Pragmatism: warranted use, inspectable evidence'; the script explains the consequence for accepted evidence."
    },
    {
     "target": "slide 5",
     "check": "Grounds a feature in a kernel theory",
     "p": 0.83,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "advisory",
+    "hash": "2fffde92917e",
+    "reviewed": "Worked chain: Baird & Maruping delegation \u2192 REQ3 \u2192 DPr3 \u2192 mandate\u2013permission\u2013action feature \u2192 DP2/DP3 evaluation."
    },
    {
     "target": "slide 6",
     "check": "Presents proposed work as achieved results",
     "p": 0.05,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f04aeea5c99d"
    },
    {
     "target": "slide 6",
     "check": "Claims nobody has studied the topic",
     "p": 0.05,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f04aeea5c99d"
    },
    {
     "target": "slide 6",
     "check": "Treats missing evidence as proof of misalignment",
     "p": 0.1,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f04aeea5c99d"
    },
    {
     "target": "slide 6",
     "check": "Generalises controlled accuracy to the field",
     "p": 0.15,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f04aeea5c99d"
    },
    {
     "target": "slide 6",
     "check": "Presents a forecast as an observed fact",
     "p": 0.15,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f04aeea5c99d"
    },
    {
     "target": "slide 7",
     "check": "Presents proposed work as achieved results",
     "p": 0.03,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c9884c8d2074"
    },
    {
     "target": "slide 7",
     "check": "Claims nobody has studied the topic",
     "p": 0.05,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c9884c8d2074"
    },
    {
     "target": "slide 7",
     "check": "Treats missing evidence as proof of misalignment",
     "p": 0.22,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c9884c8d2074"
    },
    {
     "target": "slide 7",
     "check": "Generalises controlled accuracy to the field",
     "p": 0.06,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c9884c8d2074"
    },
    {
     "target": "slide 7",
     "check": "Presents a forecast as an observed fact",
     "p": 0.08,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c9884c8d2074"
    },
    {
     "target": "slide 7",
     "check": "Propositions have pre-set decision rules",
     "p": 0.93,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "advisory",
+    "hash": "c9884c8d2074",
+    "reviewed": "DP1\u2013DP6 each state a threshold and a met/unmet/inconclusive rule, labelled proposed and fixed before testing."
    },
    {
     "target": "slide 8",
     "check": "Presents proposed work as achieved results",
     "p": 0.03,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c0b787ef9fcd"
    },
    {
     "target": "slide 8",
     "check": "Claims nobody has studied the topic",
     "p": 0.07,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c0b787ef9fcd"
    },
    {
     "target": "slide 8",
     "check": "Treats missing evidence as proof of misalignment",
     "p": 0.1,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c0b787ef9fcd"
    },
    {
     "target": "slide 8",
     "check": "Generalises controlled accuracy to the field",
     "p": 0.06,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c0b787ef9fcd"
    },
    {
     "target": "slide 8",
     "check": "Presents a forecast as an observed fact",
     "p": 0.12,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c0b787ef9fcd"
    },
    {
     "target": "slide 9",
     "check": "Presents proposed work as achieved results",
     "p": 0.03,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "5887d365a9ac"
    },
    {
     "target": "slide 9",
     "check": "Claims nobody has studied the topic",
     "p": 0.07,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "5887d365a9ac"
    },
    {
     "target": "slide 9",
     "check": "Treats missing evidence as proof of misalignment",
     "p": 0.08,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "5887d365a9ac"
    },
    {
     "target": "slide 9",
     "check": "Generalises controlled accuracy to the field",
     "p": 0.15,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "5887d365a9ac"
    },
    {
     "target": "slide 9",
     "check": "Presents a forecast as an observed fact",
     "p": 0.1,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "5887d365a9ac"
    },
    {
     "target": "slide 9",
     "check": "Walk-through labelled illustrative",
     "p": 0.95,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "advisory",
+    "hash": "5887d365a9ac",
+    "reviewed": "Eyebrow reads 'Illustrative \u2014 no study results'; note line repeats it."
    },
    {
     "target": "slide 10",
     "check": "Presents proposed work as achieved results",
     "p": 0.03,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f644ba14cffd"
    },
    {
     "target": "slide 10",
     "check": "Claims nobody has studied the topic",
     "p": 0.06,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f644ba14cffd"
    },
    {
     "target": "slide 10",
     "check": "Treats missing evidence as proof of misalignment",
     "p": 0.12,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f644ba14cffd"
    },
    {
     "target": "slide 10",
     "check": "Generalises controlled accuracy to the field",
     "p": 0.09,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f644ba14cffd"
    },
    {
     "target": "slide 10",
     "check": "Presents a forecast as an observed fact",
     "p": 0.08,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "f644ba14cffd"
    },
    {
     "target": "q01",
     "check": "Answers the question directly",
     "p": 0.88,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "60efbd4c8e25"
    },
    {
     "target": "q01",
     "check": "States a substantive limit",
     "p": 0.94,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "60efbd4c8e25"
    },
    {
     "target": "q01",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "60efbd4c8e25"
    },
    {
     "target": "q01",
     "check": "Missing evidence treated as proof",
     "p": 0.11,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "60efbd4c8e25"
    },
    {
     "target": "q02",
     "check": "Answers the question directly",
     "p": 0.74,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "e45f36c6dd36"
    },
    {
     "target": "q02",
     "check": "States a substantive limit",
     "p": 0.96,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "e45f36c6dd36"
    },
    {
     "target": "q02",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "e45f36c6dd36"
    },
    {
     "target": "q02",
     "check": "Missing evidence treated as proof",
     "p": 0.1,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "e45f36c6dd36"
    },
    {
     "target": "q03",
     "check": "Answers the question directly",
     "p": 0.89,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "9416751594c3"
    },
    {
     "target": "q03",
     "check": "States a substantive limit",
     "p": 0.82,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "9416751594c3"
    },
    {
     "target": "q03",
     "check": "Claims achieved results",
     "p": 0.05,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "9416751594c3"
    },
    {
     "target": "q03",
     "check": "Missing evidence treated as proof",
     "p": 0.06,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "9416751594c3"
    },
    {
     "target": "q04",
     "check": "Answers the question directly",
     "p": 0.81,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "e1c861ae83a2"
    },
    {
     "target": "q04",
     "check": "States a substantive limit",
     "p": 0.9,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "e1c861ae83a2"
    },
    {
     "target": "q04",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "e1c861ae83a2"
    },
    {
     "target": "q04",
     "check": "Missing evidence treated as proof",
     "p": 0.15,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "e1c861ae83a2"
    },
    {
     "target": "q05",
     "check": "Answers the question directly",
     "p": 0.82,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "c8a472012c8f"
    },
    {
     "target": "q05",
     "check": "States a substantive limit",
     "p": 0.94,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "c8a472012c8f"
    },
    {
     "target": "q05",
     "check": "Claims achieved results",
     "p": 0.07,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c8a472012c8f"
    },
    {
     "target": "q05",
     "check": "Missing evidence treated as proof",
     "p": 0.15,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c8a472012c8f"
    },
    {
     "target": "q06",
     "check": "Answers the question directly",
     "p": 0.88,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "0c6390bb501c"
    },
    {
     "target": "q06",
     "check": "States a substantive limit",
     "p": 0.89,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "0c6390bb501c"
    },
    {
     "target": "q06",
     "check": "Claims achieved results",
     "p": 0.2,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0c6390bb501c"
    },
    {
     "target": "q06",
     "check": "Missing evidence treated as proof",
     "p": 0.15,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0c6390bb501c"
    },
    {
     "target": "q07",
     "check": "Answers the question directly",
     "p": 0.75,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "631b30876df0"
    },
    {
     "target": "q07",
     "check": "States a substantive limit",
     "p": 0.92,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "631b30876df0"
    },
    {
     "target": "q07",
@@ -644,680 +813,1150 @@
     "p": 0.39,
     "pass": true,
     "want": false,
-    "reviewed": "The evidence sentence reports other authors' published work (Diab 2021, Issa et al. 2026), not results of this study. No study result is claimed."
+    "mode": "calibrated",
+    "hash": "631b30876df0",
+    "reviewed": "Evidence reports other authors' published work (Diab 2021; Issa et al. 2026), not this study. Codex final review concurs."
    },
    {
     "target": "q07",
     "check": "Missing evidence treated as proof",
     "p": 0.1,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "631b30876df0"
    },
    {
     "target": "q08",
     "check": "Answers the question directly",
     "p": 0.86,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "02b424ac4ef7"
    },
    {
     "target": "q08",
     "check": "States a substantive limit",
     "p": 0.95,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "02b424ac4ef7"
    },
    {
     "target": "q08",
     "check": "Claims achieved results",
     "p": 0.06,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "02b424ac4ef7"
    },
    {
     "target": "q08",
     "check": "Missing evidence treated as proof",
     "p": 0.12,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "02b424ac4ef7"
    },
    {
     "target": "q09",
     "check": "Answers the question directly",
     "p": 0.9,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "e7e93f9d2f6d"
    },
    {
     "target": "q09",
     "check": "States a substantive limit",
     "p": 0.95,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "e7e93f9d2f6d"
    },
    {
     "target": "q09",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "e7e93f9d2f6d"
    },
    {
     "target": "q09",
     "check": "Missing evidence treated as proof",
     "p": 0.11,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "e7e93f9d2f6d"
    },
    {
     "target": "q10",
     "check": "Answers the question directly",
     "p": 0.92,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "9a72a1f5d547"
    },
    {
     "target": "q10",
     "check": "States a substantive limit",
     "p": 0.95,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "9a72a1f5d547"
    },
    {
     "target": "q10",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "9a72a1f5d547"
    },
    {
     "target": "q10",
     "check": "Missing evidence treated as proof",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "9a72a1f5d547"
    },
    {
     "target": "q11",
     "check": "Answers the question directly",
     "p": 0.85,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "c7a25c8b4033"
    },
    {
     "target": "q11",
     "check": "States a substantive limit",
     "p": 0.95,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "c7a25c8b4033"
    },
    {
     "target": "q11",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c7a25c8b4033"
    },
    {
     "target": "q11",
     "check": "Missing evidence treated as proof",
     "p": 0.09,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c7a25c8b4033"
    },
    {
     "target": "q12",
     "check": "Answers the question directly",
     "p": 0.9,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "666cfc58eb42"
    },
    {
     "target": "q12",
     "check": "States a substantive limit",
     "p": 0.94,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "666cfc58eb42"
    },
    {
     "target": "q12",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "666cfc58eb42"
    },
    {
     "target": "q12",
     "check": "Missing evidence treated as proof",
     "p": 0.15,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "666cfc58eb42"
    },
    {
     "target": "q13",
     "check": "Answers the question directly",
     "p": 0.85,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "9a894ca72024"
    },
    {
     "target": "q13",
     "check": "States a substantive limit",
     "p": 0.93,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "9a894ca72024"
    },
    {
     "target": "q13",
     "check": "Claims achieved results",
     "p": 0.09,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "9a894ca72024"
    },
    {
     "target": "q13",
     "check": "Missing evidence treated as proof",
     "p": 0.15,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "9a894ca72024"
    },
    {
     "target": "q14",
     "check": "Answers the question directly",
     "p": 0.9,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "e546f47de16e"
    },
    {
     "target": "q14",
     "check": "States a substantive limit",
     "p": 0.97,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "e546f47de16e"
    },
    {
     "target": "q14",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "e546f47de16e"
    },
    {
     "target": "q14",
     "check": "Missing evidence treated as proof",
     "p": 0.19,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "e546f47de16e"
    },
    {
     "target": "q15",
     "check": "Answers the question directly",
-    "p": 0.89,
+    "p": 0.87,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "c0b87d90cd1f"
    },
    {
     "target": "q15",
     "check": "States a substantive limit",
     "p": 0.9,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "c0b87d90cd1f"
    },
    {
     "target": "q15",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c0b87d90cd1f"
    },
    {
     "target": "q15",
     "check": "Missing evidence treated as proof",
-    "p": 0.14,
+    "p": 0.12,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c0b87d90cd1f"
    },
    {
     "target": "q16",
     "check": "Answers the question directly",
     "p": 0.72,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "bc474c38820c"
    },
    {
     "target": "q16",
     "check": "States a substantive limit",
     "p": 0.96,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "bc474c38820c"
    },
    {
     "target": "q16",
     "check": "Claims achieved results",
     "p": 0.05,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "bc474c38820c"
    },
    {
     "target": "q16",
     "check": "Missing evidence treated as proof",
     "p": 0.19,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "bc474c38820c"
    },
    {
     "target": "q17",
     "check": "Answers the question directly",
     "p": 0.87,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "0bda2d92eed8"
    },
    {
     "target": "q17",
     "check": "States a substantive limit",
     "p": 0.89,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "0bda2d92eed8"
    },
    {
     "target": "q17",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0bda2d92eed8"
    },
    {
     "target": "q17",
     "check": "Missing evidence treated as proof",
     "p": 0.22,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0bda2d92eed8"
    },
    {
     "target": "q18",
     "check": "Answers the question directly",
     "p": 0.82,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "943654fbeb3d"
    },
    {
     "target": "q18",
     "check": "States a substantive limit",
     "p": 0.96,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "943654fbeb3d"
    },
    {
     "target": "q18",
     "check": "Claims achieved results",
     "p": 0.06,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "943654fbeb3d"
    },
    {
     "target": "q18",
     "check": "Missing evidence treated as proof",
     "p": 0.13,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "943654fbeb3d"
    },
    {
     "target": "q19",
     "check": "Answers the question directly",
     "p": 0.81,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "5d67e32f3f51"
    },
    {
     "target": "q19",
     "check": "States a substantive limit",
     "p": 0.95,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "5d67e32f3f51"
    },
    {
     "target": "q19",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "5d67e32f3f51"
    },
    {
     "target": "q19",
     "check": "Missing evidence treated as proof",
     "p": 0.17,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "5d67e32f3f51"
    },
    {
     "target": "q20",
     "check": "Answers the question directly",
     "p": 0.94,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "c76417ef3711"
    },
    {
     "target": "q20",
     "check": "States a substantive limit",
     "p": 0.96,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "c76417ef3711"
    },
    {
     "target": "q20",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c76417ef3711"
    },
    {
     "target": "q20",
     "check": "Missing evidence treated as proof",
     "p": 0.11,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c76417ef3711"
    },
    {
     "target": "q21",
     "check": "Answers the question directly",
-    "p": 0.78,
+    "p": 0.77,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "320dcfdb9c4c"
    },
    {
     "target": "q21",
     "check": "States a substantive limit",
-    "p": 0.96,
+    "p": 0.95,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "320dcfdb9c4c"
    },
    {
     "target": "q21",
     "check": "Claims achieved results",
-    "p": 0.04,
+    "p": 0.05,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "320dcfdb9c4c"
    },
    {
     "target": "q21",
     "check": "Missing evidence treated as proof",
-    "p": 0.13,
+    "p": 0.18,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "320dcfdb9c4c"
    },
    {
     "target": "q22",
     "check": "Answers the question directly",
     "p": 0.92,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "7c8d54a3673e"
    },
    {
     "target": "q22",
     "check": "States a substantive limit",
     "p": 0.93,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "7c8d54a3673e"
    },
    {
     "target": "q22",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "7c8d54a3673e"
    },
    {
     "target": "q22",
     "check": "Missing evidence treated as proof",
     "p": 0.11,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "7c8d54a3673e"
    },
    {
     "target": "q23",
     "check": "Answers the question directly",
     "p": 0.88,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "1e0595f4c7a4"
    },
    {
     "target": "q23",
     "check": "States a substantive limit",
     "p": 0.93,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "1e0595f4c7a4"
    },
    {
     "target": "q23",
     "check": "Claims achieved results",
     "p": 0.06,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "1e0595f4c7a4"
    },
    {
     "target": "q23",
     "check": "Missing evidence treated as proof",
     "p": 0.21,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "1e0595f4c7a4"
    },
    {
     "target": "q24",
     "check": "Answers the question directly",
     "p": 0.83,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "dbc76ab65b0a"
    },
    {
     "target": "q24",
     "check": "States a substantive limit",
     "p": 0.94,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "dbc76ab65b0a"
    },
    {
     "target": "q24",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "dbc76ab65b0a"
    },
    {
     "target": "q24",
     "check": "Missing evidence treated as proof",
     "p": 0.26,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "dbc76ab65b0a"
    },
    {
     "target": "q25",
     "check": "Answers the question directly",
     "p": 0.84,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "55d28aeb384d"
    },
    {
     "target": "q25",
     "check": "States a substantive limit",
     "p": 0.95,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "55d28aeb384d"
    },
    {
     "target": "q25",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "55d28aeb384d"
    },
    {
     "target": "q25",
     "check": "Missing evidence treated as proof",
     "p": 0.09,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "55d28aeb384d"
    },
    {
     "target": "q26",
     "check": "Answers the question directly",
     "p": 0.89,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "c0548667e2ef"
    },
    {
     "target": "q26",
     "check": "States a substantive limit",
     "p": 0.95,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "c0548667e2ef"
    },
    {
     "target": "q26",
     "check": "Claims achieved results",
     "p": 0.03,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c0548667e2ef"
    },
    {
     "target": "q26",
     "check": "Missing evidence treated as proof",
     "p": 0.23,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "c0548667e2ef"
    },
    {
     "target": "q27",
     "check": "Answers the question directly",
-    "p": 0.83,
+    "p": 0.89,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "07b33b1b2311"
    },
    {
     "target": "q27",
     "check": "States a substantive limit",
-    "p": 0.94,
+    "p": 0.93,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "07b33b1b2311"
    },
    {
     "target": "q27",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "07b33b1b2311"
    },
    {
     "target": "q27",
     "check": "Missing evidence treated as proof",
-    "p": 0.17,
+    "p": 0.12,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "07b33b1b2311"
    },
    {
     "target": "q28",
     "check": "Answers the question directly",
     "p": 0.87,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "296ebf415146"
    },
    {
     "target": "q28",
     "check": "States a substantive limit",
     "p": 0.96,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "296ebf415146"
    },
    {
     "target": "q28",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "296ebf415146"
    },
    {
     "target": "q28",
     "check": "Missing evidence treated as proof",
     "p": 0.06,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "296ebf415146"
    },
    {
     "target": "q29",
     "check": "Answers the question directly",
     "p": 0.88,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "db8f54856e8a"
    },
    {
     "target": "q29",
     "check": "States a substantive limit",
     "p": 0.96,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "db8f54856e8a"
    },
    {
     "target": "q29",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "db8f54856e8a"
    },
    {
     "target": "q29",
     "check": "Missing evidence treated as proof",
     "p": 0.11,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "db8f54856e8a"
    },
    {
     "target": "q30",
     "check": "Answers the question directly",
-    "p": 0.92,
+    "p": 0.91,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "aa05668bc4d8"
    },
    {
     "target": "q30",
     "check": "States a substantive limit",
     "p": 0.98,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "calibrated",
+    "hash": "aa05668bc4d8"
    },
    {
     "target": "q30",
     "check": "Claims achieved results",
     "p": 0.04,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "aa05668bc4d8"
    },
    {
     "target": "q30",
     "check": "Missing evidence treated as proof",
     "p": 0.09,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "calibrated",
+    "hash": "aa05668bc4d8"
+   },
+   {
+    "target": "walk-through 1",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0b9144664b15"
+   },
+   {
+    "target": "walk-through 1",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.14,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0b9144664b15"
+   },
+   {
+    "target": "walk-through 1",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.2,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0b9144664b15"
+   },
+   {
+    "target": "walk-through 1",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.21,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0b9144664b15"
+   },
+   {
+    "target": "walk-through 1",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.07,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "0b9144664b15"
+   },
+   {
+    "target": "walk-through 2",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "78b30fbc53be"
+   },
+   {
+    "target": "walk-through 2",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.14,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "78b30fbc53be"
+   },
+   {
+    "target": "walk-through 2",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.07,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "78b30fbc53be"
+   },
+   {
+    "target": "walk-through 2",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.12,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "78b30fbc53be"
+   },
+   {
+    "target": "walk-through 2",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.07,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "78b30fbc53be"
+   },
+   {
+    "target": "walk-through 3",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "4ade3643a62a"
+   },
+   {
+    "target": "walk-through 3",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.14,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "4ade3643a62a"
+   },
+   {
+    "target": "walk-through 3",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.11,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "4ade3643a62a"
+   },
+   {
+    "target": "walk-through 3",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.13,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "4ade3643a62a"
+   },
+   {
+    "target": "walk-through 3",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.09,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "4ade3643a62a"
+   },
+   {
+    "target": "walk-through 4",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2da0158c2666"
+   },
+   {
+    "target": "walk-through 4",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.28,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2da0158c2666"
+   },
+   {
+    "target": "walk-through 4",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.09,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2da0158c2666"
+   },
+   {
+    "target": "walk-through 4",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.22,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2da0158c2666"
+   },
+   {
+    "target": "walk-through 4",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.1,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2da0158c2666"
+   },
+   {
+    "target": "walk-through 5",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "6197b9f7f2e1"
+   },
+   {
+    "target": "walk-through 5",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.12,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "6197b9f7f2e1"
+   },
+   {
+    "target": "walk-through 5",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.2,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "6197b9f7f2e1"
+   },
+   {
+    "target": "walk-through 5",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.2,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "6197b9f7f2e1"
+   },
+   {
+    "target": "walk-through 5",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.24,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "6197b9f7f2e1"
+   },
+   {
+    "target": "walk-through 6",
+    "check": "Presents proposed work as achieved results",
+    "p": 0.03,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2a629f28713d"
+   },
+   {
+    "target": "walk-through 6",
+    "check": "Claims nobody has studied the topic",
+    "p": 0.17,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2a629f28713d"
+   },
+   {
+    "target": "walk-through 6",
+    "check": "Treats missing evidence as proof of misalignment",
+    "p": 0.16,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2a629f28713d"
+   },
+   {
+    "target": "walk-through 6",
+    "check": "Generalises controlled accuracy to the field",
+    "p": 0.2,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2a629f28713d"
+   },
+   {
+    "target": "walk-through 6",
+    "check": "Presents a forecast as an observed fact",
+    "p": 0.11,
+    "pass": true,
+    "want": false,
+    "mode": "calibrated",
+    "hash": "2a629f28713d"
    },
    {
     "target": "deck",
     "check": "Problem before solution",
     "p": 0.83,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "advisory",
+    "hash": "00d283c1f2f9",
+    "reviewed": "Slides 1\u20133 set problem and gap before the artefact appears on slides 4\u20135."
    },
    {
     "target": "deck",
     "check": "Problem \u2192 gap \u2192 questions \u2192 framework \u2192 method \u2192 contribution",
     "p": 0.92,
     "pass": true,
-    "want": true
+    "want": true,
+    "mode": "advisory",
+    "hash": "00d283c1f2f9",
+    "reviewed": "Order: problem (1\u20132), gap (3), questions (4), framework (5), method (6\u20138), use (9), contribution (10)."
    },
    {
     "target": "deck",
     "check": "Claims validation already done",
     "p": 0.03,
     "pass": true,
-    "want": false
+    "want": false,
+    "mode": "advisory",
+    "hash": "00d283c1f2f9",
+    "reviewed": "p = 0.03; slide 10 says no evaluation results yet."
    }
-  ]
+  ],
+  "predicates": 18,
+  "calibrated": 9,
+  "fixtures": 54
  }
 }

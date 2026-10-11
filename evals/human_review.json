@@ -1,6 +1,104 @@
-{"reviews": [
- {"target": "q07", "check": "Claims achieved results", "disposition": "pass", "reviewer": "Claude (orchestrator)", "date": "2026-10-11",
-  "reason": "The evidence sentence reports other authors' published work (Diab 2021, Issa et al. 2026), not results of this study. No study result is claimed."},
- {"target": "slide 4", "check": "Each row's data permit its test", "disposition": "pass", "reviewer": "Claude (orchestrator)", "date": "2026-10-11",
-  "reason": "Each row names data that can answer its RQ: interviews/records/expert ratings for RQ1, design records for RQ2, held-out cases plus matched field comparison for RQ3. Row 3 thresholds are abbreviated here and stated in full on slide 7. Predicate has no fixtures, so it is advisory."}
-]}
+{
+ "reviews": [
+  {
+   "target": "slide 2",
+   "check": "Problem stated without naming the fix",
+   "hash": "f0aa71b76c60",
+   "p": 0.83,
+   "disposition": "pass",
+   "reviewer": "Claude (orchestrator)",
+   "date": "2026-10-11",
+   "reason": "On-slide Problem bullet states what happens, what should happen and what is unknown, and does not name the diagnostic. Codex final review concurs."
+  },
+  {
+   "target": "slide 4",
+   "check": "Each row's data permit its test",
+   "hash": "4285ba3f7c0b",
+   "p": 0.53,
+   "disposition": "pass",
+   "reviewer": "Claude (orchestrator)",
+   "date": "2026-10-11",
+   "reason": "Each row names data that can answer its RQ: interviews, records and expert ratings (RQ1); design records (RQ2); held-out cases plus matched field comparison (RQ3). Full thresholds on slide 7. Codex final review concurs."
+  },
+  {
+   "target": "slide 5",
+   "check": "Names pragmatism and its consequence for evidence",
+   "hash": "2fffde92917e",
+   "p": 0.96,
+   "disposition": "pass",
+   "reviewer": "Claude (orchestrator)",
+   "date": "2026-10-11",
+   "reason": "First column: 'Pragmatism: warranted use, inspectable evidence'; the script explains the consequence for accepted evidence."
+  },
+  {
+   "target": "slide 5",
+   "check": "Grounds a feature in a kernel theory",
+   "hash": "2fffde92917e",
+   "p": 0.83,
+   "disposition": "pass",
+   "reviewer": "Claude (orchestrator)",
+   "date": "2026-10-11",
+   "reason": "Worked chain: Baird & Maruping delegation → REQ3 → DPr3 → mandate–permission–action feature → DP2/DP3 evaluation."
+  },
+  {
+   "target": "slide 7",
+   "check": "Propositions have pre-set decision rules",
+   "hash": "c9884c8d2074",
+   "p": 0.93,
+   "disposition": "pass",
+   "reviewer": "Claude (orchestrator)",
+   "date": "2026-10-11",
+   "reason": "DP1–DP6 each state a threshold and a met/unmet/inconclusive rule, labelled proposed and fixed before testing."
+  },
+  {
+   "target": "slide 9",
+   "check": "Walk-through labelled illustrative",
+   "hash": "5887d365a9ac",
+   "p": 0.95,
+   "disposition": "pass",
+   "reviewer": "Claude (orchestrator)",
+   "date": "2026-10-11",
+   "reason": "Eyebrow reads 'Illustrative — no study results'; note line repeats it."
+  },
+  {
+   "target": "q07",
+   "check": "Claims achieved results",
+   "hash": "631b30876df0",
+   "p": 0.39,
+   "disposition": "pass",
+   "reviewer": "Claude (orchestrator)",
+   "date": "2026-10-11",
+   "reason": "Evidence reports other authors' published work (Diab 2021; Issa et al. 2026), not this study. Codex final review concurs."
+  },
+  {
+   "target": "deck",
+   "check": "Problem before solution",
+   "hash": "00d283c1f2f9",
+   "p": 0.83,
+   "disposition": "pass",
+   "reviewer": "Claude (orchestrator)",
+   "date": "2026-10-11",
+   "reason": "Slides 1–3 set problem and gap before the artefact appears on slides 4–5."
+  },
+  {
+   "target": "deck",
+   "check": "Problem → gap → questions → framework → method → contribution",
+   "hash": "00d283c1f2f9",
+   "p": 0.92,
+   "disposition": "pass",
+   "reviewer": "Claude (orchestrator)",
+   "date": "2026-10-11",
+   "reason": "Order: problem (1–2), gap (3), questions (4), framework (5), method (6–8), use (9), contribution (10)."
+  },
+  {
+   "target": "deck",
+   "check": "Claims validation already done",
+   "hash": "00d283c1f2f9",
+   "p": 0.03,
+   "disposition": "pass",
+   "reviewer": "Claude (orchestrator)",
+   "date": "2026-10-11",
+   "reason": "p = 0.03; slide 10 says no evaluation results yet."
+  }
+ ]
+}

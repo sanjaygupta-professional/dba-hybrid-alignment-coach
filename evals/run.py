@@ -210,6 +210,13 @@ def jev_jobs():
         state = C["jev_context"] + f"Examiner question: {q['q']}\nModel answer: {q['a']}\nEvidence: {q['e']}\nLimit: {q['l']}"
         for ch in C["jev_checks"]["answer"]:
             jobs.append((q["id"], ch, state))
+    for k, st in enumerate(C["demo"]["steps"]):
+        rows = " | ".join(" ; ".join(r) for r in st.get("table", [])[1:])
+        state = C["jev_context"] + f"Illustrative walk-through step {k+1} ({st['phase']}): {st['title']}. {st['text']} Table: {rows} Leader action: {st.get('callout','')}"
+        for ch in C["jev_checks"]["slide"]:
+            if ch.get("only"):
+                continue
+            jobs.append((f"walk-through {k+1}", ch, state))
     deck = "\n".join(f"Slide {s['n']}: {s['title']} — {s['message']}" for s in C["slides"])
     for ch in C["jev_checks"]["deck"]:
         jobs.append(("deck", ch, C["jev_context"] + "Storyline of a 10-slide doctoral topic presentation (design science):\n" + deck))
@@ -218,6 +225,8 @@ def jev_jobs():
 
 def e5(run, cache, weak):
     cache_p = OUT / "jev-cache.json"
+    fx = json.loads((ROOT / "evals" / "jev_fixtures.json").read_text())["fixtures"]
+    calibrated = {f["check"] for f in fx}
     jobs, th = jev_jobs()
     items, missing = [], 0
     sys.path.insert(0, str(ROOT / "tools"))
@@ -247,13 +256,15 @@ def e5(run, cache, weak):
             p = float(ps[i])
             t = CFG.get("jev_thresholds", {}).get(c["label"], th)
             ok = p >= t if c.get("want", True) else p <= 1 - t
-            if c["label"] in weak:
-                ok = None  # uncalibrated predicate: human review, never auto-pass
-            items.append({"target": target, "check": c["label"], "p": round(p, 3), "pass": ok, "want": c.get("want", True)})
+            if c["label"] in weak or c["label"] not in calibrated:
+                ok = None  # weak or uncalibrated predicate: advisory, needs a signed human review
+            items.append({"target": target, "check": c["label"], "p": round(p, 3), "pass": ok, "want": c.get("want", True),
+                          "mode": "advisory" if c["label"] not in calibrated else "calibrated",
+                          "hash": hashlib.sha256(state.encode()).hexdigest()[:12]})
     hr = json.loads((ROOT / "evals" / "human_review.json").read_text())["reviews"]
     for i in items:
         if i["pass"] is not True:
-            rv = next((h for h in hr if h["target"] == i["target"] and h["check"] == i["check"]), None)
+            rv = next((h for h in hr if h["target"] == i["target"] and h["check"] == i["check"] and h.get("hash") == i["hash"]), None)
             if rv and rv["disposition"] == "pass":
                 i["pass"] = True; i["reviewed"] = rv["reason"]
     reviewed = sum(1 for i in items if i.get("reviewed"))
@@ -263,11 +274,13 @@ def e5(run, cache, weak):
     rate = passed / total if total else 0
     ok = total > 0 and missing == 0 and review == 0 and rate >= CFG["jev_min_pass_rate"]
     fails = [f"{i['target']}: {i['check']} ({i['p']})" for i in items if i["pass"] is False]
-    gate("E5", "Jev typed checks on slides, answers and storyline", ok,
+    gate("E5", "Jev typed checks on slides, answers, walk-through and storyline", ok,
          f"{passed} of {total} pass ({reviewed} after signed human review); {review} awaiting review; {missing} not yet scored"
          + (f"; failing: {'; '.join(fails[:6])}" if fails else ""))
     cache_p.write_text(json.dumps(cache, indent=0))
-    return {"threshold": th, "passed": passed, "total": total, "review": review, "reviewed": reviewed, "items": items}
+    preds = {c["label"] for k in ("slide", "answer", "deck") for c in C["jev_checks"][k]}
+    return {"threshold": th, "passed": passed, "total": total, "review": review, "reviewed": reviewed, "items": items,
+            "predicates": len(preds), "calibrated": len(preds & calibrated), "fixtures": len(fx)}
 
 
 # ── E6 UX (browser) — read result written by evals/ux.mjs ───────────────

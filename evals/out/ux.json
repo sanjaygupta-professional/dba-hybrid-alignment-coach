@@ -1,5 +1,5 @@
 {
- "when": "2026-10-11 16:50",
+ "when": "2026-10-11 17:06",
  "checks": [
   {
    "name": "desktop: no JS errors",
@@ -52,9 +52,19 @@
    "detail": "runs=1"
   },
   {
-   "name": "viva: drill scores a typed answer",
+   "name": "viva: without Jev, check opens an honest self-check (no automatic verdicts)",
    "ok": true,
-   "detail": "rows=5"
+   "detail": "self-check boxes=5"
+  },
+  {
+   "name": "viva: self-check repair targets an unticked point",
+   "ok": true,
+   "detail": "One repair: Add one named source or one concrete design fact"
+  },
+  {
+   "name": "privacy: listening off and Jev upload off until the user opts in",
+   "ok": true,
+   "detail": "listen=false liveJev=null box=false"
   },
   {
    "name": "a11y: all buttons have names",

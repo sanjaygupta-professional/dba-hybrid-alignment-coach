@@ -511,7 +511,7 @@
   {
    "id": "t5",
    "name": "Why not just survey people?",
-   "how": "Answer it in one sentence, then in 60 seconds.",
+   "how": "Answer it in one sentence. (Coach practice: then expand to 60 seconds.)",
    "src": "Researcher's Journey, DSR step 14"
   },
   {
@@ -543,7 +543,7 @@
     "text": "Agent instruction: resolve requests; may issue credits"
    }
   ],
-  "use": "If an examiner asks 'how would a manager actually use this?', walk through these six steps in 90 seconds. Say 'illustrative' twice. End on the action, not on a score.",
+  "use": "Coach practice: if an examiner asks 'how would a manager actually use this?', walk through these six steps in about 90 seconds. Say early that the example is illustrative. End on the action that the evidence supports, not on a score.",
   "steps": [
    {
     "phase": "Frame",
@@ -554,113 +554,126 @@
    {
     "phase": "Gather",
     "title": "Build the evidence register",
-    "text": "The leader lists the records that each level needs. Missing records stay visible. They are never filled in by assumption.",
+    "text": "The leader lists the records that each level needs, with source and version. This step records availability only. It makes no alignment judgement.",
     "table": [
      [
       "Record",
       "Level",
-      "Status"
+      "Source / version",
+      "Availability"
      ],
      [
       "Strategy extract: approved commercial rules",
       "L1",
-      "Aligned"
+      "Strategy pack, 2026",
+      "Available"
      ],
      [
       "Unit OKR: resolution time",
       "L2",
-      "Aligned"
+      "Unit OKR sheet, Q3",
+      "Available"
      ],
      [
       "Authority matrix: credit approval limit",
       "L3",
-      "Aligned"
+      "Authority matrix v2",
+      "Available"
      ],
      [
-      "Agent instructions, version 3",
+      "Agent instructions",
       "L4",
-      "Aligned"
+      "Instruction set v3",
+      "Available"
      ],
      [
       "Agent permission configuration",
       "L4",
-      "Aligned"
+      "Platform config export",
+      "Available"
+     ],
+     [
+      "Action log: credits issued",
+      "L4",
+      "Agent action log",
+      "Available"
      ],
      [
       "Approval log for credits above the limit",
       "L3",
-      "Unknown"
+      "Not kept by the workflow",
+      "Missing"
      ]
     ],
-    "callout": "Ask the system owner for the approval log. Do not guess."
+    "callout": "Ask the system owner for the approval log. Do not guess what it would show."
    },
    {
     "phase": "Apply rules",
-    "title": "Apply the six evidence rules",
-    "text": "Each mechanism has its own rule. The output is an evidence state, not a single score.",
+    "title": "Apply each evidence rule to a stated comparison",
+    "text": "Each mechanism compares two named records. The output is an evidence state per mechanism, not a single score. A state needs its comparison.",
     "table": [
      [
       "Mechanism",
-      "Evidence",
+      "Comparison made",
       "State"
      ],
      [
       "M1 Goal / specification",
-      "Instruction omits the commercial rule that L1 requires",
+      "L1 commercial rule vs instruction set v3: the rule is absent from the instructions",
       "Misaligned"
      ],
      [
       "M2 Information",
-      "No approval log for large credits",
+      "Credits above the limit vs approval log: the log is missing",
       "Unknown"
      ],
      [
       "M3 Authority",
-      "Permission allows any credit; mandate sets a limit",
+      "Mandate limit vs permission and action log: one credit above the limit; approval evidence missing",
       "Open"
      ],
      [
       "M4 Accountability",
-      "Owner named, but cannot reverse a credit",
+      "Named owner vs ability to reverse a credit: owner and platform team disagree",
       "Disputed"
      ],
      [
       "M5 Reliance",
-      "No reviewer evidence collected",
+      "Reviewer behaviour vs task evidence: no reviewer records collected",
       "Unknown"
      ],
      [
       "M6 Coordination",
-      "No second agent in this workflow",
-      "Aligned"
+      "Hand-off from agent to human approver: not yet inspected",
+      "Unknown"
      ]
     ],
-    "callout": "Keep 'unknown' and 'disputed' separate from 'misaligned'."
+    "callout": "Keep 'unknown', 'open' and 'disputed' separate from 'misaligned'. Each needs different next steps."
    },
    {
     "phase": "Decide",
     "title": "One credit above the limit: three possible branches",
-    "text": "The log shows one credit above the team lead's limit. The leader's decision depends on the evidence, not on the flag.",
+    "text": "The action log shows one credit above the team lead's limit. The leader's decision on M3 depends on what the approval evidence shows, not on the flag.",
     "table": [
      [
-      "If the evidence shows",
-      "Then the state is",
+      "If the approval evidence shows",
+      "Then the M3 state is",
       "And the leader"
      ],
      [
       "A documented approval for this trade-off",
-      "Aligned",
-      "Records it and closes the item"
+      "Aligned on this criterion",
+      "Records it and closes the M3 item"
      ],
      [
-      "No approval record either way",
+      "Nothing either way (the log stays missing)",
       "Unknown",
-      "Requests the evidence before any finding"
+      "Keeps the item open and requests the record"
      ],
      [
-      "The action exceeded the delegated authority",
-      "Misaligned",
-      "Escalates an M3 finding to an owner who can remedy it"
+      "The credit exceeded the delegated authority",
+      "Misaligned (warranted M3 finding)",
+      "Escalates to an owner with authority to remedy"
      ]
     ],
     "callout": "Missing approval evidence means unknown. It does not prove an unauthorised action."
@@ -668,7 +681,7 @@
    {
     "phase": "Compare",
     "title": "The same evidence, given to the current review",
-    "text": "The study gives the existing strategy review and AI governance the same records and the same time. The current review may reach the same decision. That would be a valid finding: DP4 would stay unmet in that workflow.",
+    "text": "In the study, the existing strategy review and AI governance get the same records and the same time. Both methods are assessed in the same way. The current review may reach every decision that the diagnostic reaches. Then DP4 stays unmet in that workflow, and that is a valid finding.",
     "table": [
      [
       "Question",
@@ -676,28 +689,55 @@
       "Diagnostic"
      ],
      [
-      "Is the credit limit in the agent's permissions?",
-      "Possibly",
-      "Checked by rule M3"
+      "Is the commercial rule present in the agent's instructions?",
+      "To be assessed",
+      "To be assessed"
      ],
      [
-      "Is the missing approval log visible?",
-      "Possibly",
-      "Shown as unknown (M2)"
+      "Is the missing approval log visible as a gap?",
+      "To be assessed",
+      "To be assessed"
+     ],
+     [
+      "Is the credit within the delegated authority?",
+      "To be assessed",
+      "To be assessed"
      ],
      [
       "Can the owner remedy the action?",
-      "Possibly",
-      "Checked by rule M4"
+      "To be assessed",
+      "To be assessed"
      ]
     ],
     "callout": "Do not claim the diagnostic wins. The evaluation decides that."
    },
    {
     "phase": "Act",
-    "title": "The leader leaves with three actions",
-    "text": "1) Add the commercial rule to the agent's instructions. 2) Align the agent's permission with the mandate limit. 3) Give the owner a way to reverse credits. In the study, the researcher records whether these findings were warranted and whether the baseline also found them.",
-    "callout": "End on the action list. That is what 'useful to a manager' means here."
+    "title": "Each action follows from its own evidence",
+    "text": "The leader acts only where the evidence warrants it. Other items stay open with a named next step.",
+    "table": [
+     [
+      "Item and state",
+      "Action the evidence supports"
+     ],
+     [
+      "M1 · Misaligned",
+      "Owner of the instructions reviews whether the commercial rule belongs in v4"
+     ],
+     [
+      "M3 · depends on branch",
+      "Authorised: record and close. Unknown: request the approval log. Warranted: escalate to an authorised owner"
+     ],
+     [
+      "M4 · Disputed",
+      "Record both views; governance decides who can reverse credits"
+     ],
+     [
+      "M2, M5, M6 · Unknown",
+      "Request the missing records; inspect the human hand-off"
+     ]
+    ],
+    "callout": "End on this list. In the study, the researcher records whether each finding was warranted and whether the current review also found it."
    }
   ]
  },
@@ -727,7 +767,7 @@
     "tag": "Voice",
     "title": "Pace and pauses",
     "items": [
-     "Aim for 125–140 words per minute. Nerves push most speakers above 160.",
+     "Aim for 125–140 words per minute. Your first timed run shows your natural pace.",
      "Pause for two seconds after each slide's message.",
      "Slow down on numbers. Say the population with every statistic."
     ]
@@ -844,35 +884,40 @@
    "label": "Answers the question directly",
    "jev": "Does the candidate's answer directly answer the examiner's question in its first one or two sentences?",
    "invert": false,
-   "repair": "Start again with one sentence that answers the exact question. Put the reason after it."
+   "repair": "Start again with one sentence that answers the exact question. Put the reason after it.",
+   "self": "My first sentence answers the exact question asked, every part of it."
   },
   {
    "id": "evidence",
    "label": "Gives evidence (a source, a study design fact or data)",
    "jev": "Does the candidate's answer support its main point with specific evidence, such as a named source, a named framework, or a concrete fact about the planned study design or data?",
    "invert": false,
-   "repair": "Add one named source or one concrete design fact, for example 'nine independent experts rate each item'."
+   "repair": "Add one named source or one concrete design fact, for example 'nine independent experts rate each item'.",
+   "self": "I named a source, a framework or a concrete fact about the study design."
   },
   {
    "id": "limit",
    "label": "States a real limit",
    "jev": "Does the candidate's answer state a substantive limitation or condition on its own main claim? A generic 'more research is needed' does not count.",
    "invert": false,
-   "repair": "Add one sentence that starts 'The limit is…' and names a specific condition, not 'more research is needed'."
+   "repair": "Add one sentence that starts 'The limit is…' and names a specific condition, not 'more research is needed'.",
+   "self": "I stated a specific limit or condition myself, not 'more research is needed'."
   },
   {
    "id": "noclaim",
    "label": "Claims no results the study does not have",
    "jev": "Does the candidate's answer present planned study activities, proposed thresholds or the diagnostic's performance as results that have already been achieved or proven?",
    "invert": true,
-   "repair": "Change any 'shows' or 'proves' to 'will test'. There are no results yet."
+   "repair": "Change any 'shows' or 'proves' to 'will test'. There are no results yet.",
+   "self": "I claimed no results: I said 'will test', not 'shows' or 'proved'."
   },
   {
    "id": "unknown",
    "label": "Keeps missing evidence as 'unknown'",
    "jev": "Does the candidate's answer treat missing or disputed evidence as proof that the agent is misaligned?",
    "invert": true,
-   "repair": "Say that missing evidence stays 'unknown' and that you would request the record before any finding."
+   "repair": "Say that missing evidence stays 'unknown' and that you would request the record before any finding.",
+   "self": "Where evidence could be missing, I kept it 'unknown' and did not call it proof."
   }
  ],
  "jev_checks": {

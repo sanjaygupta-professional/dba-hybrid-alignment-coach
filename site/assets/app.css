@@ -164,7 +164,7 @@ td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabu
 .arc button:hover,.arc button[aria-current="true"]{background:var(--accent)}
 .arc button span{position:absolute;left:0;right:0;bottom:3px;text-align:center;font:600 10px var(--mono);color:var(--accent-ink)}
 .arc button:hover span,.arc button[aria-current="true"] span{color:var(--on-accent)}
-.arc-legend{display:flex;justify-content:space-between;font:500 10.5px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-top:-12px;margin-bottom:16px}
+.arc-legend{display:flex;gap:3px;font:500 10.5px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-top:-12px;margin-bottom:16px}
 .slide-row{display:grid;grid-template-columns:300px minmax(0,1fr);gap:18px;padding:18px 0;border-top:1px solid var(--rule)}
 .slide-row:first-of-type{border-top:0}
 .slide-meta{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
@@ -349,6 +349,7 @@ details.more summary::before{content:"+ "} details.more[open] summary::before{co
   .aelt{grid-template-columns:1fr;gap:2px}
   .clock b{font-size:21px}
   .seg.theme{display:none}
+  .nav .seg.theme{display:inline-flex;align-self:flex-start;margin-top:6px}
   .prompter{padding:16px}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
@@ -388,3 +389,9 @@ details.more summary::before{content:"+ "} details.more[open] summary::before{co
   .print-target:has(.deckprint){padding:0}
 }
 @media print{.deckprint .sl:last-child{page-break-after:auto;break-after:auto}}
+
+.arc-legend span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center}
+.phone-only{display:none!important}
+@media (max-width:720px){.nav .phone-only{display:inline-flex!important}}
+.phone-first{display:none!important}
+@media (max-width:720px){.phone-first{display:flex!important}.desk-only{display:none!important}.hero .thesis{font-size:16px}}
