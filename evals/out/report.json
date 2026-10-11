@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11 22:37",
+ "generated": "2026-10-11 22:42",
  "evals": [
   {
    "id": "E1",
@@ -70,7 +70,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "8bf9ce1b425a"
+    "hash": "47000d3d165ea638"
    },
    {
     "target": "slide 1",
@@ -79,7 +79,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "8bf9ce1b425a"
+    "hash": "b6555c5489d10fa6"
    },
    {
     "target": "slide 1",
@@ -88,7 +88,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "8bf9ce1b425a"
+    "hash": "32cdc74c6780122c"
    },
    {
     "target": "slide 1",
@@ -97,7 +97,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "8bf9ce1b425a"
+    "hash": "241b36a865d19388"
    },
    {
     "target": "slide 1",
@@ -106,7 +106,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "8bf9ce1b425a"
+    "hash": "60d92aac5fcae0ba"
    },
    {
     "target": "slide 2",
@@ -115,7 +115,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f0aa71b76c60"
+    "hash": "316be8e33a5215f5"
    },
    {
     "target": "slide 2",
@@ -124,7 +124,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f0aa71b76c60"
+    "hash": "06f07a18169cf020"
    },
    {
     "target": "slide 2",
@@ -133,7 +133,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f0aa71b76c60"
+    "hash": "8cd9aa9c5db17559"
    },
    {
     "target": "slide 2",
@@ -142,7 +142,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f0aa71b76c60"
+    "hash": "0f6b5f950ad8f60d"
    },
    {
     "target": "slide 2",
@@ -151,7 +151,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f0aa71b76c60"
+    "hash": "f60c51e4d273b6bf"
    },
    {
     "target": "slide 2",
@@ -160,7 +160,7 @@
     "pass": true,
     "want": true,
     "mode": "advisory",
-    "hash": "f0aa71b76c60",
+    "hash": "9289bfd1252c966d",
     "reviewed": "On-slide Problem bullet states what happens, what should happen and what is unknown, and does not name the diagnostic. Codex final review concurs."
    },
    {
@@ -170,7 +170,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0fb3250d4815"
+    "hash": "55c400df33f2a140"
    },
    {
     "target": "slide 3",
@@ -179,7 +179,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0fb3250d4815"
+    "hash": "bdd07a941e7e8ca9"
    },
    {
     "target": "slide 3",
@@ -188,7 +188,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0fb3250d4815"
+    "hash": "94db08f86074fccb"
    },
    {
     "target": "slide 3",
@@ -197,7 +197,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0fb3250d4815"
+    "hash": "8c600b9fcd15879e"
    },
    {
     "target": "slide 3",
@@ -206,7 +206,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0fb3250d4815"
+    "hash": "0f6bf03ae4545e3f"
    },
    {
     "target": "slide 4",
@@ -215,7 +215,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "4285ba3f7c0b"
+    "hash": "b3682d480a733247"
    },
    {
     "target": "slide 4",
@@ -224,7 +224,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "4285ba3f7c0b"
+    "hash": "0a5cafe1665c8768"
    },
    {
     "target": "slide 4",
@@ -233,7 +233,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "4285ba3f7c0b"
+    "hash": "6204a756356d176e"
    },
    {
     "target": "slide 4",
@@ -242,7 +242,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "4285ba3f7c0b"
+    "hash": "b89b3f5c9523d178"
    },
    {
     "target": "slide 4",
@@ -251,7 +251,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "4285ba3f7c0b"
+    "hash": "aaf991a7fb3fb967"
    },
    {
     "target": "slide 4",
@@ -260,7 +260,7 @@
     "pass": true,
     "want": true,
     "mode": "advisory",
-    "hash": "4285ba3f7c0b",
+    "hash": "338f47e0fa13bd7d",
     "reviewed": "Each row names data that can answer its RQ: interviews, records and expert ratings (RQ1); design records (RQ2); held-out cases plus matched field comparison (RQ3). Full thresholds on slide 7. Codex final review concurs."
    },
    {
@@ -270,7 +270,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2fffde92917e"
+    "hash": "34b9a74c116127c6"
    },
    {
     "target": "slide 5",
@@ -279,7 +279,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2fffde92917e"
+    "hash": "060e4fdaf066257f"
    },
    {
     "target": "slide 5",
@@ -288,7 +288,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2fffde92917e"
+    "hash": "816b8155af3ada9a"
    },
    {
     "target": "slide 5",
@@ -297,7 +297,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2fffde92917e"
+    "hash": "af8be85b2a0076cc"
    },
    {
     "target": "slide 5",
@@ -306,7 +306,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2fffde92917e"
+    "hash": "c15132eb5486fe13"
    },
    {
     "target": "slide 5",
@@ -315,7 +315,7 @@
     "pass": true,
     "want": true,
     "mode": "advisory",
-    "hash": "2fffde92917e",
+    "hash": "0e31a117b63d8b02",
     "reviewed": "First column: 'Pragmatism: warranted use, inspectable evidence'; the script explains the consequence for accepted evidence."
    },
    {
@@ -325,7 +325,7 @@
     "pass": true,
     "want": true,
     "mode": "advisory",
-    "hash": "2fffde92917e",
+    "hash": "85746ad6392a81df",
     "reviewed": "Worked chain: Baird & Maruping delegation \u2192 REQ3 \u2192 DPr3 \u2192 mandate\u2013permission\u2013action feature \u2192 DP2/DP3 evaluation."
    },
    {
@@ -335,7 +335,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f04aeea5c99d"
+    "hash": "422f65582db45200"
    },
    {
     "target": "slide 6",
@@ -344,7 +344,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f04aeea5c99d"
+    "hash": "8bb4878a5f7411ed"
    },
    {
     "target": "slide 6",
@@ -353,7 +353,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f04aeea5c99d"
+    "hash": "9753ca94aecdb29f"
    },
    {
     "target": "slide 6",
@@ -362,7 +362,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f04aeea5c99d"
+    "hash": "4b5d922c4cc14e0c"
    },
    {
     "target": "slide 6",
@@ -371,7 +371,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f04aeea5c99d"
+    "hash": "ee18e1e68c2b5d53"
    },
    {
     "target": "slide 7",
@@ -380,7 +380,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c9884c8d2074"
+    "hash": "6d30b59aab127866"
    },
    {
     "target": "slide 7",
@@ -389,7 +389,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c9884c8d2074"
+    "hash": "4586da0e305361cf"
    },
    {
     "target": "slide 7",
@@ -398,7 +398,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c9884c8d2074"
+    "hash": "9e0a361e036a4a9d"
    },
    {
     "target": "slide 7",
@@ -407,7 +407,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c9884c8d2074"
+    "hash": "9a4214fe05d55b80"
    },
    {
     "target": "slide 7",
@@ -416,7 +416,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c9884c8d2074"
+    "hash": "719a3b3815cd276b"
    },
    {
     "target": "slide 7",
@@ -425,7 +425,7 @@
     "pass": true,
     "want": true,
     "mode": "advisory",
-    "hash": "c9884c8d2074",
+    "hash": "aa970dbda03f3e9d",
     "reviewed": "DP1\u2013DP6 each state a threshold and a met/unmet/inconclusive rule, labelled proposed and fixed before testing."
    },
    {
@@ -435,7 +435,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c0b787ef9fcd"
+    "hash": "a89d6339170a165c"
    },
    {
     "target": "slide 8",
@@ -444,7 +444,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c0b787ef9fcd"
+    "hash": "a092298f9a66e8d3"
    },
    {
     "target": "slide 8",
@@ -453,7 +453,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c0b787ef9fcd"
+    "hash": "f5780622e485e10d"
    },
    {
     "target": "slide 8",
@@ -462,7 +462,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c0b787ef9fcd"
+    "hash": "1e6fd3ec7b06550b"
    },
    {
     "target": "slide 8",
@@ -471,7 +471,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c0b787ef9fcd"
+    "hash": "60449a3b9a3547e8"
    },
    {
     "target": "slide 9",
@@ -480,7 +480,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "5887d365a9ac"
+    "hash": "0dda66f8a5227220"
    },
    {
     "target": "slide 9",
@@ -489,7 +489,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "5887d365a9ac"
+    "hash": "f2b0ce67fee04e97"
    },
    {
     "target": "slide 9",
@@ -498,7 +498,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "5887d365a9ac"
+    "hash": "bfe7e936cd973cc1"
    },
    {
     "target": "slide 9",
@@ -507,7 +507,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "5887d365a9ac"
+    "hash": "3403431b1af722ff"
    },
    {
     "target": "slide 9",
@@ -516,7 +516,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "5887d365a9ac"
+    "hash": "1bae2403035c7f04"
    },
    {
     "target": "slide 9",
@@ -525,7 +525,7 @@
     "pass": true,
     "want": true,
     "mode": "advisory",
-    "hash": "5887d365a9ac",
+    "hash": "25e08c4c5f600426",
     "reviewed": "Eyebrow reads 'Illustrative \u2014 no study results'; note line repeats it."
    },
    {
@@ -535,7 +535,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f644ba14cffd"
+    "hash": "b9c723debc248754"
    },
    {
     "target": "slide 10",
@@ -544,7 +544,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f644ba14cffd"
+    "hash": "4b74be1d6a510289"
    },
    {
     "target": "slide 10",
@@ -553,7 +553,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f644ba14cffd"
+    "hash": "5769a4b558d98765"
    },
    {
     "target": "slide 10",
@@ -562,7 +562,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f644ba14cffd"
+    "hash": "a17248a5ca314e14"
    },
    {
     "target": "slide 10",
@@ -571,7 +571,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "f644ba14cffd"
+    "hash": "dad0f9f08b3e0949"
    },
    {
     "target": "q01",
@@ -580,7 +580,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "60efbd4c8e25"
+    "hash": "abeb4562e17e2a85"
    },
    {
     "target": "q01",
@@ -589,7 +589,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "60efbd4c8e25"
+    "hash": "c2c3d2612ab572f9"
    },
    {
     "target": "q01",
@@ -598,7 +598,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "60efbd4c8e25"
+    "hash": "5210acf702e86586"
    },
    {
     "target": "q01",
@@ -607,7 +607,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "60efbd4c8e25"
+    "hash": "625d2ce76b0ea7fb"
    },
    {
     "target": "q02",
@@ -616,7 +616,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "e45f36c6dd36"
+    "hash": "a2bd64169dbe81de"
    },
    {
     "target": "q02",
@@ -625,7 +625,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "e45f36c6dd36"
+    "hash": "2cb84994177d121e"
    },
    {
     "target": "q02",
@@ -634,7 +634,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "e45f36c6dd36"
+    "hash": "3159685d7667e32e"
    },
    {
     "target": "q02",
@@ -643,7 +643,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "e45f36c6dd36"
+    "hash": "1e71fd10154ff906"
    },
    {
     "target": "q03",
@@ -652,7 +652,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "9416751594c3"
+    "hash": "5c923e967b2d86ad"
    },
    {
     "target": "q03",
@@ -661,7 +661,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "9416751594c3"
+    "hash": "243c14a47def46bb"
    },
    {
     "target": "q03",
@@ -670,7 +670,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "9416751594c3"
+    "hash": "96c6ce8de7dc28e5"
    },
    {
     "target": "q03",
@@ -679,7 +679,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "9416751594c3"
+    "hash": "902001bc39b93eab"
    },
    {
     "target": "q04",
@@ -688,7 +688,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "e1c861ae83a2"
+    "hash": "7d7730c030233c00"
    },
    {
     "target": "q04",
@@ -697,7 +697,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "e1c861ae83a2"
+    "hash": "74b61a19bb08af9d"
    },
    {
     "target": "q04",
@@ -706,7 +706,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "e1c861ae83a2"
+    "hash": "8510373ad905e01f"
    },
    {
     "target": "q04",
@@ -715,7 +715,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "e1c861ae83a2"
+    "hash": "73f86bc93f3481e7"
    },
    {
     "target": "q05",
@@ -724,7 +724,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "c8a472012c8f"
+    "hash": "1a70cc39c5669dd2"
    },
    {
     "target": "q05",
@@ -733,7 +733,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "c8a472012c8f"
+    "hash": "5b1856d5cf71e143"
    },
    {
     "target": "q05",
@@ -742,7 +742,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c8a472012c8f"
+    "hash": "9b086f2bd5f24986"
    },
    {
     "target": "q05",
@@ -751,7 +751,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c8a472012c8f"
+    "hash": "6f89a72c45680c6f"
    },
    {
     "target": "q06",
@@ -760,7 +760,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "0c6390bb501c"
+    "hash": "1432f94edc045938"
    },
    {
     "target": "q06",
@@ -769,7 +769,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "0c6390bb501c"
+    "hash": "f528d4f89b646315"
    },
    {
     "target": "q06",
@@ -778,7 +778,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0c6390bb501c"
+    "hash": "14e447714eac955a"
    },
    {
     "target": "q06",
@@ -787,7 +787,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0c6390bb501c"
+    "hash": "93ad03a63b049572"
    },
    {
     "target": "q07",
@@ -796,7 +796,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "631b30876df0"
+    "hash": "c6d933d208c2ac4d"
    },
    {
     "target": "q07",
@@ -805,7 +805,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "631b30876df0"
+    "hash": "a6a0c51c99702505"
    },
    {
     "target": "q07",
@@ -814,7 +814,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "631b30876df0",
+    "hash": "0bc3095163585c54",
     "reviewed": "Evidence reports other authors' published work (Diab 2021; Issa et al. 2026), not this study. Codex final review concurs."
    },
    {
@@ -824,7 +824,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "631b30876df0"
+    "hash": "68b0f09c8567dd5d"
    },
    {
     "target": "q08",
@@ -833,7 +833,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "02b424ac4ef7"
+    "hash": "a73113917866fffd"
    },
    {
     "target": "q08",
@@ -842,7 +842,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "02b424ac4ef7"
+    "hash": "e356e21da88a3c9e"
    },
    {
     "target": "q08",
@@ -851,7 +851,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "02b424ac4ef7"
+    "hash": "194df824edbacffe"
    },
    {
     "target": "q08",
@@ -860,7 +860,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "02b424ac4ef7"
+    "hash": "daf89fdd758d713d"
    },
    {
     "target": "q09",
@@ -869,7 +869,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "e7e93f9d2f6d"
+    "hash": "02c5fb333d04f6c9"
    },
    {
     "target": "q09",
@@ -878,7 +878,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "e7e93f9d2f6d"
+    "hash": "c46c0199750fa924"
    },
    {
     "target": "q09",
@@ -887,7 +887,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "e7e93f9d2f6d"
+    "hash": "345feda97192a320"
    },
    {
     "target": "q09",
@@ -896,7 +896,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "e7e93f9d2f6d"
+    "hash": "20da723bb1cb4ad4"
    },
    {
     "target": "q10",
@@ -905,7 +905,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "9a72a1f5d547"
+    "hash": "fcfa2a9a2574f3c8"
    },
    {
     "target": "q10",
@@ -914,7 +914,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "9a72a1f5d547"
+    "hash": "df721853495956b6"
    },
    {
     "target": "q10",
@@ -923,7 +923,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "9a72a1f5d547"
+    "hash": "eba879fb39d37c32"
    },
    {
     "target": "q10",
@@ -932,7 +932,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "9a72a1f5d547"
+    "hash": "1e4d896a9c2be5d8"
    },
    {
     "target": "q11",
@@ -941,7 +941,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "c7a25c8b4033"
+    "hash": "364facd007a3fb5c"
    },
    {
     "target": "q11",
@@ -950,7 +950,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "c7a25c8b4033"
+    "hash": "2a8f9524b7fd2c04"
    },
    {
     "target": "q11",
@@ -959,7 +959,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c7a25c8b4033"
+    "hash": "556cbbb6707a30f1"
    },
    {
     "target": "q11",
@@ -968,7 +968,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c7a25c8b4033"
+    "hash": "928edc9576e10c9b"
    },
    {
     "target": "q12",
@@ -977,7 +977,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "666cfc58eb42"
+    "hash": "6d3c12ea290b54ac"
    },
    {
     "target": "q12",
@@ -986,7 +986,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "666cfc58eb42"
+    "hash": "499d737e86cee5e2"
    },
    {
     "target": "q12",
@@ -995,7 +995,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "666cfc58eb42"
+    "hash": "45f340902ece779f"
    },
    {
     "target": "q12",
@@ -1004,7 +1004,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "666cfc58eb42"
+    "hash": "e86de5c9d94b9521"
    },
    {
     "target": "q13",
@@ -1013,7 +1013,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "9a894ca72024"
+    "hash": "fe9a43002f20a323"
    },
    {
     "target": "q13",
@@ -1022,7 +1022,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "9a894ca72024"
+    "hash": "53a01c278fa76c2a"
    },
    {
     "target": "q13",
@@ -1031,7 +1031,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "9a894ca72024"
+    "hash": "38682c091cf25e03"
    },
    {
     "target": "q13",
@@ -1040,7 +1040,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "9a894ca72024"
+    "hash": "843b1676d7479429"
    },
    {
     "target": "q14",
@@ -1049,7 +1049,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "e546f47de16e"
+    "hash": "08d6132e1da2a461"
    },
    {
     "target": "q14",
@@ -1058,7 +1058,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "e546f47de16e"
+    "hash": "9b71b06fb4a4b1cc"
    },
    {
     "target": "q14",
@@ -1067,7 +1067,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "e546f47de16e"
+    "hash": "4d7a0292ea4eb44c"
    },
    {
     "target": "q14",
@@ -1076,7 +1076,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "e546f47de16e"
+    "hash": "b59527a01eb17d77"
    },
    {
     "target": "q15",
@@ -1085,7 +1085,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "c0b87d90cd1f"
+    "hash": "b3c027052c26faf5"
    },
    {
     "target": "q15",
@@ -1094,7 +1094,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "c0b87d90cd1f"
+    "hash": "1064701bd3a79432"
    },
    {
     "target": "q15",
@@ -1103,7 +1103,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c0b87d90cd1f"
+    "hash": "150d84a5e4632bb8"
    },
    {
     "target": "q15",
@@ -1112,7 +1112,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c0b87d90cd1f"
+    "hash": "36494dfdbf5387ea"
    },
    {
     "target": "q16",
@@ -1121,7 +1121,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "bc474c38820c"
+    "hash": "e609f86bf972d2b1"
    },
    {
     "target": "q16",
@@ -1130,7 +1130,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "bc474c38820c"
+    "hash": "328f100550462654"
    },
    {
     "target": "q16",
@@ -1139,7 +1139,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "bc474c38820c"
+    "hash": "3cf556a097049f89"
    },
    {
     "target": "q16",
@@ -1148,7 +1148,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "bc474c38820c"
+    "hash": "ca074d8180846b16"
    },
    {
     "target": "q17",
@@ -1157,7 +1157,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "0bda2d92eed8"
+    "hash": "aa52a1da10d949bb"
    },
    {
     "target": "q17",
@@ -1166,7 +1166,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "0bda2d92eed8"
+    "hash": "b0e882e5ad853731"
    },
    {
     "target": "q17",
@@ -1175,7 +1175,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0bda2d92eed8"
+    "hash": "423e3834544369f4"
    },
    {
     "target": "q17",
@@ -1184,7 +1184,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0bda2d92eed8"
+    "hash": "5b71a8c438853316"
    },
    {
     "target": "q18",
@@ -1193,7 +1193,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "943654fbeb3d"
+    "hash": "39c337a0f18e2005"
    },
    {
     "target": "q18",
@@ -1202,7 +1202,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "943654fbeb3d"
+    "hash": "6370a9cf94cf3501"
    },
    {
     "target": "q18",
@@ -1211,7 +1211,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "943654fbeb3d"
+    "hash": "4d3d3603ce9d7c07"
    },
    {
     "target": "q18",
@@ -1220,7 +1220,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "943654fbeb3d"
+    "hash": "5992c476883a9278"
    },
    {
     "target": "q19",
@@ -1229,7 +1229,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "5d67e32f3f51"
+    "hash": "a6aaa529d39a26db"
    },
    {
     "target": "q19",
@@ -1238,7 +1238,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "5d67e32f3f51"
+    "hash": "c8a35ddf8b7a4fda"
    },
    {
     "target": "q19",
@@ -1247,7 +1247,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "5d67e32f3f51"
+    "hash": "98e7c26cc6433ac2"
    },
    {
     "target": "q19",
@@ -1256,7 +1256,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "5d67e32f3f51"
+    "hash": "c5f163919ab13f1e"
    },
    {
     "target": "q20",
@@ -1265,7 +1265,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "c76417ef3711"
+    "hash": "1357ac723b9a868f"
    },
    {
     "target": "q20",
@@ -1274,7 +1274,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "c76417ef3711"
+    "hash": "9e04cfd13a7b1a10"
    },
    {
     "target": "q20",
@@ -1283,7 +1283,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c76417ef3711"
+    "hash": "1353666f961c65b6"
    },
    {
     "target": "q20",
@@ -1292,7 +1292,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c76417ef3711"
+    "hash": "6690d83cb273035c"
    },
    {
     "target": "q21",
@@ -1301,7 +1301,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "320dcfdb9c4c"
+    "hash": "a58ae3a90f4cddbe"
    },
    {
     "target": "q21",
@@ -1310,7 +1310,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "320dcfdb9c4c"
+    "hash": "a8b7bf469961cc32"
    },
    {
     "target": "q21",
@@ -1319,7 +1319,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "320dcfdb9c4c"
+    "hash": "61e7c77ce53c6185"
    },
    {
     "target": "q21",
@@ -1328,7 +1328,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "320dcfdb9c4c"
+    "hash": "a85e996d510fcae1"
    },
    {
     "target": "q22",
@@ -1337,7 +1337,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "7c8d54a3673e"
+    "hash": "6b529d97d15d03f1"
    },
    {
     "target": "q22",
@@ -1346,7 +1346,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "7c8d54a3673e"
+    "hash": "b94286aae6da335f"
    },
    {
     "target": "q22",
@@ -1355,7 +1355,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "7c8d54a3673e"
+    "hash": "8941caa95ba0b49e"
    },
    {
     "target": "q22",
@@ -1364,7 +1364,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "7c8d54a3673e"
+    "hash": "1f6fe134e2ca8f90"
    },
    {
     "target": "q23",
@@ -1373,7 +1373,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "1e0595f4c7a4"
+    "hash": "674b412325ae9eb0"
    },
    {
     "target": "q23",
@@ -1382,7 +1382,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "1e0595f4c7a4"
+    "hash": "9eec5db053adf937"
    },
    {
     "target": "q23",
@@ -1391,7 +1391,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "1e0595f4c7a4"
+    "hash": "39df54f80eac2159"
    },
    {
     "target": "q23",
@@ -1400,7 +1400,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "1e0595f4c7a4"
+    "hash": "a8972d82c3fb45d9"
    },
    {
     "target": "q24",
@@ -1409,7 +1409,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "dbc76ab65b0a"
+    "hash": "f123023a7908679c"
    },
    {
     "target": "q24",
@@ -1418,7 +1418,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "dbc76ab65b0a"
+    "hash": "7c60f80f82d9c4cb"
    },
    {
     "target": "q24",
@@ -1427,7 +1427,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "dbc76ab65b0a"
+    "hash": "9d4b79b472b65936"
    },
    {
     "target": "q24",
@@ -1436,7 +1436,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "dbc76ab65b0a"
+    "hash": "26d28821ea982b03"
    },
    {
     "target": "q25",
@@ -1445,7 +1445,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "55d28aeb384d"
+    "hash": "ff3d08b40427ae51"
    },
    {
     "target": "q25",
@@ -1454,7 +1454,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "55d28aeb384d"
+    "hash": "bd79d3e562d60300"
    },
    {
     "target": "q25",
@@ -1463,7 +1463,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "55d28aeb384d"
+    "hash": "fdbdcda5aaeaed57"
    },
    {
     "target": "q25",
@@ -1472,7 +1472,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "55d28aeb384d"
+    "hash": "d7b5f415c39f4549"
    },
    {
     "target": "q26",
@@ -1481,7 +1481,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "c0548667e2ef"
+    "hash": "ec9dfc7f79cb9b30"
    },
    {
     "target": "q26",
@@ -1490,7 +1490,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "c0548667e2ef"
+    "hash": "6053f43550a56a87"
    },
    {
     "target": "q26",
@@ -1499,7 +1499,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c0548667e2ef"
+    "hash": "532b8d7ea56793d1"
    },
    {
     "target": "q26",
@@ -1508,7 +1508,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "c0548667e2ef"
+    "hash": "ace07bd025026c46"
    },
    {
     "target": "q27",
@@ -1517,7 +1517,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "07b33b1b2311"
+    "hash": "e305b1c5b7020dcf"
    },
    {
     "target": "q27",
@@ -1526,7 +1526,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "07b33b1b2311"
+    "hash": "abd60f443111f54c"
    },
    {
     "target": "q27",
@@ -1535,7 +1535,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "07b33b1b2311"
+    "hash": "74aa45481f7d64cf"
    },
    {
     "target": "q27",
@@ -1544,7 +1544,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "07b33b1b2311"
+    "hash": "9406592e2a055ec4"
    },
    {
     "target": "q28",
@@ -1553,7 +1553,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "296ebf415146"
+    "hash": "1e8efc9619a08f36"
    },
    {
     "target": "q28",
@@ -1562,7 +1562,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "296ebf415146"
+    "hash": "66a2b808cdc4df94"
    },
    {
     "target": "q28",
@@ -1571,7 +1571,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "296ebf415146"
+    "hash": "715ac6cbde9a70b4"
    },
    {
     "target": "q28",
@@ -1580,7 +1580,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "296ebf415146"
+    "hash": "772ba244a81a7575"
    },
    {
     "target": "q29",
@@ -1589,7 +1589,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "db8f54856e8a"
+    "hash": "2257fc857f36fc12"
    },
    {
     "target": "q29",
@@ -1598,7 +1598,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "db8f54856e8a"
+    "hash": "8aa9dc190bf88a65"
    },
    {
     "target": "q29",
@@ -1607,7 +1607,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "db8f54856e8a"
+    "hash": "64611aa743ed09a4"
    },
    {
     "target": "q29",
@@ -1616,7 +1616,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "db8f54856e8a"
+    "hash": "497d88b9f3ad378e"
    },
    {
     "target": "q30",
@@ -1625,7 +1625,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "aa05668bc4d8"
+    "hash": "c260972de466498c"
    },
    {
     "target": "q30",
@@ -1634,7 +1634,7 @@
     "pass": true,
     "want": true,
     "mode": "calibrated",
-    "hash": "aa05668bc4d8"
+    "hash": "2be0509130e693fe"
    },
    {
     "target": "q30",
@@ -1643,7 +1643,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "aa05668bc4d8"
+    "hash": "514dee2b886b090b"
    },
    {
     "target": "q30",
@@ -1652,7 +1652,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "aa05668bc4d8"
+    "hash": "0150c1562df9105c"
    },
    {
     "target": "walk-through 1",
@@ -1661,7 +1661,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0b9144664b15"
+    "hash": "c141390aaf80e6bd"
    },
    {
     "target": "walk-through 1",
@@ -1670,7 +1670,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0b9144664b15"
+    "hash": "ac8bbdf01ddefab3"
    },
    {
     "target": "walk-through 1",
@@ -1679,7 +1679,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0b9144664b15"
+    "hash": "34fb91f66db7282a"
    },
    {
     "target": "walk-through 1",
@@ -1688,7 +1688,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0b9144664b15"
+    "hash": "987275bf04a0434a"
    },
    {
     "target": "walk-through 1",
@@ -1697,7 +1697,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "0b9144664b15"
+    "hash": "9d4fb524de148661"
    },
    {
     "target": "walk-through 2",
@@ -1706,7 +1706,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "78b30fbc53be"
+    "hash": "c42aeed05dfea785"
    },
    {
     "target": "walk-through 2",
@@ -1715,7 +1715,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "78b30fbc53be"
+    "hash": "063c0c14979ba8c4"
    },
    {
     "target": "walk-through 2",
@@ -1724,7 +1724,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "78b30fbc53be"
+    "hash": "aa9356c5b1c5fb3f"
    },
    {
     "target": "walk-through 2",
@@ -1733,7 +1733,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "78b30fbc53be"
+    "hash": "0ad752b8ed8b3473"
    },
    {
     "target": "walk-through 2",
@@ -1742,7 +1742,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "78b30fbc53be"
+    "hash": "ef7b78b458c89614"
    },
    {
     "target": "walk-through 3",
@@ -1751,7 +1751,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "4ade3643a62a"
+    "hash": "3a189ddc940ea953"
    },
    {
     "target": "walk-through 3",
@@ -1760,7 +1760,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "4ade3643a62a"
+    "hash": "834980a99effdc03"
    },
    {
     "target": "walk-through 3",
@@ -1769,7 +1769,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "4ade3643a62a"
+    "hash": "a2de9ec89d2992c6"
    },
    {
     "target": "walk-through 3",
@@ -1778,7 +1778,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "4ade3643a62a"
+    "hash": "4d9842475f51a075"
    },
    {
     "target": "walk-through 3",
@@ -1787,7 +1787,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "4ade3643a62a"
+    "hash": "1eb44a67a552b798"
    },
    {
     "target": "walk-through 4",
@@ -1796,7 +1796,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2da0158c2666"
+    "hash": "05b9857554296907"
    },
    {
     "target": "walk-through 4",
@@ -1805,7 +1805,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2da0158c2666"
+    "hash": "8d6ccee269b3cb9b"
    },
    {
     "target": "walk-through 4",
@@ -1814,7 +1814,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2da0158c2666"
+    "hash": "2a78935a4c7d93e6"
    },
    {
     "target": "walk-through 4",
@@ -1823,7 +1823,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2da0158c2666"
+    "hash": "45d1ac447f764cf5"
    },
    {
     "target": "walk-through 4",
@@ -1832,7 +1832,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2da0158c2666"
+    "hash": "238feedecf5e8069"
    },
    {
     "target": "walk-through 5",
@@ -1841,7 +1841,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "6197b9f7f2e1"
+    "hash": "6f5a86ecb3ce84ff"
    },
    {
     "target": "walk-through 5",
@@ -1850,7 +1850,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "6197b9f7f2e1"
+    "hash": "c6100efbe8fc40df"
    },
    {
     "target": "walk-through 5",
@@ -1859,7 +1859,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "6197b9f7f2e1"
+    "hash": "972a1f184f083e67"
    },
    {
     "target": "walk-through 5",
@@ -1868,7 +1868,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "6197b9f7f2e1"
+    "hash": "ed1077f1b1cf44f6"
    },
    {
     "target": "walk-through 5",
@@ -1877,7 +1877,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "6197b9f7f2e1"
+    "hash": "31be9da3ef9390d2"
    },
    {
     "target": "walk-through 6",
@@ -1886,7 +1886,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2a629f28713d"
+    "hash": "6f7b31f3828789f9"
    },
    {
     "target": "walk-through 6",
@@ -1895,7 +1895,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2a629f28713d"
+    "hash": "9f6960a8c049ebd3"
    },
    {
     "target": "walk-through 6",
@@ -1904,7 +1904,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2a629f28713d"
+    "hash": "13cbf82f3387e9e2"
    },
    {
     "target": "walk-through 6",
@@ -1913,7 +1913,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2a629f28713d"
+    "hash": "efaa45ccd983a922"
    },
    {
     "target": "walk-through 6",
@@ -1922,7 +1922,7 @@
     "pass": true,
     "want": false,
     "mode": "calibrated",
-    "hash": "2a629f28713d"
+    "hash": "15285a782d043b99"
    },
    {
     "target": "deck",
@@ -1931,7 +1931,7 @@
     "pass": true,
     "want": true,
     "mode": "advisory",
-    "hash": "00d283c1f2f9",
+    "hash": "fb8633e0b1e60e13",
     "reviewed": "Slides 1\u20133 set problem and gap before the artefact appears on slides 4\u20135."
    },
    {
@@ -1941,7 +1941,7 @@
     "pass": true,
     "want": true,
     "mode": "advisory",
-    "hash": "00d283c1f2f9",
+    "hash": "9befea03cd783f06",
     "reviewed": "Order: problem (1\u20132), gap (3), questions (4), framework (5), method (6\u20138), use (9), contribution (10)."
    },
    {
@@ -1951,7 +1951,7 @@
     "pass": true,
     "want": false,
     "mode": "advisory",
-    "hash": "00d283c1f2f9",
+    "hash": "3136d77493820ec5",
     "reviewed": "p = 0.03; slide 10 says no evaluation results yet."
    }
   ],

@@ -19,6 +19,8 @@ The site is both the deck and the coach.
 | **Walk-through** | A leader uses the diagnostic on an *illustrative* workflow (invented data, no study results) |
 | **Evidence · Craft · Quality** | Approved statistics, delivery practice, and the eval results behind the content |
 
+An independent reviewer agent (Codex) audited the build twice; its findings were fixed and re-verified.
+
 Press **P** anywhere to present. In the deck: arrow keys, **F** full screen, **V** presenter view (second window), **Esc** exit.
 
 ## Attribution
@@ -40,7 +42,8 @@ python3 tools/coach_server.py      # then open http://127.0.0.1:8823
 
 In **Defend → Start drill**, type your answer and tick "Send my typed answer to Jev". Jev checks five things: a direct
 answer, evidence, a real limit, no claimed results, and missing evidence kept as "unknown". You get one repair cue, not a
-grade. Without the server, an offline keyword checklist runs instead and says so.
+grade. Without the server, **Check my answer** opens an explicit self-check of the same five points; nothing is
+scored automatically. Live checks run only after you tick the upload box; "Connect" only looks for the server.
 
 ## Evals
 
@@ -57,9 +60,9 @@ python3 tools/build.py             # bakes content + report into site/data/bundl
 | E2 | Every in-text citation resolves to a reference with a DOI or URL |
 | E3 | 10 slides, 720 s budget, each script fits its slide budget at 130 words per minute |
 | E4 | Every examiner criterion (C01–C18) has a slide and a drill question; no empty traceability cells |
-| E5a | Each Jev predicate decides labelled fixtures correctly (≥ 5 of 6); weak predicates go to human review |
-| E5 | Jev typed checks over every slide, model answer and the storyline |
-| E6 | Browser: no errors, no phone overflow, no slide overflow, keyboard deck, themes, axe serious/critical = 0 |
+| E5a | 9 of the 18 Jev predicates are calibrated on 54 labelled fixtures (each ≥ 5 of 6 correct) |
+| E5 | Jev typed checks over every slide, model answer, walk-through step and the storyline. Only calibrated predicates can pass automatically; the others are advisory and need a signed human review, bound to the exact content, question, polarity and threshold (`evals/human_review.json`, tested by `evals/test_review_binding.py`) |
+| E6 | Browser: no errors, no phone overflow, no slide overflow, keyboard deck, themes, self-check, opt-in for speech and Jev, axe serious/critical = 0 |
 | E7 | Plain-language prose: sentences of 25 words or fewer |
 | E8 | No private material, secrets or runtime third-party loads |
 

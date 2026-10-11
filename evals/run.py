@@ -196,6 +196,13 @@ def e5a(run, cache):
     return set(weak)
 
 
+def review_fingerprint(state, check, threshold):
+    """Signed reviews bind to the exact state AND the exact question, polarity and decision threshold."""
+    blob = json.dumps({"state": state, "question": check["q"], "want": check.get("want", True),
+                       "threshold": threshold}, sort_keys=True, ensure_ascii=False)
+    return hashlib.sha256(blob.encode()).hexdigest()[:16]
+
+
 # ── E5 Jev typed checks ─────────────────────────────────────────────────
 def jev_jobs():
     th = CFG["jev_threshold"]
@@ -260,7 +267,7 @@ def e5(run, cache, weak):
                 ok = None  # weak or uncalibrated predicate: advisory, needs a signed human review
             items.append({"target": target, "check": c["label"], "p": round(p, 3), "pass": ok, "want": c.get("want", True),
                           "mode": "advisory" if c["label"] not in calibrated else "calibrated",
-                          "hash": hashlib.sha256(state.encode()).hexdigest()[:12]})
+                          "hash": review_fingerprint(state, c, t)})
     hr = json.loads((ROOT / "evals" / "human_review.json").read_text())["reviews"]
     for i in items:
         if i["pass"] is not True:

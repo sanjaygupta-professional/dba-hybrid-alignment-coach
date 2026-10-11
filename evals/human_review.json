@@ -3,102 +3,112 @@
   {
    "target": "slide 2",
    "check": "Problem stated without naming the fix",
-   "hash": "f0aa71b76c60",
+   "hash": "9289bfd1252c966d",
    "p": 0.83,
    "disposition": "pass",
    "reviewer": "Claude (orchestrator)",
    "date": "2026-10-11",
-   "reason": "On-slide Problem bullet states what happens, what should happen and what is unknown, and does not name the diagnostic. Codex final review concurs."
+   "reason": "On-slide Problem bullet states what happens, what should happen and what is unknown, and does not name the diagnostic. Codex final review concurs.",
+   "binding": "state + question + polarity + threshold"
   },
   {
    "target": "slide 4",
    "check": "Each row's data permit its test",
-   "hash": "4285ba3f7c0b",
+   "hash": "338f47e0fa13bd7d",
    "p": 0.53,
    "disposition": "pass",
    "reviewer": "Claude (orchestrator)",
    "date": "2026-10-11",
-   "reason": "Each row names data that can answer its RQ: interviews, records and expert ratings (RQ1); design records (RQ2); held-out cases plus matched field comparison (RQ3). Full thresholds on slide 7. Codex final review concurs."
+   "reason": "Each row names data that can answer its RQ: interviews, records and expert ratings (RQ1); design records (RQ2); held-out cases plus matched field comparison (RQ3). Full thresholds on slide 7. Codex final review concurs.",
+   "binding": "state + question + polarity + threshold"
   },
   {
    "target": "slide 5",
    "check": "Names pragmatism and its consequence for evidence",
-   "hash": "2fffde92917e",
+   "hash": "0e31a117b63d8b02",
    "p": 0.96,
    "disposition": "pass",
    "reviewer": "Claude (orchestrator)",
    "date": "2026-10-11",
-   "reason": "First column: 'Pragmatism: warranted use, inspectable evidence'; the script explains the consequence for accepted evidence."
+   "reason": "First column: 'Pragmatism: warranted use, inspectable evidence'; the script explains the consequence for accepted evidence.",
+   "binding": "state + question + polarity + threshold"
   },
   {
    "target": "slide 5",
    "check": "Grounds a feature in a kernel theory",
-   "hash": "2fffde92917e",
+   "hash": "85746ad6392a81df",
    "p": 0.83,
    "disposition": "pass",
    "reviewer": "Claude (orchestrator)",
    "date": "2026-10-11",
-   "reason": "Worked chain: Baird & Maruping delegation → REQ3 → DPr3 → mandate–permission–action feature → DP2/DP3 evaluation."
+   "reason": "Worked chain: Baird & Maruping delegation → REQ3 → DPr3 → mandate–permission–action feature → DP2/DP3 evaluation.",
+   "binding": "state + question + polarity + threshold"
   },
   {
    "target": "slide 7",
    "check": "Propositions have pre-set decision rules",
-   "hash": "c9884c8d2074",
+   "hash": "aa970dbda03f3e9d",
    "p": 0.93,
    "disposition": "pass",
    "reviewer": "Claude (orchestrator)",
    "date": "2026-10-11",
-   "reason": "DP1–DP6 each state a threshold and a met/unmet/inconclusive rule, labelled proposed and fixed before testing."
+   "reason": "DP1–DP6 each state a threshold and a met/unmet/inconclusive rule, labelled proposed and fixed before testing.",
+   "binding": "state + question + polarity + threshold"
   },
   {
    "target": "slide 9",
    "check": "Walk-through labelled illustrative",
-   "hash": "5887d365a9ac",
+   "hash": "25e08c4c5f600426",
    "p": 0.95,
    "disposition": "pass",
    "reviewer": "Claude (orchestrator)",
    "date": "2026-10-11",
-   "reason": "Eyebrow reads 'Illustrative — no study results'; note line repeats it."
+   "reason": "Eyebrow reads 'Illustrative — no study results'; note line repeats it.",
+   "binding": "state + question + polarity + threshold"
   },
   {
    "target": "q07",
    "check": "Claims achieved results",
-   "hash": "631b30876df0",
+   "hash": "0bc3095163585c54",
    "p": 0.39,
    "disposition": "pass",
    "reviewer": "Claude (orchestrator)",
    "date": "2026-10-11",
-   "reason": "Evidence reports other authors' published work (Diab 2021; Issa et al. 2026), not this study. Codex final review concurs."
+   "reason": "Evidence reports other authors' published work (Diab 2021; Issa et al. 2026), not this study. Codex final review concurs.",
+   "binding": "state + question + polarity + threshold"
   },
   {
    "target": "deck",
    "check": "Problem before solution",
-   "hash": "00d283c1f2f9",
+   "hash": "fb8633e0b1e60e13",
    "p": 0.83,
    "disposition": "pass",
    "reviewer": "Claude (orchestrator)",
    "date": "2026-10-11",
-   "reason": "Slides 1–3 set problem and gap before the artefact appears on slides 4–5."
+   "reason": "Slides 1–3 set problem and gap before the artefact appears on slides 4–5.",
+   "binding": "state + question + polarity + threshold"
   },
   {
    "target": "deck",
    "check": "Problem → gap → questions → framework → method → contribution",
-   "hash": "00d283c1f2f9",
+   "hash": "9befea03cd783f06",
    "p": 0.92,
    "disposition": "pass",
    "reviewer": "Claude (orchestrator)",
    "date": "2026-10-11",
-   "reason": "Order: problem (1–2), gap (3), questions (4), framework (5), method (6–8), use (9), contribution (10)."
+   "reason": "Order: problem (1–2), gap (3), questions (4), framework (5), method (6–8), use (9), contribution (10).",
+   "binding": "state + question + polarity + threshold"
   },
   {
    "target": "deck",
    "check": "Claims validation already done",
-   "hash": "00d283c1f2f9",
+   "hash": "3136d77493820ec5",
    "p": 0.03,
    "disposition": "pass",
    "reviewer": "Claude (orchestrator)",
    "date": "2026-10-11",
-   "reason": "p = 0.03; slide 10 says no evaluation results yet."
+   "reason": "p = 0.03; slide 10 says no evaluation results yet.",
+   "binding": "state + question + polarity + threshold"
   }
  ]
 }
